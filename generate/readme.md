@@ -8,16 +8,20 @@ functions.json is a listing of all the functions in the main 3D Movie Maker exec
 4. Open 3DMOVIE.EXE in Ida Pro. Select all the functions in the function sub view, hit ctrl-insert to copy them. Paste into a new text file named "ida.txt".
 5. Copy 3DMOVIE.EXE into this directory (not needed if 3DMM has been installed on the system)
 6. Create a virtualenv, activate it, then install from requirements.txt:
-   ```
-   virtualenv venv
-   venv\script\activate
-   pip install -r requirements.txt
-   ```
+
+```
+virtualenv venv
+venv\script\activate
+pip install -r requirements.txt
+```
+
 7. run parse_exe.py to generate fpo.json
 8. Install node.js, then install jsonlint globally.
-   ```
-   npm install -g jsonlint
-   ```
+
+```
+npm install -g jsonlint
+```
+
 9. run build_func_list.py to build the final functions.json file. You're done!
 
 # TODO/Gotchas

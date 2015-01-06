@@ -28,5 +28,6 @@ npm install -g jsonlint
 
 * Right now build_func_list.py will overwrite any manual changes. It shouldn't, it should merge them.
 * jsonlint should be optional! if it's not installed, just generate an ugly json.
-* My ollydbg has manual function naming, both BRender and misc. 
+* TODO: My ollydbg has manual function naming, both BRender and misc. Should split this out!
 * TODO: Merge in the extracted brender.lib/.h info. 
+* TODO: Add vtable dumps to constructors, indicate which functions belong to which classes within those functions. 

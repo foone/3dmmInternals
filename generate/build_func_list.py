@@ -44,9 +44,11 @@ with open('constructors.txt','r') as f:
 		if line.startswith('constructor at'):
 			address=line[15:].strip()
 			functions[address]['constructor']={'vtables':[]}
-		if 'MOV DWORD PTR DS:[ECX],OFFSET ' in line:
+		if 'MOV DWORD PTR DS:[ECX' in line and 'OFFSET' in line:
 			i=line.index('OFFSET')
-			functions[cleanAddress(address)]['constructor']['vtables'].append(line[i+7:].strip())
+			vtables=functions[cleanAddress(address)]['constructor']['vtables']
+			vtables.append(line[i+7:].strip())
+			vtables.sort()
 
 with open('ida.txt','r') as f:
 	for line in f:

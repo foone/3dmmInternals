@@ -11,7 +11,7 @@ functions.json is a listing of all the functions in the main 3D Movie Maker exec
 
 ```
 virtualenv venv
-venv\script\activate
+venv\scripts\activate
 pip install -r requirements.txt
 ```
 

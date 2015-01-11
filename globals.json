@@ -1,0 +1,22 @@
+{
+    "4E39A4": {
+        "manual": {
+            "comments": [
+                "some kind of base-class pointer here.",
+                "static pointer to 004D5240, which is changed if you alt-tab out?",
+                "constructor at 004190F0",
+                "some kinda of counter at ecx+4: initialized to 1. 00419100 increments it",
+                "(at least) two subclasses",
+                "sizes: 0Ch, 14h, 18h, 1Ch, 20h, 28h, 2Ch, 30h, 4Ch, 54h, 5Ch, 8Ch, 128h, 12Ch, 198h"
+            ]
+        },
+        "4D5240": {
+            "manual": {
+                "comments": [
+                    "timer class at static position. subclass of basething",
+                    "4E39A4 points to 4D5240"
+                ]
+            }
+        }
+    }
+}

@@ -1141,9 +1141,6 @@
         "returns": true,
         "static": false,
         "type-info": false
-      },
-      "ollydbg": {
-        "name": "unnamed"
       }
     },
     "00401F50": {
@@ -12520,9 +12517,6 @@
         "returns": true,
         "static": false,
         "type-info": false
-      },
-      "ollydbg": {
-        "name": "unnamed"
       }
     },
     "00411840": {
@@ -12544,9 +12538,6 @@
         "returns": true,
         "static": false,
         "type-info": false
-      },
-      "ollydbg": {
-        "name": "unnamed"
       }
     },
     "00411850": {
@@ -12616,9 +12607,6 @@
         "returns": true,
         "static": false,
         "type-info": false
-      },
-      "ollydbg": {
-        "name": "unnamed"
       }
     },
     "004118B0": {
@@ -17627,7 +17615,7 @@
       },
       "ollydbg": {
         "args": "void",
-        "name": "3DMOVIE.004190F0"
+        "name": "3DMOVIE.BaseClass:new"
       }
     },
     "00419100": {
@@ -18703,7 +18691,7 @@
       },
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
-        "name": "3DMOVIE.004198A0"
+        "name": "3DMOVIE.frame_delay_calculation"
       }
     },
     "004198C0": {
@@ -19623,7 +19611,7 @@
       },
       "ollydbg": {
         "args": "void",
-        "name": "3DMOVIE.0041A470"
+        "name": "3DMOVIE.TimerThing:getElapsedTime"
       }
     },
     "0041A4D0": {
@@ -19648,7 +19636,7 @@
       },
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.0041A4D0"
+        "name": "3DMOVIE.TimerThing:getSomeTimeThing"
       }
     },
     "0041A540": {
@@ -20034,7 +20022,7 @@
       },
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.0041A840"
+        "name": "3DMOVIE.RandomGenerator:new"
       }
     },
     "0041A880": {
@@ -23205,10 +23193,6 @@
         "returns": true,
         "static": false,
         "type-info": false
-      },
-      "ollydbg": {
-        "args": "Arg1",
-        "name": "3DMOVIE.0041DD80"
       }
     },
     "0041DDA0": {
@@ -23358,6 +23342,11 @@
       "ollydbg": {
         "args": "Arg1",
         "name": "3DMOVIE.0041DE90"
+      }
+    },
+    "0041DE9A": {
+      "ollydbg": {
+        "name": "unnamed"
       }
     },
     "0041DED0": {
@@ -103980,10 +103969,6 @@
         "returns": true,
         "static": false,
         "type-info": false
-      },
-      "ollydbg": {
-        "args": "Arg1,Arg2,Arg3",
-        "name": "3DMOVIE.004B2900"
       }
     },
     "004B2950": {
@@ -114996,7 +114981,8 @@
         "type-info": true
       },
       "ollydbg": {
-        "name": "unnamed"
+        "args": "Arg1,Arg2,Arg3,Arg4,Arg5",
+        "name": "3DMOVIE.004C70A4"
       }
     },
     "004C70F5": {

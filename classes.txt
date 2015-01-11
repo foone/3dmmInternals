@@ -1,0 +1,76 @@
+TimerThing class:
+constructor at 0041A440.
+subclass of basething
+static instance at 004D5240. pointed at by 4E39A4
+size: At least 20 bytes
+
+members:
++04: reference count?
++08: initialized to timeGetTime(). last call?
++0C: initialized to 0.
++10: initialized to 10000h
+
+method: 
+  41A470: 
+	41A4D0: 
+
+vtable: initialized to 004DEEF0
+  #1: 418F10: calls 00418EF0 with arg1=arg1.
+  #2: 418F20: returns 41423555 ("AB5U"? U5BA?)
+  #3: 41A5A0: Checks arg1 against 01, if true, frees this. returns this
+  #4: 419100: increments (this+4) (refcount)?
+  #5: 419110: decrements (this+4), calls vtable#3 with arg1=01 if this+4==0
+  
+related functions:
+00418EF0: 
+  if arg1 == 41423555:
+    return 1
+  else:
+		call 004190D0 with arg1
+		
+004190D0:
+	return arg1==42415345 ('BASE'?) 
+
+
+duplicate functions: 004190B0 == 004190D0
+
+0043E5B0 return [ecx+8]==2E2E2E2E ('....')
+
+
+
+RandomGenerator class
+constructor at 0041A840
+subclass of basething
+static instance at 4D5278
+
+members:
+  +4: ref count
+	+8: random seed (initialized to current time)
+
+
+vtable: initialized to 004DEF08
+  #1: 0041A7E0: call 0041A7C0 arg1=arg1
+	#2: 0041A7F0: returns 524E44 ('RND') 
+	#3: 0041AAE0: Checks arg1 against 01, if true, frees this. returns this
+	#4: 00419100: see base
+	#5: 00419110: see base
+	#6: 0041A880: mutate seed and return value
+
+related functions: 
+	0041A7C0:
+		if arg1==524E44:
+			return 1
+		else:
+			call  004190D0 with arg1
+
+
+BaseThing class:
+constructor at 004190F0
+members: +04: reference count?
+
+vtable: initialized to 004DD200
+  #1: 4190B0: return arg1 == 42415345 
+	#2: 4190A0: returns 45534142 ('BASE')
+	#3: 401B70: Checks arg1 against 01, if true, frees this. returns this
+	#4: 419100: increments (this+4) (refcount)?
+	#5: 419110: decrements (this+4), calls vtable#3 with arg1=01 if this+4==0

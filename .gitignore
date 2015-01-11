@@ -60,3 +60,4 @@ generate/disassembly.txt
 generate/fpo.json
 generate/functions.json
 generate/ida.txt
+generate/base-disassembly.txt

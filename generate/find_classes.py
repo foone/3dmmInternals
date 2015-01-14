@@ -1,5 +1,7 @@
 import re,collections,itertools,json
 import pefile,ms3dmm,os,pdb,struct
+from build_func_list import lintJSON
+
 
 def parseFixed(line,*segments):
 	i=0
@@ -97,15 +99,12 @@ class Source(object):
 
 	def saveJSON(self):
 		with open(self.json_file,'wb') as f:
-			json.dump(self.classes, f)
+			f.write(lintJSON({'classes':self.classes}))
 
 	@staticmethod
 	def cleanClassID(classid):
 		s=struct.pack('!L',classid)
 		return re.sub('[^A-Za-z0-9 ]','?',s.replace('\0',' '))
-
-
-
 
 class Function(object):
 	CLASS_ID_PATTERN      = re.compile(r"^MOV EAX,(?:OFFSET )?([0-9A-F]{3,})$")

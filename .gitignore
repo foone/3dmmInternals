@@ -54,6 +54,7 @@ docs/_build/
 target/
 
 generate/venv/
+generate/venv*/
 generate/*.exe
 generate/constructors.txt
 generate/disassembly.txt

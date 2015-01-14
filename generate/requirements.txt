@@ -1,2 +1,2 @@
-ctypes-bitfield==0.2.6
-pefile==1.2.10-139
+ctypes-bitfield
+pefile

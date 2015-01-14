@@ -67,5 +67,5 @@ with open('fpo.json','rb') as f:
 	for address in fpo:
 		functions[cleanAddress(address)]['fpo']=fpo[address]
 			
-with open('functions.json','wb') as jf:
+with open('../functions.json','wb') as jf:
 	jf.write(lintJSON({'functions':functions}))

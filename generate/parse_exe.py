@@ -8,15 +8,13 @@ FPOFlags=make_bf('FPOFlags',[
 	('reserved',c_bool,1),
 	('frame',c_uint,2),
 ], basetype=c_uint16)
-path='3dmovie.exe'
-if not os.path.exists(path):
-	path=ms3dmm.getEXEPath()
 
-pe =  pefile.PE(path)
+pe =  pefile.PE(ms3dmm.getAnyEXE())
 
 base = pe.OPTIONAL_HEADER.ImageBase
 
 functions={}
+
 
 for section in pe.DIRECTORY_ENTRY_DEBUG:
 	if section.struct.Type==pefile.DEBUG_TYPE['IMAGE_DEBUG_TYPE_FPO']:

@@ -47,4 +47,3 @@ with open('constructors.txt','w') as f:
 	print >>f,'Found vtables:'
 	for t in sorted(list(vtables.items())):
 		print >>f,'\t* %s (%d times)' % t
-

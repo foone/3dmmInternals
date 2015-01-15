@@ -74,3 +74,10 @@ vtable: initialized to 004DD200
 	#3: 401B70: Checks arg1 against 01, if true, frees this. returns this
 	#4: 419100: increments (this+4) (refcount)?
 	#5: 419110: decrements (this+4), calls vtable#3 with arg1=01 if this+4==0
+
+
+
+
+
+
+KCDC constructor at 00418F30 doesn't match the pattern! 

@@ -80,7 +80,7 @@ class Source(object):
 				cid=int(classid,16)
 				cidstr=Source.cleanClassID(cid)
 				print 'POSSIBLE CLASS ID',function_address,offset,cidstr,len(entries),mallocs
-				klass['id']={'hex':classid,'string':cidstr}
+				klass['id']={'hex':classid,'string':cidstr,'id_method':entries[1]}
 			else:
 				print 'VTABLE, NO CLASSID',function_address,offset,id_method,len(entries),mallocs
 			
@@ -93,7 +93,7 @@ class Source(object):
 	def loadJSON(self):
 		try:
 			with open(self.json_file,'rb') as f:
-				self.classes.update(json.load(f))
+				self.classes.update(json.load(f)['classes'])
 		except IOError:
 			pass
 

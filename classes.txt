@@ -81,3 +81,38 @@ vtable: initialized to 004DD200
 
 
 KCDC constructor at 00418F30 doesn't match the pattern! 
+
+
+
+
+
+
+
+
+
+class ' APP' (vatble at 004DE1A8) static at 4D4120
+ 8C: pointer to stio
+
+class 'stio': (vtable at 004DE3C8, and 004DF198) constructor at 0040E640 
+ 7C: pointer to SMCC
+
+class 'SMCC': (vtable at 004DE448)
+  0: vtable
+  4: ?
+  8: width
+  C: height
+
+
+static at 4E3E74
+class 'MVIE': (vtable at 004E22C0)
+158: pointer to BWLD
+	
+class 'BWLD': (vtable at 004E2278)
+
+ 10: width
+ 14: height
+ 20: width
+ 24: height
+ 50: matrix34 (identity)
+100: 544x306 bitmap
+104: 544x306 bitmap

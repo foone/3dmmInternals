@@ -25,7 +25,7 @@ if __name__=='__main__':
 				parts=line.split(';',1)
 				rest=line[12:]
 				if len(parts)>1:
-					name=parts[1].strip()
+					name=parts[1].strip().replace('quickstart.','3DMOVIE.')
 					if not name.startswith('3DMOVIE.'):
 						continue
 					args=None

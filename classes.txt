@@ -105,14 +105,47 @@ class 'SMCC': (vtable at 004DE448)
 
 static at 4E3E74
 class 'MVIE': (vtable at 004E22C0)
-158: pointer to BWLD
-	
-class 'BWLD': (vtable at 004E2278)
+	148: current scene pointer
+	14C: scene count
+	158: pointer to BWLD
 
- 10: width
- 14: height
- 20: width
- 24: height
- 50: matrix34 (identity)
-100: 544x306 bitmap
-104: 544x306 bitmap
+methods:
+	3DMOVIE.0049E6E0(guessed Arg1)       ;Add scene
+	3DMOVIE.004A06C0(guessed Arg1,Arg2)  ;Add scene
+	3DMOVIE.004A1800(guessed Arg1)       ;Delete scene
+
+class 'BWLD': (vtable at 004E2278)
+	 10: width
+	 14: height
+	 20: width
+	 24: height
+	 28: world pointer (br_actor*)
+	 50: matrix34 (initialized to identity)
+	 84: camera (br_actor*)
+	100: 544x306 bitmap
+	104: 544x306 bitmap
+	10C: output pixel (br_pixelmap*)
+	138: depth buffer (br_pixelmap*)
+methods: 
+	00474590 (render related)
+	00474740 background_drawing
+
+
+class 'SCEN': (vtable at 004E24A0)
+	  8: Current frame
+	  C: Frame count
+	 14: Link to timeline
+	 18: Number of events in previous frames?
+	 1C: Background name (1 byte: Pascal)
+	138: Selected actor/prop/3dword
+	13C: Selected text box
+	140: Transition type:
+	    00 = instant
+		01 = dissolve w/black
+		02 = dissolve w/white
+		03 = dissolve
+	148: Music on current frame
+
+class '  GG': (vtable at 004DF3A8) timeline class
+	 20 Number of events
+

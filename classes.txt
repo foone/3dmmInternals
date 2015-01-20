@@ -90,8 +90,11 @@ KCDC constructor at 00418F30 doesn't match the pattern!
 
 
 
-class ' APP' (vatble at 004DE1A8) static at 4D4120
+class ' APP' (vtable at 004DE1A8) static at 4D4120
  8C: pointer to stio
+
+wndproc handler at vtable+54
+
 
 class 'stio': (vtable at 004DE3C8, and 004DF198) constructor at 0040E640 
  7C: pointer to SMCC
@@ -149,3 +152,26 @@ class 'SCEN': (vtable at 004E24A0)
 class '  GG': (vtable at 004DF3A8) timeline class
 	 20 Number of events
 
+
+
+class ' GNV' (vtable at 004DF168) picture class?
+
+class ' GPT' (vtable at 004DF278) text writing class?
+
+class 'CURS' (vtable at 004DF140)
+	 18: cursor to set
+
+
+methods:
+	0041F9E0 set cursor
+
+class ' FIL' (vtable at 004DF540)
+	144: hFile pointer
+methods:
+	0043D8F0 readFile
+
+
+class 'BLCK' (vtable at 004DF558)
+
+methods:
+	0043D3F0

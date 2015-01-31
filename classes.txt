@@ -149,6 +149,9 @@ class 'SCEN': (vtable at 004E24A0)
 		03 = dissolve
 	148: Music on current frame
 
+methods:
+	004A8F90 changeFrame (int newFrame)
+
 class '  GG': (vtable at 004DF3A8) timeline class
 	 20 Number of events
 

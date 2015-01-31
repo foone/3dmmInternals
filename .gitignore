@@ -13,7 +13,6 @@ develop-eggs/
 dist/
 downloads/
 eggs/
-lib/
 lib64/
 parts/
 sdist/
@@ -62,3 +61,4 @@ generate/fpo.json
 generate/functions.json
 generate/ida.txt
 generate/base-disassembly.txt
+generate/*.udd

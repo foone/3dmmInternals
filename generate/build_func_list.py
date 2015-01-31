@@ -1,4 +1,8 @@
+import sys
+sys.path.append('lib')
 import json,collections,subprocess,os
+import pefile,ms3dmm,pyudd,glob
+
 JSONLINT_PATH = os.path.expanduser(r'~\Application Data\npm\jsonlint.cmd')
 
 functions=collections.defaultdict(dict)
@@ -41,6 +45,17 @@ if __name__=='__main__':
 					function['name']='unnamed'
 				functions[cleanAddress(address)]['ollydbg']=function
 
+	pe =  pefile.PE(ms3dmm.getAnyEXE())
+	base = pe.OPTIONAL_HEADER.ImageBase
+
+	for uddfile in glob.glob('*.udd'):
+		u = pyudd.Udd(filename=uddfile)
+		for i in u.find_by_type("\nDat"):
+			data=pyudd.expand_chunk(u.get_chunk(i),u.get_format())
+			if data['category']==pyudd.OLLY2CATS['UserLabel']:
+				address='%08X' % (base+data['RVA'])
+				functions[address]['manual-ollydbg']={'name':data['name']}
+		
 	with open('constructors.txt','r') as f:
 		address=None
 		for line in f:

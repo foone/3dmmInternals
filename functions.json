@@ -69,8 +69,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classsplt::getID"
       }
     },
     "00401040": {
@@ -1332,8 +1332,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classSCRT::getID"
       }
     },
     "00401FE0": {
@@ -1869,8 +1869,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classGOMP::getID"
       }
     },
     "00402AB0": {
@@ -2296,8 +2296,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classbrcl::getID"
       }
     },
     "00402E90": {
@@ -2369,8 +2369,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classBRWD::getID"
       }
     },
     "00402ED0": {
@@ -2442,8 +2442,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classBRWL::getID"
       }
     },
     "00402F10": {
@@ -2515,8 +2515,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classBRWT::getID"
       }
     },
     "00402F50": {
@@ -2588,8 +2588,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classBRWA::getID"
       }
     },
     "00402F90": {
@@ -2661,8 +2661,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classBRWP::getID"
       }
     },
     "00402FD0": {
@@ -2734,8 +2734,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classBRWB::getID"
       }
     },
     "00403010": {
@@ -2807,8 +2807,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classBRWC::getID"
       }
     },
     "00403050": {
@@ -2880,8 +2880,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classBRWN::getID"
       }
     },
     "00403090": {
@@ -2953,8 +2953,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classbrwm::getID"
       }
     },
     "004030D0": {
@@ -3050,8 +3050,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classBRWR::getID"
       }
     },
     "00403120": {
@@ -3123,8 +3123,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classBRWI::getID"
       }
     },
     "00403160": {
@@ -3196,8 +3196,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "class_BCL::getID"
       }
     },
     "004031A0": {
@@ -3269,8 +3269,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classBCLS::getID"
       }
     },
     "004031E0": {
@@ -3342,8 +3342,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classFNET::getID"
       }
     },
     "00403220": {
@@ -6727,8 +6727,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "class_KWA::getID"
       }
     },
     "004075F0": {
@@ -7067,6 +7067,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "is_640x480"
       },
       "ollydbg": {
         "args": "void",
@@ -9284,8 +9287,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classSSCB::getID"
       }
     },
     "0040CC80": {
@@ -9382,9 +9385,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "args": "Arg1",
-        "name": "3DMOVIE.0040CE50"
+      "manual-ollydbg": {
+        "name": "handleTimelineButtons"
       }
     },
     "0040D270": {
@@ -10014,8 +10016,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classstio::getID"
       }
     },
     "0040E600": {
@@ -10086,6 +10088,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classSMCC::getID"
       }
     },
     "0040E640": {
@@ -12664,8 +12669,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classtgob::getID"
       }
     },
     "004118F0": {
@@ -12945,8 +12950,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "class_ESL::getID"
       }
     },
     "00411E50": {
@@ -13018,8 +13023,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classESLT::getID"
       }
     },
     "00411E90": {
@@ -13091,8 +13096,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classESLA::getID"
       }
     },
     "00411ED0": {
@@ -13164,8 +13169,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "class_SNE::getID"
       }
     },
     "00411F10": {
@@ -13237,8 +13242,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classESLL::getID"
       }
     },
     "00411F50": {
@@ -13310,8 +13315,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classLSND::getID"
       }
     },
     "00411F90": {
@@ -13383,8 +13388,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classESLR::getID"
       }
     },
     "00411FD0": {
@@ -14902,8 +14907,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "class_APE::getID"
       }
     },
     "00414B70": {
@@ -15724,8 +15729,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "class__MP::getID"
       }
     },
     "00415F60": {
@@ -15797,8 +15802,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classmpft::getID"
       }
     },
     "00415FA0": {
@@ -16294,8 +16299,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classTATR::getID"
       }
     },
     "00416760": {
@@ -16719,6 +16724,9 @@
         "returns": true,
         "static": false,
         "type-info": true
+      },
+      "manual-ollydbg": {
+        "name": "OFNHookProc"
       },
       "ollydbg": {
         "name": "unnamed"
@@ -17229,8 +17237,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classUSAC::getID"
       }
     },
     "00418F30": {
@@ -17497,8 +17505,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "class_BLL::getID"
       }
     },
     "004190A0": {
@@ -17521,8 +17529,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classBASE::getID"
       }
     },
     "004190B0": {
@@ -17599,6 +17607,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "BaseClass:new"
+      },
       "ollydbg": {
         "args": "void",
         "name": "3DMOVIE.BaseClass:new"
@@ -17673,6 +17684,9 @@
         "static": false,
         "type-info": true
       },
+      "manual-ollydbg": {
+        "name": "malloc"
+      },
       "ollydbg": {
         "args": "Arg1",
         "name": "3DMOVIE.malloc"
@@ -17697,6 +17711,9 @@
         "returns": true,
         "static": false,
         "type-info": true
+      },
+      "manual-ollydbg": {
+        "name": "free"
       },
       "ollydbg": {
         "args": "Arg1",
@@ -17889,6 +17906,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "ZeroMemory"
       },
       "ollydbg": {
         "args": "Arg1,Arg2",
@@ -18136,6 +18156,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "memcpy"
+      },
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
         "name": "3DMOVIE.memcpy"
@@ -18281,8 +18304,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "class_ERS::getID"
       }
     },
     "004195B0": {
@@ -18674,6 +18697,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "frame_delay_calculation"
       },
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
@@ -19571,6 +19597,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "TimerThing:new"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -19594,6 +19623,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "TimerThing:getElapsedTime"
       },
       "ollydbg": {
         "args": "void",
@@ -19619,6 +19651,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "TimerThing:getSomeTimeThing"
       },
       "ollydbg": {
         "args": "Arg1",
@@ -19739,6 +19774,9 @@
         "returns": true,
         "static": false,
         "type-info": true
+      },
+      "manual-ollydbg": {
+        "name": "AllocateGlobalMemory"
       },
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4",
@@ -19909,8 +19947,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "class_RND::getID"
       }
     },
     "0041A800": {
@@ -19982,8 +20020,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "class_SFL::getID"
       }
     },
     "0041A840": {
@@ -20005,6 +20043,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "RandomGenerator:new"
       },
       "ollydbg": {
         "args": "Arg1",
@@ -20370,6 +20411,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "InitPString"
+      },
       "ollydbg": {
         "args": "Arg1,Arg2",
         "name": "3DMOVIE.InitPString"
@@ -20444,6 +20488,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "String:Add"
       },
       "ollydbg": {
         "args": "Arg1,Arg2",
@@ -20788,6 +20835,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "strlen"
       },
       "ollydbg": {
         "args": "Arg1",
@@ -21279,8 +21329,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classAPPB::getID"
       }
     },
     "0041BEE0": {
@@ -23094,8 +23144,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classCLOK::getID"
       }
     },
     "0041DCD0": {
@@ -23572,8 +23622,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "class_CMH::getID"
       }
     },
     "0041E260": {
@@ -23645,8 +23695,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "class_CEX::getID"
       }
     },
     "0041E2A0": {
@@ -24767,8 +24817,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classCURS::getID"
       }
     },
     "0041F680": {
@@ -24862,6 +24912,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classCURS::setCursor"
       },
       "ollydbg": {
         "name": "unnamed"
@@ -25021,8 +25074,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "class_GNV::getID"
       }
     },
     "0041FB00": {
@@ -25094,8 +25147,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "class_GPT::getID"
       }
     },
     "0041FB40": {
@@ -25167,8 +25220,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "class_NTL::getID"
       }
     },
     "0041FB80": {
@@ -26804,8 +26857,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "class_GOB::getID"
       }
     },
     "00422CA0": {
@@ -26877,8 +26930,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "class_GTE::getID"
       }
     },
     "00422CE0": {
@@ -28755,8 +28808,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classREGN::getID"
       }
     },
     "00425BD0": {
@@ -28828,8 +28881,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classrgsc::getID"
       }
     },
     "00425C10": {
@@ -29765,6 +29818,9 @@
         "static": false,
         "type-info": true
       },
+      "manual-ollydbg": {
+        "name": "WinMainA"
+      },
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4",
         "name": "3DMOVIE.WinMainA"
@@ -30032,6 +30088,9 @@
         "static": false,
         "type-info": true
       },
+      "manual-ollydbg": {
+        "name": "wndproc1"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -30080,6 +30139,9 @@
         "returns": true,
         "static": false,
         "type-info": true
+      },
+      "manual-ollydbg": {
+        "name": "wndproc2"
       },
       "ollydbg": {
         "name": "unnamed"
@@ -30308,6 +30370,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "SetupScreenPalette"
+      },
       "ollydbg": {
         "args": "Arg1,Arg2",
         "name": "3DMOVIE.SetupScreenPalette"
@@ -30530,6 +30595,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "AllocateBitmap"
       },
       "ollydbg": {
         "args": "Arg1,Arg2",
@@ -31712,8 +31780,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "class_MUB::getID"
       }
     },
     "0042BF00": {
@@ -32221,8 +32289,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classGRPB::getID"
       }
     },
     "0042CF90": {
@@ -32294,8 +32362,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "class_GLB::getID"
       }
     },
     "0042CFD0": {
@@ -32366,6 +32434,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "class__GL::getID"
       }
     },
     "0042D010": {
@@ -32437,8 +32508,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "class__AL::getID"
       }
     },
     "0042D050": {
@@ -32510,8 +32581,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "class_GGB::getID"
       }
     },
     "0042D090": {
@@ -32583,8 +32654,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "class__GG::getID"
       }
     },
     "0042D0D0": {
@@ -32656,8 +32727,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "class__AG::getID"
       }
     },
     "0042D110": {
@@ -34819,8 +34890,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classGSTB::getID"
       }
     },
     "0042F0B0": {
@@ -34892,8 +34963,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "class_GST::getID"
       }
     },
     "0042F0F0": {
@@ -35798,8 +35869,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "class_CFL::getID"
       }
     },
     "0042FEB0": {
@@ -35871,8 +35942,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "class_CGE::getID"
       }
     },
     "0042FEF0": {
@@ -38027,8 +38098,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classCODM::getID"
       }
     },
     "00434120": {
@@ -38408,6 +38479,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "DecompressWrapper"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -38543,6 +38617,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "Decompress1"
+      },
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4,Arg5",
         "name": "3DMOVIE.Decompress1"
@@ -38582,6 +38659,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "Decompress2"
       },
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4,Arg5",
@@ -38678,8 +38758,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classBACO::getID"
       }
     },
     "0043AEE0": {
@@ -38776,8 +38856,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "class_CRF::getID"
       }
     },
     "0043AF40": {
@@ -38849,8 +38929,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "class_CRM::getID"
       }
     },
     "0043AF80": {
@@ -38922,8 +39002,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classCABO::getID"
       }
     },
     "0043AFC0": {
@@ -39885,8 +39965,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "class_FIL::getID"
       }
     },
     "0043C100": {
@@ -39958,8 +40038,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classBLCK::getID"
       }
     },
     "0043C140": {
@@ -41131,6 +41211,9 @@
         "static": false,
         "type-info": true
       },
+      "manual-ollydbg": {
+        "name": "OpenFileInner"
+      },
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
         "name": "3DMOVIE.OpenFileInner"
@@ -41155,6 +41238,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "OpenFileWrapper"
       },
       "ollydbg": {
         "args": "Arg1,Arg2",
@@ -41521,8 +41607,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "class_FNI::getID"
       }
     },
     "0043DD40": {
@@ -41594,8 +41680,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "class_FNE::getID"
       }
     },
     "0043DD80": {
@@ -42138,6 +42224,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "GetLengthOfExtension"
+      },
       "ollydbg": {
         "args": "void",
         "name": "3DMOVIE.GetLengthOfExtension"
@@ -42539,8 +42628,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classMBMP::getID"
       }
     },
     "0043F0F0": {
@@ -42991,8 +43080,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classSNDM::getID"
       }
     },
     "0043FEC0": {
@@ -43064,8 +43153,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classsnmq::getID"
       }
     },
     "0043FF00": {
@@ -43137,8 +43226,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classsnqu::getID"
       }
     },
     "0043FF40": {
@@ -44781,8 +44870,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classSDAM::getID"
       }
     },
     "00441550": {
@@ -44854,8 +44943,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classCAMS::getID"
       }
     },
     "00441590": {
@@ -44927,8 +45016,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classamqu::getID"
       }
     },
     "004415D0": {
@@ -46402,8 +46491,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classMIDO::getID"
       }
     },
     "004426F0": {
@@ -46740,8 +46829,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classMDWS::getID"
       }
     },
     "004429F0": {
@@ -46813,8 +46902,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classmsqu::getID"
       }
     },
     "00442A30": {
@@ -46886,8 +46975,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classMDPS::getID"
       }
     },
     "00442A70": {
@@ -46959,8 +47048,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classmsmx::getID"
       }
     },
     "00442AB0": {
@@ -47032,8 +47121,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classMISI::getID"
       }
     },
     "00442AF0": {
@@ -47105,8 +47194,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "class_WMS::getID"
       }
     },
     "00442B30": {
@@ -47178,8 +47267,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "class_OMS::getID"
       }
     },
     "00442B70": {
@@ -48987,6 +49076,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "InitializeMidi"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -49393,8 +49485,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classMSTP::getID"
       }
     },
     "00444F70": {
@@ -49466,8 +49558,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classMIDS::getID"
       }
     },
     "00444FB0": {
@@ -49938,8 +50030,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classGVID::getID"
       }
     },
     "00445D50": {
@@ -50011,8 +50103,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classGVDS::getID"
       }
     },
     "00445D90": {
@@ -50084,8 +50176,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classGVDW::getID"
       }
     },
     "00445DD0": {
@@ -51087,8 +51179,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classSCEB::getID"
       }
     },
     "004469A0": {
@@ -51160,8 +51252,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classSCPT::getID"
       }
     },
     "004469E0": {
@@ -51233,8 +51325,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classSTRG::getID"
       }
     },
     "00446A20": {
@@ -52696,6 +52788,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classDOCB::getID"
       }
     },
     "00448DD0": {
@@ -52767,8 +52862,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "class_DTE::getID"
       }
     },
     "00448E10": {
@@ -52840,8 +52935,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "class_DDG::getID"
       }
     },
     "00448E50": {
@@ -52913,8 +53008,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "class_DMD::getID"
       }
     },
     "00448E90": {
@@ -52986,8 +53081,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "class_DMW::getID"
       }
     },
     "00448ED0": {
@@ -53059,8 +53154,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "class_DSG::getID"
       }
     },
     "00448F10": {
@@ -53132,8 +53227,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classDSSP::getID"
       }
     },
     "00448F50": {
@@ -53205,8 +53300,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classDSSM::getID"
       }
     },
     "00448F90": {
@@ -56169,8 +56264,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classCLIP::getID"
       }
     },
     "0044BB10": {
@@ -56704,8 +56799,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classTXTB::getID"
       }
     },
     "0044C1C0": {
@@ -56777,8 +56872,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classTXRD::getID"
       }
     },
     "0044C200": {
@@ -56850,8 +56945,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classTXTG::getID"
       }
     },
     "0044C240": {
@@ -56923,8 +57018,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classTXRG::getID"
       }
     },
     "0044C280": {
@@ -56996,8 +57091,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classRTUN::getID"
       }
     },
     "0044C2C0": {
@@ -61095,8 +61190,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "class_CTL::getID"
       }
     },
     "00454EF0": {
@@ -61168,8 +61263,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "class_SCB::getID"
       }
     },
     "00454F30": {
@@ -61241,8 +61336,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "class_WSB::getID"
       }
     },
     "00454F70": {
@@ -61793,8 +61888,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "class_BSM::getID"
       }
     },
     "004558C0": {
@@ -61866,8 +61961,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "class_BSF::getID"
       }
     },
     "00455900": {
@@ -62425,8 +62520,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "class_DLG::getID"
       }
     },
     "004568A0": {
@@ -63212,8 +63307,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classEDCB::getID"
       }
     },
     "00457940": {
@@ -63285,8 +63380,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classEDSL::getID"
       }
     },
     "00457980": {
@@ -63358,8 +63453,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classEDPL::getID"
       }
     },
     "004579C0": {
@@ -64727,8 +64822,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classGKDS::getID"
       }
     },
     "00459720": {
@@ -64800,8 +64895,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classWOKS::getID"
       }
     },
     "00459760": {
@@ -65511,8 +65606,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classTXHD::getID"
       }
     },
     "0045A160": {
@@ -65584,8 +65679,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classTXHG::getID"
       }
     },
     "0045A1A0": {
@@ -65657,8 +65752,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classHBAL::getID"
       }
     },
     "0045A1E0": {
@@ -65730,8 +65825,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classHBTN::getID"
       }
     },
     "0045A220": {
@@ -66786,8 +66881,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "class_GOK::getID"
       }
     },
     "0045C090": {
@@ -66859,8 +66954,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classGORP::getID"
       }
     },
     "0045C0D0": {
@@ -66932,8 +67027,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classGORF::getID"
       }
     },
     "0045C110": {
@@ -67005,8 +67100,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classGORB::getID"
       }
     },
     "0045C150": {
@@ -67078,8 +67173,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classGORT::getID"
       }
     },
     "0045C190": {
@@ -67151,8 +67246,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classGORV::getID"
       }
     },
     "0045C1D0": {
@@ -69961,8 +70056,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classSCEG::getID"
       }
     },
     "0045F940": {
@@ -71805,6 +71900,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "RefCountIncrement"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -71828,6 +71926,9 @@
         "returns": true,
         "static": false,
         "type-info": true
+      },
+      "manual-ollydbg": {
+        "name": "RefCountDecrement"
       },
       "ollydbg": {
         "name": "unnamed"
@@ -72755,6 +72856,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "AllocateRefIndirectCaller"
+      },
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4",
         "name": "3DMOVIE.AllocateRefIndirectCaller"
@@ -72828,6 +72932,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "AllocateRefStatic"
       },
       "ollydbg": {
         "name": "unnamed"
@@ -81092,6 +81199,9 @@
         "static": false,
         "type-info": true
       },
+      "manual-ollydbg": {
+        "name": "TimerFunction"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -81115,6 +81225,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "AllocateRefBase"
       },
       "ollydbg": {
         "name": "unnamed"
@@ -85771,8 +85884,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classBWLD::getID"
       }
     },
     "00473A10": {
@@ -85794,6 +85907,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "ClassBWLD::init"
       },
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4",
@@ -85819,6 +85935,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "graphics_setup"
       },
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4",
@@ -86116,6 +86235,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "background_drawing"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -86139,6 +86261,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "BrZbRenderBoundsCallback"
       },
       "ollydbg": {
         "name": "unnamed"
@@ -86213,6 +86338,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "AddThisActor"
       },
       "ollydbg": {
         "args": "Arg1",
@@ -86422,8 +86550,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classZBMP::getID"
       }
     },
     "00474D50": {
@@ -86643,6 +86771,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "_BrFixedAbs"
+      },
       "ollydbg": {
         "args": "Arg1",
         "name": "3DMOVIE._BrFixedAbs"
@@ -86658,12 +86789,18 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "_BrFixedMul"
+      },
       "ollydbg": {
         "args": "Arg1,Arg2",
         "name": "3DMOVIE._BrFixedMul"
       }
     },
     "004752B5": {
+      "manual-ollydbg": {
+        "name": "_BrFixedMac2"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -86677,6 +86814,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "_BrFixedMac3"
       },
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4,Arg5,Arg6",
@@ -86693,6 +86833,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "_BrFixedMac4"
+      },
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4,Arg5,Arg6,Arg7,Arg8",
         "name": "3DMOVIE._BrFixedMac4"
@@ -86707,6 +86850,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "_BrFixedLength2"
       },
       "ollydbg": {
         "args": "Arg1,Arg2",
@@ -86723,6 +86869,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "_BrFixedLength3"
+      },
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
         "name": "3DMOVIE._BrFixedLength3"
@@ -86738,21 +86887,33 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "_BrFixedLength4"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
     },
     "004753C3": {
+      "manual-ollydbg": {
+        "name": "_BrFixedRLength2"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
     },
     "004753E7": {
+      "manual-ollydbg": {
+        "name": "_BrFixedRLength3"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
     },
     "00475414": {
+      "manual-ollydbg": {
+        "name": "_BrFixedRLength4"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -86767,52 +86928,82 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "_BrFixedDiv"
+      },
       "ollydbg": {
         "args": "Arg1,Arg2",
         "name": "3DMOVIE._BrFixedDiv"
       }
     },
     "0047545F": {
+      "manual-ollydbg": {
+        "name": "_BrFixedDivR"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
     },
     "00475475": {
+      "manual-ollydbg": {
+        "name": "_BrFixedDivF"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
     },
     "00475488": {
+      "manual-ollydbg": {
+        "name": "_BrFixedMulDiv"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
     },
     "00475498": {
+      "manual-ollydbg": {
+        "name": "_BrFixedMac2Div"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
     },
     "004754BA": {
+      "manual-ollydbg": {
+        "name": "_BrFixedMac3Div"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
     },
     "004754E6": {
+      "manual-ollydbg": {
+        "name": "_BrFixedMac4Div"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
     },
     "0047551C": {
+      "manual-ollydbg": {
+        "name": "_BrFixedFMac2"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
     },
     "00475541": {
+      "manual-ollydbg": {
+        "name": "_BrFixedFMac3"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
     },
     "00475571": {
+      "manual-ollydbg": {
+        "name": "_BrFixedFMac4"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -86827,27 +87018,42 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "_BrFixedRcp"
+      },
       "ollydbg": {
         "args": "Arg1",
         "name": "3DMOVIE._BrFixedRcp"
       }
     },
     "004755BD": {
+      "manual-ollydbg": {
+        "name": "_BrFixedSqr"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
     },
     "004755CD": {
+      "manual-ollydbg": {
+        "name": "_BrFixedSqr2"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
     },
     "004755EE": {
+      "manual-ollydbg": {
+        "name": "_BrFixedSqr3"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
     },
     "00475618": {
+      "manual-ollydbg": {
+        "name": "_BrFixedSqr4"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -86861,6 +87067,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "_BrFixedSin"
       },
       "ollydbg": {
         "args": "Arg1",
@@ -86877,12 +87086,18 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "_BrFixedCos"
+      },
       "ollydbg": {
         "args": "Arg1",
         "name": "3DMOVIE._BrFixedCos"
       }
     },
     "004756AD": {
+      "manual-ollydbg": {
+        "name": "_BrFixedASin"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -86896,6 +87111,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "_BrFixedACos"
       },
       "ollydbg": {
         "args": "Arg1",
@@ -86912,17 +87130,26 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "_BrFixedATan2"
+      },
       "ollydbg": {
         "args": "Arg1,Arg2",
         "name": "3DMOVIE._BrFixedATan2"
       }
     },
     "00475919": {
+      "manual-ollydbg": {
+        "name": "_BrFixedATan2Fast"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
     },
     "00475A21": {
+      "manual-ollydbg": {
+        "name": "__Sqrt"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -86937,16 +87164,25 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "__Sqrt64"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
     },
     "00475E20": {
+      "manual-ollydbg": {
+        "name": "__FastSqrt"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
     },
     "00475E4B": {
+      "manual-ollydbg": {
+        "name": "__FastRSqrt"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -86961,6 +87197,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "__FastRSqrt64"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -86974,6 +87213,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "SurfacePerScene"
       },
       "ollydbg": {
         "name": "unnamed"
@@ -87046,6 +87288,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "BrLightEnable"
+      },
       "ollydbg": {
         "args": "Arg1",
         "name": "3DMOVIE.BrLightEnable"
@@ -87060,6 +87305,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "BrLightDisable"
       },
       "ollydbg": {
         "args": "Arg1",
@@ -87100,6 +87348,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "BrMatrix34Copy"
+      },
       "ollydbg": {
         "args": "Arg1,Arg2",
         "name": "3DMOVIE.BrMatrix34Copy"
@@ -87115,6 +87366,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "BrMatrix34Mul"
+      },
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
         "name": "3DMOVIE.BrMatrix34Mul"
@@ -87129,6 +87383,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "BrMatrix34Identity"
       },
       "ollydbg": {
         "args": "Arg1",
@@ -87205,6 +87462,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "BrMatrix34Translate"
+      },
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4",
         "name": "3DMOVIE.BrMatrix34Translate"
@@ -87219,6 +87479,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "BrMatrix34Scale"
       },
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4",
@@ -87235,6 +87498,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "BrMatrix34ShearX"
+      },
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
         "name": "3DMOVIE.BrMatrix34ShearX"
@@ -87249,6 +87515,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "BrMatrix34ShearY"
       },
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
@@ -87265,6 +87534,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "BrMatrix34ShearZ"
+      },
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
         "name": "3DMOVIE.BrMatrix34ShearZ"
@@ -87279,6 +87551,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "BrMatrix34Inverse"
       },
       "ollydbg": {
         "args": "Arg1,Arg2",
@@ -87328,6 +87603,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "BrMatrix34Copy4"
+      },
       "ollydbg": {
         "args": "Arg1,Arg2",
         "name": "3DMOVIE.BrMatrix34Copy4"
@@ -87361,6 +87639,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "BrMatrix34ApplyP"
       },
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
@@ -87542,6 +87823,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "BrMatrix34PreTranslate"
+      },
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4",
         "name": "3DMOVIE.BrMatrix34PreTranslate"
@@ -87556,6 +87840,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "BrMatrix34PostTranslate"
       },
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4",
@@ -87631,6 +87918,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "BrMatrix34PreShearZ"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -87645,12 +87935,18 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "BrMatrix34PostShearZ"
+      },
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
         "name": "3DMOVIE.BrMatrix34PostShearZ"
       }
     },
     "004787A0": {
+      "manual-ollydbg": {
+        "name": "BrActorEnum"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -87665,12 +87961,18 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "BrActorSearchMany"
+      },
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4",
         "name": "3DMOVIE.BrActorSearchMany"
       }
     },
     "00478867": {
+      "manual-ollydbg": {
+        "name": "BrActorSearch"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -87699,6 +88001,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "BrActorAdd"
+      },
       "ollydbg": {
         "args": "Arg1,Arg2",
         "name": "3DMOVIE.BrActorAdd"
@@ -87714,12 +88019,18 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "BrActorRemove"
+      },
       "ollydbg": {
         "args": "Arg1",
         "name": "3DMOVIE.BrActorRemove"
       }
     },
     "00478987": {
+      "manual-ollydbg": {
+        "name": "BrActorRelink"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -87733,6 +88044,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "BrActorAllocate"
       },
       "ollydbg": {
         "args": "Arg1,Arg2",
@@ -87768,6 +88082,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "BrActorToRoot"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -87781,6 +88098,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "BrCameraToScreenMatrix4"
       },
       "ollydbg": {
         "name": "unnamed"
@@ -87796,6 +88116,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "BrVector3EyeInModel"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -87810,12 +88133,18 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "BrActorToActorMatrix34"
+      },
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
         "name": "3DMOVIE.BrActorToActorMatrix34"
       }
     },
     "00478F8D": {
+      "manual-ollydbg": {
+        "name": "BrActorToScreenMatrix4m,actor,camera"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -87873,6 +88202,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "BrBoundsToMatrix34"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -87886,6 +88218,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "BrBegin"
       },
       "ollydbg": {
         "name": "unnamed"
@@ -87901,21 +88236,33 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "BrEnd"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
     },
     "004793D7": {
+      "manual-ollydbg": {
+        "name": "BrErrorHandlerSet"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
     },
     "004793F6": {
+      "manual-ollydbg": {
+        "name": "BrFilesystemSet"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
     },
     "00479415": {
+      "manual-ollydbg": {
+        "name": "BrAllocatorSet"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -87960,6 +88307,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "BrScenePick2D"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -87994,6 +88344,9 @@
       }
     },
     "00479AF3": {
+      "manual-ollydbg": {
+        "name": "BrSceneModelLight"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -88144,6 +88497,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "BrMatrix4Copy"
+      },
       "ollydbg": {
         "args": "Arg1,Arg2",
         "name": "3DMOVIE.BrMatrix4Copy"
@@ -88159,17 +88515,26 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "BrMatrix4Mul"
+      },
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
         "name": "3DMOVIE.BrMatrix4Mul"
       }
     },
     "0047B92C": {
+      "manual-ollydbg": {
+        "name": "BrMatrix4Identity"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
     },
     "0047B9A4": {
+      "manual-ollydbg": {
+        "name": "BrMatrix4Scale"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -88183,6 +88548,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "BrMatrix4Inverse"
       },
       "ollydbg": {
         "name": "unnamed"
@@ -88213,6 +88581,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "BrMatrix4Determinant"
+      },
       "ollydbg": {
         "args": "Arg1",
         "name": "3DMOVIE.BrMatrix4Determinant"
@@ -88242,6 +88613,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "BrMatrix4Perspective"
       },
       "ollydbg": {
         "name": "unnamed"
@@ -88307,6 +88681,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "BrMatrix4Copy34"
+      },
       "ollydbg": {
         "args": "Arg1,Arg2",
         "name": "3DMOVIE.BrMatrix4Copy34"
@@ -88321,6 +88698,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "BrMatrix4Pre34"
       },
       "ollydbg": {
         "args": "Arg1,Arg2",
@@ -88439,6 +88819,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "LightingIndex"
       },
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
@@ -88586,6 +88969,9 @@
         "static": false,
         "type-info": true
       },
+      "manual-ollydbg": {
+        "name": "BrError"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -88619,6 +89005,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "BrNewList"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -88633,14 +89022,25 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "BrAddHead"
+      },
       "ollydbg": {
         "args": "Arg1,Arg2",
         "name": "3DMOVIE.BrAddHead"
       }
     },
     "0047E453": {
+      "manual-ollydbg": {
+        "name": "BrAddTail"
+      },
       "ollydbg": {
         "name": "unnamed"
+      }
+    },
+    "0047E470": {
+      "manual-ollydbg": {
+        "name": "BrRemHead"
       }
     },
     "0047E472": {
@@ -88649,11 +89049,17 @@
       }
     },
     "0047E48E": {
+      "manual-ollydbg": {
+        "name": "BrRemTail"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
     },
     "0047E4AA": {
+      "manual-ollydbg": {
+        "name": "BrInsert"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -88667,6 +89073,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "BrRemove"
       },
       "ollydbg": {
         "args": "Arg1",
@@ -88683,6 +89092,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "BrSimpleNewList"
+      },
       "ollydbg": {
         "args": "Arg1",
         "name": "3DMOVIE.BrSimpleNewList"
@@ -88698,14 +89110,25 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "BrSimpleAddHead"
+      },
       "ollydbg": {
         "args": "Arg1,Arg2",
         "name": "3DMOVIE.BrSimpleAddHead"
       }
     },
     "0047E50E": {
+      "manual-ollydbg": {
+        "name": "BrSimpleRemHead"
+      },
       "ollydbg": {
         "name": "unnamed"
+      }
+    },
+    "0047E540": {
+      "manual-ollydbg": {
+        "name": "BrSimpleInsert"
       }
     },
     "0047E542": {
@@ -88723,6 +89146,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "BrSimpleRemove"
+      },
       "ollydbg": {
         "args": "Arg1",
         "name": "3DMOVIE.BrSimpleRemove"
@@ -88737,6 +89163,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "BrTransformToMatrix34"
       },
       "ollydbg": {
         "args": "Arg1,Arg2",
@@ -88782,6 +89211,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "BrMatrix4PreTransform"
+      },
       "ollydbg": {
         "args": "Arg1,Arg2",
         "name": "3DMOVIE.BrMatrix4PreTransform"
@@ -88796,6 +89228,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "BrMatrix34ToTransform"
       },
       "ollydbg": {
         "args": "Arg1,Arg2",
@@ -88817,6 +89252,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "NamePatternMatch"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -88831,12 +89269,18 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "RegistryNew"
+      },
       "ollydbg": {
         "args": "void",
         "name": "3DMOVIE.RegistryNew"
       }
     },
     "0047EB47": {
+      "manual-ollydbg": {
+        "name": "RegistryClear"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -88850,6 +89294,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "RegistryAdd"
       },
       "ollydbg": {
         "name": "unnamed"
@@ -88865,6 +89312,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "RegistryAddMany"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -88878,6 +89328,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "RegistryRemove"
       },
       "ollydbg": {
         "name": "unnamed"
@@ -88893,6 +89346,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "RegistryRemoveMany"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -88906,6 +89362,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "RegistryFind"
       },
       "ollydbg": {
         "name": "unnamed"
@@ -88921,6 +89380,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "RegistryFindMany"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -88935,6 +89397,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "RegistryCount"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -88948,6 +89413,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "RegistryEnum"
       },
       "ollydbg": {
         "name": "unnamed"
@@ -88991,6 +89459,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "BrResAllocate"
+      },
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
         "name": "3DMOVIE.BrResAllocate"
@@ -89019,6 +89490,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "BrResFree"
       },
       "ollydbg": {
         "args": "Arg1",
@@ -89113,6 +89587,9 @@
         "static": false,
         "type-info": true
       },
+      "manual-ollydbg": {
+        "name": "BrResStrDup"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -89127,6 +89604,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "BrModelAdd"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -89140,6 +89620,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "BrModelRemove"
       },
       "ollydbg": {
         "args": "Arg1",
@@ -89156,26 +89639,41 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "BrModelFind"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
     },
     "0047F1A0": {
+      "manual-ollydbg": {
+        "name": "BrModelFindHook"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
     },
     "0047F1B4": {
+      "manual-ollydbg": {
+        "name": "BrModelAddMany"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
     },
     "0047F210": {
+      "manual-ollydbg": {
+        "name": "BrModelRemoveMany"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
     },
     "0047F254": {
+      "manual-ollydbg": {
+        "name": "BrModelFindMany"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -89190,6 +89688,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "BrModelCount"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -89203,6 +89704,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "BrModelEnum"
       },
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
@@ -89219,6 +89723,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "BrMaterialAdd"
+      },
       "ollydbg": {
         "args": "Arg1",
         "name": "3DMOVIE.BrMaterialAdd"
@@ -89233,6 +89740,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "BrMaterialRemove"
       },
       "ollydbg": {
         "args": "Arg1",
@@ -89249,26 +89759,41 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "BrMaterialFind"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
     },
     "0047F302": {
+      "manual-ollydbg": {
+        "name": "BrMaterialFindHook"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
     },
     "0047F316": {
+      "manual-ollydbg": {
+        "name": "BrMaterialAddMany"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
     },
     "0047F376": {
+      "manual-ollydbg": {
+        "name": "BrMaterialRemoveMany"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
     },
     "0047F3BA": {
+      "manual-ollydbg": {
+        "name": "BrMaterialFindMany"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -89282,6 +89807,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "BrMaterialCount"
       },
       "ollydbg": {
         "name": "unnamed"
@@ -89297,17 +89825,26 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "BrMaterialEnum"
+      },
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
         "name": "3DMOVIE.BrMaterialEnum"
       }
     },
     "0047F40C": {
+      "manual-ollydbg": {
+        "name": "BrMapAdd"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
     },
     "0047F420": {
+      "manual-ollydbg": {
+        "name": "BrMapRemove"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -89322,46 +89859,73 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "BrMapFind"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
     },
     "0047F448": {
+      "manual-ollydbg": {
+        "name": "BrMapFindHook"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
     },
     "0047F45C": {
+      "manual-ollydbg": {
+        "name": "BrMapAddMany"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
     },
     "0047F478": {
+      "manual-ollydbg": {
+        "name": "BrMapRemoveMany"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
     },
     "0047F494": {
+      "manual-ollydbg": {
+        "name": "BrMapFindMany"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
     },
     "0047F4B3": {
+      "manual-ollydbg": {
+        "name": "BrMapCount"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
     },
     "0047F4C7": {
+      "manual-ollydbg": {
+        "name": "BrMapEnum"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
     },
     "0047F4E6": {
+      "manual-ollydbg": {
+        "name": "BrTableAdd"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
     },
     "0047F4FA": {
+      "manual-ollydbg": {
+        "name": "BrTableRemove"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -89376,18 +89940,32 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "BrTableFind"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
     },
     "0047F522": {
+      "manual-ollydbg": {
+        "name": "BrTableFindHook"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
     },
     "0047F536": {
+      "manual-ollydbg": {
+        "name": "BrTableAddMany"
+      },
       "ollydbg": {
         "name": "unnamed"
+      }
+    },
+    "0047F550": {
+      "manual-ollydbg": {
+        "name": "BrTableRemoveMany"
       }
     },
     "0047F552": {
@@ -89396,16 +89974,25 @@
       }
     },
     "0047F56E": {
+      "manual-ollydbg": {
+        "name": "BrTableFindMany"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
     },
     "0047F58D": {
+      "manual-ollydbg": {
+        "name": "BrTableCount"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
     },
     "0047F5A1": {
+      "manual-ollydbg": {
+        "name": "BrTableEnum"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -89420,51 +90007,81 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "BrResClassAdd"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
     },
     "0047F5F3": {
+      "manual-ollydbg": {
+        "name": "BrResClassRemove"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
     },
     "0047F623": {
+      "manual-ollydbg": {
+        "name": "BrResClassFind"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
     },
     "0047F637": {
+      "manual-ollydbg": {
+        "name": "BrResClassFindHook"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
     },
     "0047F64B": {
+      "manual-ollydbg": {
+        "name": "BrResClassAddMany"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
     },
     "0047F69E": {
+      "manual-ollydbg": {
+        "name": "BrResClassRemoveMany"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
     },
     "0047F6F6": {
+      "manual-ollydbg": {
+        "name": "BrResClassFindMany"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
     },
     "0047F715": {
+      "manual-ollydbg": {
+        "name": "BrResClassCount"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
     },
     "0047F729": {
+      "manual-ollydbg": {
+        "name": "BrResClassEnum"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
     },
     "0047F75C": {
+      "manual-ollydbg": {
+        "name": "BrModelApplyMap"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -89484,6 +90101,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "BrModelFree"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -89497,6 +90117,9 @@
         "returns": true,
         "static": false,
         "type-info": true
+      },
+      "manual-ollydbg": {
+        "name": "BrModelAllocate"
       },
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
@@ -89513,6 +90136,9 @@
         "static": false,
         "type-info": true
       },
+      "manual-ollydbg": {
+        "name": "BrMaterialAllocate"
+      },
       "ollydbg": {
         "args": "Arg1",
         "name": "3DMOVIE.BrMaterialAllocate"
@@ -89527,6 +90153,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "BrMaterialFree"
       },
       "ollydbg": {
         "args": "Arg1",
@@ -89629,6 +90258,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "_BrPmMemFill"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -89642,6 +90274,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "_BrPmMemRectangleCopy"
       },
       "ollydbg": {
         "name": "unnamed"
@@ -89671,6 +90306,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "_BrPmMemRectangleFill"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -89684,6 +90322,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "_BrPmMemDirtyRectangleCopy"
       },
       "ollydbg": {
         "name": "unnamed"
@@ -89699,6 +90340,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "_BrPmMemDirtyRectangleFill"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -89712,6 +90356,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "_BrPmMemCopy"
       },
       "ollydbg": {
         "name": "unnamed"
@@ -89727,8 +90374,16 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "_BrPmMemPlot"
+      },
       "ollydbg": {
         "name": "unnamed"
+      }
+    },
+    "004809F0": {
+      "manual-ollydbg": {
+        "name": "_BrPmMemPlot2"
       }
     },
     "004809F2": {
@@ -89755,6 +90410,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "_BrPmMemLine"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -89768,6 +90426,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "_BrPmMemCopyBits"
       },
       "ollydbg": {
         "name": "unnamed"
@@ -89783,6 +90444,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "__MemCopyBits_A"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -89796,6 +90460,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "__MemFill_A"
       },
       "ollydbg": {
         "name": "unnamed"
@@ -89811,6 +90478,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "__MemRectFill_A"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -89824,6 +90494,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "__MemRectCopy_A"
       },
       "ollydbg": {
         "name": "unnamed"
@@ -89839,6 +90512,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "__MemRectA"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -89852,6 +90528,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "__MemPlot"
       },
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4",
@@ -89868,6 +90547,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "__MemPlot2"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -89881,6 +90563,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "__GetSysQual"
       },
       "ollydbg": {
         "name": "unnamed"
@@ -89896,11 +90581,17 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "BrFileClose2"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
     },
     "0048292C": {
+      "manual-ollydbg": {
+        "name": "BrFileAttributes"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -89944,6 +90635,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "BrFileClose"
+      },
       "ollydbg": {
         "args": "Arg1",
         "name": "3DMOVIE.BrFileClose"
@@ -89958,6 +90652,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "BrFileEof"
       },
       "ollydbg": {
         "args": "Arg1",
@@ -89974,6 +90671,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "BrFileGetChar"
+      },
       "ollydbg": {
         "args": "Arg1",
         "name": "3DMOVIE.BrFileGetChar"
@@ -89988,6 +90688,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "BrFilePutChar"
       },
       "ollydbg": {
         "args": "Arg1,Arg2",
@@ -90004,6 +90707,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "BrFileRead"
+      },
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4",
         "name": "3DMOVIE.BrFileRead"
@@ -90018,6 +90724,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "BrFileWrite"
       },
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4",
@@ -90034,12 +90743,18 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "BrFileGetLine"
+      },
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
         "name": "3DMOVIE.BrFileGetLine"
       }
     },
     "00482AFB": {
+      "manual-ollydbg": {
+        "name": "BrFilePutLine"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -90053,6 +90768,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "BrFileAdvance"
       },
       "ollydbg": {
         "args": "Arg1,Arg2",
@@ -90069,6 +90787,9 @@
         "static": false,
         "type-info": true
       },
+      "manual-ollydbg": {
+        "name": "BrFilePrintf"
+      },
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
         "name": "3DMOVIE.BrFilePrintf"
@@ -90083,6 +90804,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "BrQuatToMatrix34"
       },
       "ollydbg": {
         "args": "Arg1,Arg2",
@@ -90099,17 +90823,26 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "BrMatrix34ToQuat"
+      },
       "ollydbg": {
         "args": "Arg1,Arg2",
         "name": "3DMOVIE.BrMatrix34ToQuat"
       }
     },
     "00483103": {
+      "manual-ollydbg": {
+        "name": "BrQuatToMatrix4"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
     },
     "00483133": {
+      "manual-ollydbg": {
+        "name": "BrMatrix4ToQuat"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -90245,6 +90978,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "BrMaterialUpdate"
       },
       "ollydbg": {
         "args": "Arg1,Arg2",
@@ -90535,12 +91271,18 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "BrModelUpdate"
+      },
       "ollydbg": {
         "args": "Arg1,Arg2",
         "name": "3DMOVIE.BrModelUpdate"
       }
     },
     "00485470": {
+      "manual-ollydbg": {
+        "name": "_BrGenericLine"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -90554,6 +91296,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "_BrGenericDoubleBuffer"
       },
       "ollydbg": {
         "name": "unnamed"
@@ -90569,6 +91314,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "_BrGenericMatch"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -90583,6 +91331,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "_BrGenericClone"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -90596,6 +91347,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "_BrGenericFree"
       },
       "ollydbg": {
         "name": "unnamed"
@@ -90677,12 +91431,18 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "BrPixelmapAllocate"
+      },
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4,Arg5",
         "name": "3DMOVIE.BrPixelmapAllocate"
       }
     },
     "00486728": {
+      "manual-ollydbg": {
+        "name": "BrPixelmapAllocateSub"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -90696,6 +91456,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "BrPixelmapFileSize"
       },
       "ollydbg": {
         "args": "Arg1",
@@ -90712,6 +91475,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "BrPixelmapPixelSize"
+      },
       "ollydbg": {
         "args": "Arg1",
         "name": "3DMOVIE.BrPixelmapPixelSize"
@@ -90726,6 +91492,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "BrPixelmapChannels"
       },
       "ollydbg": {
         "args": "Arg1",
@@ -90760,6 +91529,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "BrScratchAllocate"
       },
       "ollydbg": {
         "args": "Arg1",
@@ -90919,11 +91691,17 @@
       }
     },
     "004875A0": {
+      "manual-ollydbg": {
+        "name": "BrPixelmapLine"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
     },
     "0048785C": {
+      "manual-ollydbg": {
+        "name": "BrPixelmapDoubleBuffer"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -90938,11 +91716,17 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "BrPixelmapText"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
     },
     "00487B23": {
+      "manual-ollydbg": {
+        "name": "BrPixelmapTextF"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -90972,8 +91756,16 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "BrZbModelRender"
+      },
       "ollydbg": {
         "name": "unnamed"
+      }
+    },
+    "00487DCA": {
+      "manual-ollydbg": {
+        "name": "model_render_switch"
       }
     },
     "00487DD8": {
@@ -91014,17 +91806,26 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "BrZbSceneRenderBegin"
+      },
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4",
         "name": "3DMOVIE.BrZbSceneRenderBegin"
       }
     },
     "00488520": {
+      "manual-ollydbg": {
+        "name": "BrZbSceneRenderAdd"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
     },
     "00488540": {
+      "manual-ollydbg": {
+        "name": "BrZbSceneRenderEnd"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -91038,6 +91839,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "BrZbSceneRender"
       },
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4",
@@ -91068,6 +91872,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "BrZbRenderBoundsCallbackSet"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -91081,6 +91888,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "BrZbBegin"
       },
       "ollydbg": {
         "name": "unnamed"
@@ -91096,6 +91906,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "BrZbEnd"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -91109,6 +91922,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "TriangleRender_Null"
       },
       "ollydbg": {
         "name": "unnamed"
@@ -91124,6 +91940,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "LineRender_Null"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -91137,6 +91956,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "PointRender_Null"
       },
       "ollydbg": {
         "name": "unnamed"
@@ -91360,6 +92182,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "ZbMeshRender"
+      },
       "ollydbg": {
         "args": "Arg1",
         "name": "3DMOVIE.ZbMeshRender"
@@ -91453,6 +92278,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "ZbMeshRenderPoints"
+      },
       "ollydbg": {
         "args": "Arg1",
         "name": "3DMOVIE.ZbMeshRenderPoints"
@@ -91468,6 +92296,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "bbox_c_sub_10093"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -91481,6 +92312,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "ZbBoundingBoxRenderPoints"
       },
       "ollydbg": {
         "name": "unnamed"
@@ -91496,6 +92330,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "ZbBoundingBoxRenderEdges"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -91509,6 +92346,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "ZbBoundingBoxRenderFaces"
       },
       "ollydbg": {
         "name": "unnamed"
@@ -91658,6 +92498,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "ZbMeshRenderEdges"
       },
       "ollydbg": {
         "args": "Arg1",
@@ -91912,6 +92755,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "_TriangleRenderPIZ2"
+      },
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
         "name": "3DMOVIE._TriangleRenderPIZ2"
@@ -91927,6 +92773,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "_RawTriangle_PIZ2"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -91940,6 +92789,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "_TriangleRenderPIZ2I"
       },
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
@@ -91956,6 +92808,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "_RawTriangle_PIZ2I"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -91969,6 +92824,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "_TriangleRenderPIZ2T"
       },
       "ollydbg": {
         "name": "unnamed"
@@ -91984,6 +92842,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "_RawTriangle_PIZ2T"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -91997,6 +92858,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "_TriangleRenderPIZ2TI"
       },
       "ollydbg": {
         "name": "unnamed"
@@ -92012,6 +92876,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "_RawTriangle_PIZ2TI"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -92025,6 +92892,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "ZbMaterialUpdate"
       },
       "ollydbg": {
         "name": "unnamed"
@@ -92040,6 +92910,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "TriangleRenderPIZ2TAD"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -92053,6 +92926,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "TriangleRenderPIZ2TIAD"
       },
       "ollydbg": {
         "name": "unnamed"
@@ -92068,6 +92944,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "_OSFFVGroupCulled_A"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -92081,6 +92960,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "_OSFFVGroupCulledLit_A"
       },
       "ollydbg": {
         "name": "unnamed"
@@ -92096,6 +92978,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "_OSCopyModelToScreen_A"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -92109,6 +92994,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "_OSTVGroup_A"
       },
       "ollydbg": {
         "name": "unnamed"
@@ -92124,6 +93012,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "_OSTVGroupBC_A"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -92138,6 +93029,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "_OSTVGroupLit_A"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -92151,6 +93045,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "_OSTVGroupLitBC_A"
       },
       "ollydbg": {
         "name": "unnamed"
@@ -92358,6 +93255,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "draw_textured_triangle_1"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -92458,6 +93358,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classMVIE::getID"
       }
     },
     "0049D720": {
@@ -92529,8 +93432,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classMUNB::getID"
       }
     },
     "0049D760": {
@@ -92602,8 +93505,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classMUNS::getID"
       }
     },
     "0049D7A0": {
@@ -95027,8 +95930,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "class_MVU::getID"
       }
     },
     "004A28B0": {
@@ -96054,8 +96957,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classMSND::getID"
       }
     },
     "004A5BC0": {
@@ -96127,8 +97030,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "class_MSQ::getID"
       }
     },
     "004A5C00": {
@@ -96828,8 +97731,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classTAGM::getID"
       }
     },
     "004A7130": {
@@ -97782,8 +98685,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classSCEN::getID"
       }
     },
     "004A8B10": {
@@ -97855,8 +98758,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classSUNS::getID"
       }
     },
     "004A8B50": {
@@ -97928,8 +98831,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classSUNA::getID"
       }
     },
     "004A8B90": {
@@ -98001,8 +98904,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classSUNK::getID"
       }
     },
     "004A8BD0": {
@@ -98074,8 +98977,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classSUNP::getID"
       }
     },
     "004A8C10": {
@@ -98147,8 +99050,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classSUNX::getID"
       }
     },
     "004A8C50": {
@@ -98220,8 +99123,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classSUNC::getID"
       }
     },
     "004A8C90": {
@@ -98343,9 +99246,12 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "changeFrame"
+      },
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.004A8F90"
+        "name": "3DMOVIE.changeFrame"
       }
     },
     "004A9270": {
@@ -100987,8 +101893,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classBKGD::getID"
       }
     },
     "004AED60": {
@@ -101283,6 +102189,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "LoadSceneLights"
+      },
       "ollydbg": {
         "args": "Arg1",
         "name": "3DMOVIE.LoadSceneLights"
@@ -101565,8 +102474,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classBODY::getID"
       }
     },
     "004AFB50": {
@@ -101638,8 +102547,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classCOST::getID"
       }
     },
     "004AFB90": {
@@ -101661,6 +102570,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "AddObjectToScene"
       },
       "ollydbg": {
         "args": "Arg1,Arg2",
@@ -102759,8 +103671,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classACTN::getID"
       }
     },
     "004B1120": {
@@ -102832,8 +103744,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classTMPL::getID"
       }
     },
     "004B1160": {
@@ -103852,8 +104764,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classMTRL::getID"
       }
     },
     "004B28C0": {
@@ -103925,8 +104837,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classCMTL::getID"
       }
     },
     "004B2900": {
@@ -104476,8 +105388,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "class_TDT::getID"
       }
     },
     "004B3500": {
@@ -105249,8 +106161,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classAUND::getID"
       }
     },
     "004B5800": {
@@ -105570,8 +106482,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classACLP::getID"
       }
     },
     "004B6C80": {
@@ -106073,8 +106985,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classTBOX::getID"
       }
     },
     "004B77D0": {
@@ -106146,8 +107058,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classTBXG::getID"
       }
     },
     "004B7810": {
@@ -106219,8 +107131,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classTBXB::getID"
       }
     },
     "004B7850": {
@@ -106292,8 +107204,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classTCLP::getID"
       }
     },
     "004B7890": {
@@ -106365,8 +107277,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classTUNT::getID"
       }
     },
     "004B78D0": {
@@ -106462,8 +107374,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classTUNS::getID"
       }
     },
     "004B7920": {
@@ -106535,8 +107447,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classTUNH::getID"
       }
     },
     "004B7960": {
@@ -106608,8 +107520,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classTUND::getID"
       }
     },
     "004B79A0": {
@@ -106681,8 +107593,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classTUNC::getID"
       }
     },
     "004B79E0": {
@@ -108983,8 +109895,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classACTR::getID"
       }
     },
     "004BAED0": {
@@ -111642,8 +112554,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classSREC::getID"
       }
     },
     "004C2640": {
@@ -112142,8 +113054,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classTAGL::getID"
       }
     },
     "004C2E90": {
@@ -112929,8 +113841,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classMODL::getID"
       }
     },
     "004C4350": {
@@ -113209,8 +114121,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "class_TDF::getID"
       }
     },
     "004C4980": {
@@ -113480,9 +114392,12 @@
         "static": false,
         "type-info": true
       },
+      "manual-ollydbg": {
+        "name": "__global_unwind2"
+      },
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.004C4E10"
+        "name": "3DMOVIE.__global_unwind2"
       }
     },
     "004C4E30": {
@@ -113506,9 +114421,12 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "__local_unwind2"
+      },
       "ollydbg": {
         "args": "Arg1,Arg2",
-        "name": "3DMOVIE.004C4E52"
+        "name": "3DMOVIE.__local_unwind2"
       }
     },
     "004C4EAC": {
@@ -113520,6 +114438,9 @@
         "returns": true,
         "static": false,
         "type-info": true
+      },
+      "manual-ollydbg": {
+        "name": "__abnormal_termination"
       },
       "ollydbg": {
         "name": "unnamed"
@@ -113534,6 +114455,9 @@
         "returns": true,
         "static": false,
         "type-info": true
+      },
+      "manual-ollydbg": {
+        "name": "__except_handler3"
       }
     },
     "004C4F86": {
@@ -113545,6 +114469,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "__seh_longjmp_unwind@4"
       },
       "ollydbg": {
         "name": "unnamed"
@@ -113981,6 +114908,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "_WinMainCRTStartup"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -114042,6 +114972,9 @@
         "returns": false,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "__amsg_exit"
       }
     },
     "004C6020": {
@@ -114317,6 +115250,9 @@
         "static": false,
         "type-info": true
       },
+      "manual-ollydbg": {
+        "name": "_vsprintf"
+      },
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
         "name": "3DMOVIE._vsprintf"
@@ -114432,6 +115368,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "__cinit"
       }
     },
     "004C67A2": {
@@ -114453,6 +115392,9 @@
         "returns": false,
         "static": false,
         "type-info": true
+      },
+      "manual-ollydbg": {
+        "name": "_exit"
       },
       "ollydbg": {
         "name": "unnamed"
@@ -114478,6 +115420,9 @@
         "static": false,
         "type-info": true
       },
+      "manual-ollydbg": {
+        "name": "__exit"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -114502,6 +115447,9 @@
         "static": true,
         "type-info": true
       },
+      "manual-ollydbg": {
+        "name": "__c_exit"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -114525,6 +115473,9 @@
         "returns": true,
         "static": true,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "static_constructors"
       },
       "ollydbg": {
         "args": "Arg1,Arg2",
@@ -114626,9 +115577,12 @@
         "static": false,
         "type-info": true
       },
+      "manual-ollydbg": {
+        "name": "_malloc"
+      },
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.004C69C6"
+        "name": "3DMOVIE._malloc"
       }
     },
     "004C69D9": {
@@ -114650,6 +115604,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "__nh_malloc"
       },
       "ollydbg": {
         "name": "unnamed"
@@ -114675,9 +115632,12 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "__heap_split_block"
+      },
       "ollydbg": {
         "args": "Arg1,Arg2",
-        "name": "3DMOVIE.004C6A98"
+        "name": "3DMOVIE.__heap_split_block"
       }
     },
     "004C6ADD": {
@@ -114700,9 +115660,12 @@
         "static": false,
         "type-info": true
       },
+      "manual-ollydbg": {
+        "name": "_free"
+      },
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.004C6ADD"
+        "name": "3DMOVIE._free"
       }
     },
     "004C6B45": {
@@ -115012,6 +115975,9 @@
         "static": false,
         "type-info": true
       },
+      "manual-ollydbg": {
+        "name": "__XcptFilter"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -115107,9 +116073,12 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "__setenvp"
+      },
       "ollydbg": {
         "args": "void",
-        "name": "3DMOVIE.004C72EE"
+        "name": "3DMOVIE.__setenvp"
       }
     },
     "004C73B9": {
@@ -115122,9 +116091,12 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "__setargv"
+      },
       "ollydbg": {
         "args": "void",
-        "name": "3DMOVIE.004C73B9"
+        "name": "3DMOVIE.__setargv"
       }
     },
     "004C744F": {
@@ -115235,6 +116207,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "__setmbcp"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -115259,9 +116234,12 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "__initmbctable"
+      },
       "ollydbg": {
         "args": "void",
-        "name": "3DMOVIE.004C7845"
+        "name": "3DMOVIE.__initmbctable"
       }
     },
     "004C7850": {
@@ -115274,9 +116252,12 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "__ioinit"
+      },
       "ollydbg": {
         "args": "void",
-        "name": "3DMOVIE.004C7850"
+        "name": "3DMOVIE.__ioinit"
       }
     },
     "004C793E": {
@@ -115299,9 +116280,12 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "__heap_init"
+      },
       "ollydbg": {
         "args": "void",
-        "name": "3DMOVIE.004C793E"
+        "name": "3DMOVIE.__heap_init"
       }
     },
     "004C7965": {
@@ -115345,9 +116329,12 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "___getempty"
+      },
       "ollydbg": {
         "args": "void",
-        "name": "3DMOVIE.004C79BB"
+        "name": "3DMOVIE.___getempty"
       }
     },
     "004C79E0": {
@@ -115370,9 +116357,12 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "__NMSG_WRITE"
+      },
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.004C79E0"
+        "name": "3DMOVIE.__NMSG_WRITE"
       }
     },
     "004C7A38": {
@@ -115395,9 +116385,12 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "__GET_RTERRMSG"
+      },
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.004C7A38"
+        "name": "3DMOVIE.__GET_RTERRMSG"
       }
     },
     "004C7A6D": {
@@ -116576,6 +117569,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "__heap_abort"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -116600,9 +117596,12 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "__heap_grow"
+      },
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.004C9CF2"
+        "name": "3DMOVIE.__heap_grow"
       }
     },
     "004C9D57": {
@@ -116649,9 +117648,12 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "__heap_grow_region"
+      },
       "ollydbg": {
         "args": "Arg1,Arg2",
-        "name": "3DMOVIE.004C9DDB"
+        "name": "3DMOVIE.__heap_grow_region"
       }
     },
     "004C9E88": {
@@ -116673,6 +117675,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "__heap_free_region"
       },
       "ollydbg": {
         "name": "unnamed"
@@ -116698,9 +117703,12 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "__heap_search"
+      },
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.004C9EC2"
+        "name": "3DMOVIE.__heap_search"
       }
     },
     "004C9FB2": {
@@ -116712,6 +117720,9 @@
         "returns": true,
         "static": false,
         "type-info": true
+      },
+      "manual-ollydbg": {
+        "name": "__control87"
       },
       "ollydbg": {
         "name": "unnamed"
@@ -116736,6 +117747,9 @@
         "returns": true,
         "static": false,
         "type-info": true
+      },
+      "manual-ollydbg": {
+        "name": "__controlfp"
       },
       "ollydbg": {
         "name": "unnamed"
@@ -116810,6 +117824,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "__fptrap"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -116823,6 +117840,9 @@
         "returns": true,
         "static": false,
         "type-info": true
+      },
+      "manual-ollydbg": {
+        "name": "__isctype"
       },
       "ollydbg": {
         "name": "unnamed"
@@ -116838,9 +117858,12 @@
         "static": false,
         "type-info": true
       },
+      "manual-ollydbg": {
+        "name": "_tolower"
+      },
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.004CA1AA"
+        "name": "3DMOVIE._tolower"
       }
     },
     "004CA276": {
@@ -116863,9 +117886,12 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "__ZeroTail"
+      },
       "ollydbg": {
         "args": "Arg1,Arg2",
-        "name": "3DMOVIE.004CA276"
+        "name": "3DMOVIE.__ZeroTail"
       }
     },
     "004CA2D6": {
@@ -116887,6 +117913,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "__IncMan"
       },
       "ollydbg": {
         "name": "unnamed"
@@ -116912,9 +117941,12 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "__RoundMan"
+      },
       "ollydbg": {
         "args": "Arg1,Arg2",
-        "name": "3DMOVIE.004CA337"
+        "name": "3DMOVIE.__RoundMan"
       }
     },
     "004CA3D4": {
@@ -116937,9 +117969,12 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "__CopyMan"
+      },
       "ollydbg": {
         "args": "Arg1,Arg2",
-        "name": "3DMOVIE.004CA3D4"
+        "name": "3DMOVIE.__CopyMan"
       }
     },
     "004CA3F1": {
@@ -116962,9 +117997,12 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "__FillZeroMan"
+      },
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.004CA3F1"
+        "name": "3DMOVIE.__FillZeroMan"
       }
     },
     "004CA3FD": {
@@ -116987,9 +118025,12 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "__IsZeroMan"
+      },
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.004CA3FD"
+        "name": "3DMOVIE.__IsZeroMan"
       }
     },
     "004CA41B": {
@@ -117012,9 +118053,12 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "__ShrMan"
+      },
       "ollydbg": {
         "args": "Arg1,Arg2",
-        "name": "3DMOVIE.004CA41B"
+        "name": "3DMOVIE.__ShrMan"
       }
     },
     "004CA4C6": {
@@ -117026,6 +118070,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "__ld12cvt"
       },
       "ollydbg": {
         "name": "unnamed"
@@ -117051,9 +118098,12 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "__ld12tod"
+      },
       "ollydbg": {
         "args": "Arg1,Arg2",
-        "name": "3DMOVIE.004CA662"
+        "name": "3DMOVIE.__ld12tod"
       }
     },
     "004CA678": {
@@ -117076,6 +118126,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "__ld12tof"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -117090,6 +118143,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "__atodbl"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -117103,6 +118159,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "__atoflt"
       },
       "ollydbg": {
         "name": "unnamed"
@@ -117128,9 +118187,12 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "__fptostr"
+      },
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
-        "name": "3DMOVIE.004CA6F0"
+        "name": "3DMOVIE.__fptostr"
       }
     },
     "004CA76E": {
@@ -117142,6 +118204,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "__fltout"
       },
       "ollydbg": {
         "name": "unnamed"
@@ -117167,9 +118232,12 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "___dtold"
+      },
       "ollydbg": {
         "args": "Arg1,Arg2",
-        "name": "3DMOVIE.004CA7D1"
+        "name": "3DMOVIE.___dtold"
       }
     },
     "004CA88A": {
@@ -117652,9 +118720,12 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "__heap_adblock"
+      },
       "ollydbg": {
         "args": "Arg1,Arg2",
-        "name": "3DMOVIE.004CB239"
+        "name": "3DMOVIE.__heap_adblock"
       }
     },
     "004CB487": {
@@ -117701,6 +118772,9 @@
         "returns": true,
         "static": false,
         "type-info": true
+      },
+      "manual-ollydbg": {
+        "name": "___crtGetStringTypeA"
       },
       "ollydbg": {
         "name": "unnamed"
@@ -117750,6 +118824,9 @@
         "static": false,
         "type-info": true
       },
+      "manual-ollydbg": {
+        "name": "___crtLCMapStringA"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -117774,9 +118851,12 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "___addl"
+      },
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
-        "name": "3DMOVIE.004CB8C6"
+        "name": "3DMOVIE.___addl"
       }
     },
     "004CB8E9": {
@@ -117799,9 +118879,12 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "___add_12"
+      },
       "ollydbg": {
         "args": "Arg1,Arg2",
-        "name": "3DMOVIE.004CB8E9"
+        "name": "3DMOVIE.___add_12"
       }
     },
     "004CB947": {
@@ -117824,9 +118907,12 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "___shl_12"
+      },
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.004CB947"
+        "name": "3DMOVIE.___shl_12"
       }
     },
     "004CB985": {
@@ -117849,9 +118935,12 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "___shr_12"
+      },
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.004CB985"
+        "name": "3DMOVIE.___shr_12"
       }
     },
     "004CB9B8": {
@@ -117874,9 +118963,12 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "___mtold12"
+      },
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
-        "name": "3DMOVIE.004CB9B8"
+        "name": "3DMOVIE.___mtold12"
       }
     },
     "004CBA9C": {
@@ -117889,9 +118981,12 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "___strgtold12"
+      },
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4,Arg5,Arg6,Arg7",
-        "name": "3DMOVIE.004CBA9C"
+        "name": "3DMOVIE.___strgtold12"
       }
     },
     "004CC0DB": {
@@ -117903,6 +118998,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "_$I10_OUTPUT"
       },
       "ollydbg": {
         "name": "unnamed"
@@ -118237,9 +119335,12 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "__heap_findaddr"
+      },
       "ollydbg": {
         "args": "Arg1,Arg2",
-        "name": "3DMOVIE.004CC890"
+        "name": "3DMOVIE.__heap_findaddr"
       }
     },
     "004CC8FA": {
@@ -118262,9 +119363,12 @@
         "static": false,
         "type-info": true
       },
+      "manual-ollydbg": {
+        "name": "_calloc"
+      },
       "ollydbg": {
         "args": "Arg1,Arg2",
-        "name": "3DMOVIE.004CC8FA"
+        "name": "3DMOVIE._calloc"
       }
     },
     "004CC934": {
@@ -118286,6 +119390,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "___set_invalid_mb_chars"
       }
     },
     "004CC964": {
@@ -118298,9 +119405,12 @@
         "static": false,
         "type-info": true
       },
+      "manual-ollydbg": {
+        "name": "_strncpy"
+      },
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
-        "name": "3DMOVIE.004CC964"
+        "name": "3DMOVIE._strncpy"
       }
     },
     "004CC988": {
@@ -118312,6 +119422,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "___ld12mul"
       },
       "ollydbg": {
         "name": "unnamed"
@@ -118337,9 +119450,12 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "___multtenpow12"
+      },
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
-        "name": "3DMOVIE.004CCBC8"
+        "name": "3DMOVIE.___multtenpow12"
       }
     },
     "004CCC3D": {
@@ -118936,6 +120052,9 @@
         "static": false,
         "type-info": true
       },
+      "manual-ollydbg": {
+        "name": "brender_malloc"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -119057,8 +120176,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "classTMAP::getID"
       }
     },
     "004CD2A0": {
@@ -119989,6 +121108,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "FopRead_BOUNDS"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -120087,6 +121209,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "BrModelLoadMany"
+      },
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
         "name": "3DMOVIE.BrModelLoadMany"
@@ -120130,6 +121255,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "BrModelSaveMany"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -120147,6 +121275,11 @@
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
         "name": "3DMOVIE.004CF4A6"
+      }
+    },
+    "004CF4C7": {
+      "manual-ollydbg": {
+        "name": "BrActorLoadMany"
       }
     },
     "004CF526": {
@@ -120187,6 +121320,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "BrMaterialLoadMany"
+      },
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
         "name": "3DMOVIE.BrMaterialLoadMany"
@@ -120216,6 +121352,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "BrMaterialSaveMany"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -120229,6 +121368,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "BrPixelmapLoadMany"
       },
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
@@ -120260,11 +121402,17 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "BrPixelmapSaveMany"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
     },
     "004CF927": {
+      "manual-ollydbg": {
+        "name": "BrModelLoad"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -120275,6 +121423,9 @@
       }
     },
     "004CF96E": {
+      "manual-ollydbg": {
+        "name": "BrMaterialLoad"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -120285,16 +121436,25 @@
       }
     },
     "004CF9B5": {
+      "manual-ollydbg": {
+        "name": "BrPixelmapLoad"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
     },
     "004CF9E1": {
+      "manual-ollydbg": {
+        "name": "BrPixelmapSave"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
     },
     "004CF9FC": {
+      "manual-ollydbg": {
+        "name": "BrActorLoad"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -120305,6 +121465,9 @@
       }
     },
     "004CFA50": {
+      "manual-ollydbg": {
+        "name": "BrScenePick3D"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -120318,6 +121481,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "DfPush"
       },
       "ollydbg": {
         "args": "void",
@@ -120334,6 +121500,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "DfPop"
+      },
       "ollydbg": {
         "args": "void",
         "name": "3DMOVIE.DfPop"
@@ -120349,6 +121518,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "DfTop"
+      },
       "ollydbg": {
         "args": "void",
         "name": "3DMOVIE.DfTop"
@@ -120363,6 +121535,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "DfTopType"
       },
       "ollydbg": {
         "args": "void",
@@ -120813,6 +121988,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "DfCountSizeText"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -120897,6 +122075,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "DfChunksInterpret"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -120939,6 +122120,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "DfOpen"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -120953,11 +122137,17 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "DfClose"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
     },
     "004D1CDF": {
+      "manual-ollydbg": {
+        "name": "BrWriteModeSet"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -121837,6 +123027,36 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      }
+    },
+    "004D57E4": {
+      "manual-ollydbg": {
+        "name": "MainWindowHDC"
+      }
+    },
+    "004D706C": {
+      "manual-ollydbg": {
+        "name": "ptr_to_buffer_bitmap"
+      }
+    },
+    "004D768C": {
+      "manual-ollydbg": {
+        "name": "ptr_to_zbuffer"
+      }
+    },
+    "004D7818": {
+      "manual-ollydbg": {
+        "name": "BrZbRenderBoundsCallbackPTR"
+      }
+    },
+    "004E3CB0": {
+      "manual-ollydbg": {
+        "name": "g_IsPalettedDevice"
+      }
+    },
+    "004E6C14": {
+      "manual-ollydbg": {
+        "name": "__FontFixed3x5"
       }
     }
   }

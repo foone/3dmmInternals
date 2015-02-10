@@ -1141,9 +1141,6 @@
         "returns": true,
         "static": false,
         "type-info": false
-      },
-      "ollydbg": {
-        "name": "unnamed"
       }
     },
     "00401F50": {
@@ -6654,8 +6651,8 @@
         "static": false,
         "type-info": false
       },
-      "ollydbg": {
-        "name": "unnamed"
+      "manual-ollydbg": {
+        "name": "class_APP::getID"
       }
     },
     "004075B0": {
@@ -12499,9 +12496,6 @@
         "returns": true,
         "static": false,
         "type-info": false
-      },
-      "ollydbg": {
-        "name": "unnamed"
       }
     },
     "00411840": {
@@ -12523,9 +12517,6 @@
         "returns": true,
         "static": false,
         "type-info": false
-      },
-      "ollydbg": {
-        "name": "unnamed"
       }
     },
     "00411850": {
@@ -12595,9 +12586,6 @@
         "returns": true,
         "static": false,
         "type-info": false
-      },
-      "ollydbg": {
-        "name": "unnamed"
       }
     },
     "004118B0": {
@@ -18081,9 +18069,12 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "MemoryCompare"
+      },
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
-        "name": "3DMOVIE.004193F0"
+        "name": "3DMOVIE.MemoryCompare"
       }
     },
     "00419430": {
@@ -20761,9 +20752,12 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "pstring_sprintf"
+      },
       "ollydbg": {
         "args": "Arg1,Format...",
-        "name": "3DMOVIE.0041B380"
+        "name": "3DMOVIE.pstring_sprintf"
       }
     },
     "0041B3A0": {
@@ -41704,9 +41698,12 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class_FNI::constructor"
+      },
       "ollydbg": {
         "args": "void",
-        "name": "3DMOVIE.0043DD80"
+        "name": "3DMOVIE.class_FNI::constructor"
       }
     },
     "0043DD90": {
@@ -41729,9 +41726,12 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class_FNI::metaconstructor"
+      },
       "ollydbg": {
         "args": "void",
-        "name": "3DMOVIE.0043DD90"
+        "name": "3DMOVIE.class_FNI::metaconstructor"
       }
     },
     "0043DDC0": {
@@ -41978,9 +41978,12 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class_FNI::extractBasename"
+      },
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.0043E3C0"
+        "name": "3DMOVIE.class_FNI::extractBasename"
       }
     },
     "0043E400": {
@@ -42028,9 +42031,12 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class_FNI::getFileStatus"
+      },
       "ollydbg": {
         "args": "void",
-        "name": "3DMOVIE.0043E410"
+        "name": "3DMOVIE.class_FNI::getFileStatus"
       }
     },
     "0043E510": {
@@ -42276,9 +42282,12 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class_FNI::addPathToDirectory"
+      },
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.0043E950"
+        "name": "3DMOVIE.class_FNI::addPathToDirectory"
       }
     },
     "0043E9D0": {
@@ -86162,9 +86171,12 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classBWLD::render"
+      },
       "ollydbg": {
         "args": "void",
-        "name": "3DMOVIE.00474590"
+        "name": "3DMOVIE.classBWLD::render"
       }
     },
     "00474670": {
@@ -86236,7 +86248,7 @@
         "type-info": false
       },
       "manual-ollydbg": {
-        "name": "background_drawing"
+        "name": "classBWLD::renderBackground"
       },
       "ollydbg": {
         "name": "unnamed"
@@ -98102,9 +98114,12 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "LoadAVI"
+      },
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
-        "name": "3DMOVIE.004A7870"
+        "name": "3DMOVIE.LoadAVI"
       }
     },
     "004A7A70": {
@@ -98127,9 +98142,12 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "DisplayAVILoadingError"
+      },
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.004A7A70"
+        "name": "3DMOVIE.DisplayAVILoadingError"
       }
     },
     "004A7AD0": {
@@ -104860,10 +104878,6 @@
         "returns": true,
         "static": false,
         "type-info": false
-      },
-      "ollydbg": {
-        "args": "Arg1,Arg2,Arg3",
-        "name": "3DMOVIE.004B2900"
       }
     },
     "004B2950": {

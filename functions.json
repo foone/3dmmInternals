@@ -6577,9 +6577,12 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class_APP::static_constructor"
+      },
       "ollydbg": {
         "args": "void",
-        "name": "3DMOVIE.004074D0"
+        "name": "3DMOVIE.class_APP::static_constructor"
       }
     },
     "00407570": {
@@ -17596,11 +17599,11 @@
         "type-info": false
       },
       "manual-ollydbg": {
-        "name": "BaseClass:new"
+        "name": "classBASE::constructor"
       },
       "ollydbg": {
         "args": "void",
-        "name": "3DMOVIE.BaseClass:new"
+        "name": "3DMOVIE.classBASE::constructor"
       }
     },
     "00419100": {
@@ -21347,6 +21350,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classAPPB::constructor"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -23223,10 +23229,6 @@
         "returns": true,
         "static": false,
         "type-info": false
-      },
-      "ollydbg": {
-        "args": "Arg1",
-        "name": "3DMOVIE.0041DD80"
       }
     },
     "0041DDA0": {
@@ -23738,9 +23740,12 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class_CMH::constructor"
+      },
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.0041E300"
+        "name": "3DMOVIE.class_CMH::constructor"
       }
     },
     "0041E320": {
@@ -30109,9 +30114,12 @@
         "static": false,
         "type-info": true
       },
+      "manual-ollydbg": {
+        "name": "class_APP::HandleMessage"
+      },
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4,Arg5",
-        "name": "3DMOVIE.00428660"
+        "name": "3DMOVIE.class_APP::HandleMessage"
       }
     },
     "00428E30": {
@@ -30184,6 +30192,9 @@
         "returns": true,
         "static": false,
         "type-info": true
+      },
+      "manual-ollydbg": {
+        "name": "class_APP::HandleMessage2"
       },
       "ollydbg": {
         "name": "unnamed"
@@ -102208,11 +102219,11 @@
         "type-info": false
       },
       "manual-ollydbg": {
-        "name": "LoadSceneLights"
+        "name": "classBKGD::LoadSceneLights"
       },
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.LoadSceneLights"
+        "name": "3DMOVIE.classBKGD::LoadSceneLights"
       }
     },
     "004AF520": {
@@ -123041,6 +123052,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      }
+    },
+    "004D5568": {
+      "manual-ollydbg": {
+        "name": "global_app_pointer"
       }
     },
     "004D57E4": {

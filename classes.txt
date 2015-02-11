@@ -93,7 +93,16 @@ KCDC constructor at 00418F30 doesn't match the pattern!
 class ' APP' (vtable at 004DE1A8) static at 4D4120
  8C: pointer to stio
 
-wndproc handler at vtable+54
+methods:
+	0041C4A0
+	0041C550
+	00428660
+	00428F90
+	
+	
+vtable:
+	+100: 0041C550
+  +054: wndproc handler
 
 
 class 'stio': (vtable at 004DE3C8, and 004DF198) constructor at 0040E640 
@@ -225,3 +234,36 @@ class 'REGN' (vtable at 004DF248) regions?
 method:
 	004262A0
 	00426BC0
+
+
+class ' GOB' (vtable at 004DF198)
+methods:
+	00424AF0
+	
+class 'HBAL' (vtable at 004E0BB8)
+methods:
+	00422EE0
+	
+class ' GOK' (vtable at 004E0DF0)
+	+D4: menu pointer (0=no menu, or pointer to menu object?)
+methods:
+	0045D150 enable/disable popup menus? 3 arguments.
+	  argument 1: some id?
+		argument 2: ?
+		argument 3: -1 when hiding menus, 1/21h/22h otherwise
+
+class '  GL' (vtable at 004DF318)
+	+10:
+	+20: 
+	+24:
+methods:
+	0042D570 returns an integer, 1 argument
+	0042DA80 returns a 0/1 integer, 1 argument
+
+class 'SCEG' (vtable at 004E1078)
+	+10(4): pointer (to other class, of type __GL)
+	+24(1): tested against 1
+methods:
+	00447D20
+	00447DC0
+	

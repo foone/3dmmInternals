@@ -86,6 +86,20 @@ if __name__=='__main__':
 		fpo=json.load(f)
 		for address in fpo:
 			functions[cleanAddress(address)]['fpo']=fpo[address]
-				
+
+
+	with open('prototypes.json','rb') as f:
+		prototypes={}
+		for name,function_prototype in json.load(f).items():
+			prototypes[name.strip().lower()]=function_prototype
+
+		for address,func in functions.items():
+
+			names=[func[key]['name'].strip().lower() for key in func if 'name' in func[key]]
+			for name in names:
+				proto = prototypes.get(name)
+				if proto:
+					func['prototype']=proto
+
 	with open('../functions.json','wb') as jf:
 		jf.write(lintJSON({'functions':functions}))

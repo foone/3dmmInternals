@@ -5,7 +5,7 @@ PROTO_RE = re.compile(r'\s(BR_PUBLIC_ENTRY|BR_ASM_CALL|__far)')
 
 protos={}
 
-for hfile in glob.glob('include/fwproto.h'):
+for hfile in glob.glob('include/*.h'):
 	with open(hfile,'r') as f:
 		data=f.read()
 		data=re.sub(r'(\/\*(?:.*?)\*\/)','',data,flags=re.DOTALL)

@@ -87331,6 +87331,11 @@
       "ollydbg": {
         "args": "Arg1",
         "name": "3DMOVIE.BrLightEnable"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 344,
+        "prototype": "void BrLightEnable(br_actor *l);"
       }
     },
     "00476966": {
@@ -87349,6 +87354,11 @@
       "ollydbg": {
         "args": "Arg1",
         "name": "3DMOVIE.BrLightDisable"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 345,
+        "prototype": "void BrLightDisable(br_actor *l);"
       }
     },
     "00476992": {
@@ -87391,6 +87401,11 @@
       "ollydbg": {
         "args": "Arg1,Arg2",
         "name": "3DMOVIE.BrMatrix34Copy"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 355,
+        "prototype": "void BrMatrix34Copy(br_matrix34 *A, br_matrix34 *b);"
       }
     },
     "00476AC4": {
@@ -87409,6 +87424,11 @@
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
         "name": "3DMOVIE.BrMatrix34Mul"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 356,
+        "prototype": "void BrMatrix34Mul(br_matrix34 *A, br_matrix34 *B, br_matrix34 *C);"
       }
     },
     "00476E2F": {
@@ -87427,6 +87447,11 @@
       "ollydbg": {
         "args": "Arg1",
         "name": "3DMOVIE.BrMatrix34Identity"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 360,
+        "prototype": "void BrMatrix34Identity(br_matrix34 *mat);"
       }
     },
     "00476E8B": {
@@ -87505,6 +87530,11 @@
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4",
         "name": "3DMOVIE.BrMatrix34Translate"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 378,
+        "prototype": "void BrMatrix34Translate(br_matrix34 *mat, br_scalar x, br_scalar y, br_scalar z);"
       }
     },
     "0047718C": {
@@ -87523,6 +87553,11 @@
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4",
         "name": "3DMOVIE.BrMatrix34Scale"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 382,
+        "prototype": "void BrMatrix34Scale(br_matrix34 *mat, br_scalar sx, br_scalar sy, br_scalar sz);"
       }
     },
     "004771E4": {
@@ -87541,6 +87576,11 @@
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
         "name": "3DMOVIE.BrMatrix34ShearX"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 386,
+        "prototype": "void BrMatrix34ShearX(br_matrix34 *mat, br_scalar sy, br_scalar sz);"
       }
     },
     "0047723F": {
@@ -87559,6 +87599,11 @@
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
         "name": "3DMOVIE.BrMatrix34ShearY"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 390,
+        "prototype": "void BrMatrix34ShearY(br_matrix34 *mat, br_scalar sx, br_scalar sz);"
       }
     },
     "0047729A": {
@@ -87577,6 +87622,11 @@
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
         "name": "3DMOVIE.BrMatrix34ShearZ"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 394,
+        "prototype": "void BrMatrix34ShearZ(br_matrix34 *mat, br_scalar sx, br_scalar sy);"
       }
     },
     "004772F5": {
@@ -87595,6 +87645,11 @@
       "ollydbg": {
         "args": "Arg1,Arg2",
         "name": "3DMOVIE.BrMatrix34Inverse"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 406,
+        "prototype": "br_scalar BrMatrix34Inverse(br_matrix34 *out, br_matrix34 *in);"
       }
     },
     "00477741": {
@@ -87646,6 +87701,11 @@
       "ollydbg": {
         "args": "Arg1,Arg2",
         "name": "3DMOVIE.BrMatrix34Copy4"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 438,
+        "prototype": "void BrMatrix34Copy4(br_matrix34 *A, br_matrix4 *B);"
       }
     },
     "00477BCD": {
@@ -87683,6 +87743,11 @@
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
         "name": "3DMOVIE.BrMatrix34ApplyP"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 399,
+        "prototype": "void BrMatrix34ApplyP(br_vector3 *A, br_vector3 *B, br_matrix34 *C);"
       }
     },
     "00477E85": {
@@ -87866,6 +87931,11 @@
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4",
         "name": "3DMOVIE.BrMatrix34PreTranslate"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 379,
+        "prototype": "void BrMatrix34PreTranslate(br_matrix34 *mat, br_scalar x, br_scalar y, br_scalar z);"
       }
     },
     "0047851D": {
@@ -87884,6 +87954,11 @@
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4",
         "name": "3DMOVIE.BrMatrix34PostTranslate"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 380,
+        "prototype": "void BrMatrix34PostTranslate(br_matrix34 *mat, br_scalar x, br_scalar y, br_scalar z);"
       }
     },
     "00478568": {
@@ -87960,6 +88035,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 395,
+        "prototype": "void BrMatrix34PreShearZ(br_matrix34 *mat, br_scalar sx, br_scalar sy);"
       }
     },
     "00478752": {
@@ -87978,6 +88058,11 @@
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
         "name": "3DMOVIE.BrMatrix34PostShearZ"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 396,
+        "prototype": "void BrMatrix34PostShearZ(br_matrix34 *mat, br_scalar sx, br_scalar sy);"
       }
     },
     "004787A0": {
@@ -87986,6 +88071,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 272,
+        "prototype": "br_uint_32 BrActorEnum(br_actor *parent, br_actor_enum_cbfn *callback , void *arg);"
       }
     },
     "004787CB": {
@@ -88004,6 +88094,11 @@
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4",
         "name": "3DMOVIE.BrActorSearchMany"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 283,
+        "prototype": "br_uint_32 BrActorSearchMany(br_actor *root, char *pattern, br_actor **actors, int max);"
       }
     },
     "00478867": {
@@ -88012,6 +88107,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 284,
+        "prototype": "br_actor * BrActorSearch(br_actor *root, char *pattern);"
       }
     },
     "00478897": {
@@ -88044,6 +88144,11 @@
       "ollydbg": {
         "args": "Arg1,Arg2",
         "name": "3DMOVIE.BrActorAdd"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 274,
+        "prototype": "br_actor * BrActorAdd(br_actor *parent, br_actor *a);"
       }
     },
     "0047892F": {
@@ -88062,6 +88167,11 @@
       "ollydbg": {
         "args": "Arg1",
         "name": "3DMOVIE.BrActorRemove"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 275,
+        "prototype": "br_actor * BrActorRemove(br_actor *a);"
       }
     },
     "00478987": {
@@ -88070,6 +88180,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 276,
+        "prototype": "void BrActorRelink(br_actor *parent, br_actor *actor);"
       }
     },
     "00478A0B": {
@@ -88088,6 +88203,11 @@
       "ollydbg": {
         "args": "Arg1,Arg2",
         "name": "3DMOVIE.BrActorAllocate"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 280,
+        "prototype": "br_actor * BrActorAllocate(br_uint_8 actor_type, void * type_data);"
       }
     },
     "00478B22": {
@@ -88176,6 +88296,11 @@
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
         "name": "3DMOVIE.BrActorToActorMatrix34"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 277,
+        "prototype": "br_uint_8 BrActorToActorMatrix34(br_matrix34 *m, br_actor *a, br_actor *b);"
       }
     },
     "00478F8D": {
@@ -88244,6 +88369,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 287,
+        "prototype": "br_matrix34 * BrBoundsToMatrix34( br_matrix34 *mat, br_bounds *bounds);"
       }
     },
     "004792B0": {
@@ -88261,6 +88391,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 172,
+        "prototype": "void BrBegin(void);"
       }
     },
     "004793B4": {
@@ -88278,6 +88413,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 173,
+        "prototype": "void BrEnd(void);"
       }
     },
     "004793D7": {
@@ -88286,6 +88426,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 628,
+        "prototype": "br_errorhandler * BrErrorHandlerSet(br_errorhandler *neweh);"
       }
     },
     "004793F6": {
@@ -88294,6 +88439,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 629,
+        "prototype": "br_filesystem * BrFilesystemSet(br_filesystem *newfs);"
       }
     },
     "00479415": {
@@ -88302,6 +88452,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 630,
+        "prototype": "br_allocator * BrAllocatorSet(br_allocator *newal);"
       }
     },
     "00479440": {
@@ -88349,6 +88504,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 574,
+        "prototype": "int BrScenePick2D( br_actor *world, br_actor *camera, br_pixelmap *viewport, int pick_x, int pick_y, br_pick2d_cbfn *callback, void *arg );"
       }
     },
     "0047983B": {
@@ -88386,6 +88546,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 606,
+        "prototype": "void BrSceneModelLight(br_model *model, br_material *default_material, br_actor *root, br_actor *a);"
       }
     },
     "00479B47": {
@@ -88540,6 +88705,11 @@
       "ollydbg": {
         "args": "Arg1,Arg2",
         "name": "3DMOVIE.BrMatrix4Copy"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 413,
+        "prototype": "void BrMatrix4Copy(br_matrix4 *A, br_matrix4 *B);"
       }
     },
     "0047B4DC": {
@@ -88558,6 +88728,11 @@
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
         "name": "3DMOVIE.BrMatrix4Mul"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 414,
+        "prototype": "void BrMatrix4Mul(br_matrix4 *A, br_matrix4 *B, br_matrix4 *C);"
       }
     },
     "0047B92C": {
@@ -88566,6 +88741,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 415,
+        "prototype": "void BrMatrix4Identity(br_matrix4 *mat);"
       }
     },
     "0047B9A4": {
@@ -88574,6 +88754,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 416,
+        "prototype": "void BrMatrix4Scale(br_matrix4 *mat, br_scalar sx, br_scalar sy, br_scalar sz);"
       }
     },
     "0047BA18": {
@@ -88591,6 +88776,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 418,
+        "prototype": "br_scalar BrMatrix4Inverse(br_matrix4 *A, br_matrix4 *B);"
       }
     },
     "0047BA9C": {
@@ -88624,6 +88814,11 @@
       "ollydbg": {
         "args": "Arg1",
         "name": "3DMOVIE.BrMatrix4Determinant"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 420,
+        "prototype": "br_scalar BrMatrix4Determinant(br_matrix4 *mat);"
       }
     },
     "0047BC97": {
@@ -88656,6 +88851,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 422,
+        "prototype": "void BrMatrix4Perspective(br_matrix4 *mat, br_angle field_of_view, br_scalar aspect, br_scalar hither, br_scalar yon);"
       }
     },
     "0047C0B6": {
@@ -88724,6 +88924,11 @@
       "ollydbg": {
         "args": "Arg1,Arg2",
         "name": "3DMOVIE.BrMatrix4Copy34"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 437,
+        "prototype": "void BrMatrix4Copy34(br_matrix4 *A, br_matrix34 *B);"
       }
     },
     "0047C84A": {
@@ -88742,6 +88947,11 @@
       "ollydbg": {
         "args": "Arg1,Arg2",
         "name": "3DMOVIE.BrMatrix4Pre34"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 436,
+        "prototype": "void BrMatrix4Pre34(br_matrix4 *A, br_matrix34 *B);"
       }
     },
     "0047CC50": {
@@ -89011,6 +89221,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 621,
+        "prototype": "void BrError(char *s, ...);"
       }
     },
     "0047E390": {
@@ -89207,6 +89422,11 @@
       "ollydbg": {
         "args": "Arg1,Arg2",
         "name": "3DMOVIE.BrTransformToMatrix34"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 515,
+        "prototype": "void BrTransformToMatrix34(br_matrix34 *mat, br_transform *xform);"
       }
     },
     "0047E838": {
@@ -89254,6 +89474,11 @@
       "ollydbg": {
         "args": "Arg1,Arg2",
         "name": "3DMOVIE.BrMatrix4PreTransform"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 521,
+        "prototype": "void BrMatrix4PreTransform(br_matrix4 *mat, br_transform *xform);"
       }
     },
     "0047E8F0": {
@@ -89272,6 +89497,11 @@
       "ollydbg": {
         "args": "Arg1,Arg2",
         "name": "3DMOVIE.BrMatrix34ToTransform"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 516,
+        "prototype": "void BrMatrix34ToTransform(br_transform *xform, br_matrix34 *mat);"
       }
     },
     "0047E9E0": {
@@ -89502,6 +89732,11 @@
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
         "name": "3DMOVIE.BrResAllocate"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 664,
+        "prototype": "void * BrResAllocate(void *vparent, br_size_t size, int res_class);"
       }
     },
     "0047EEAC": {
@@ -89534,6 +89769,11 @@
       "ollydbg": {
         "args": "Arg1",
         "name": "3DMOVIE.BrResFree"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 665,
+        "prototype": "void BrResFree(void *vres);"
       }
     },
     "0047EF53": {
@@ -89629,6 +89869,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 666,
+        "prototype": "char * BrResStrDup(void *vparent, char *str);"
       }
     },
     "0047F140": {
@@ -89646,6 +89891,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 197,
+        "prototype": "br_model * BrModelAdd(br_model *model);"
       }
     },
     "0047F174": {
@@ -89664,6 +89914,11 @@
       "ollydbg": {
         "args": "Arg1",
         "name": "3DMOVIE.BrModelRemove"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 198,
+        "prototype": "br_model * BrModelRemove(br_model *model);"
       }
     },
     "0047F18C": {
@@ -89681,6 +89936,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 199,
+        "prototype": "br_model * BrModelFind(char *pattern);"
       }
     },
     "0047F1A0": {
@@ -89689,6 +89949,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 201,
+        "prototype": "br_model_find_cbfn * BrModelFindHook(br_model_find_cbfn *hook);"
       }
     },
     "0047F1B4": {
@@ -89697,6 +89962,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 202,
+        "prototype": "br_uint_32 BrModelAddMany(br_model **items, int n);"
       }
     },
     "0047F210": {
@@ -89705,6 +89975,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 203,
+        "prototype": "br_uint_32 BrModelRemoveMany(br_model **items, int n);"
       }
     },
     "0047F254": {
@@ -89713,6 +89988,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 204,
+        "prototype": "br_uint_32 BrModelFindMany(char *pattern, br_model **items, int max);"
       }
     },
     "0047F273": {
@@ -89730,6 +90010,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 205,
+        "prototype": "br_uint_32 BrModelCount(char *pattern);"
       }
     },
     "0047F287": {
@@ -89748,6 +90033,11 @@
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
         "name": "3DMOVIE.BrModelEnum"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 209,
+        "prototype": "br_uint_32 BrModelEnum(char *pattern, br_model_enum_cbfn *callback, void *arg);"
       }
     },
     "0047F2A6": {
@@ -89766,6 +90056,11 @@
       "ollydbg": {
         "args": "Arg1",
         "name": "3DMOVIE.BrMaterialAdd"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 177,
+        "prototype": "br_material * BrMaterialAdd(br_material *material);"
       }
     },
     "0047F2D6": {
@@ -89784,6 +90079,11 @@
       "ollydbg": {
         "args": "Arg1",
         "name": "3DMOVIE.BrMaterialRemove"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 178,
+        "prototype": "br_material * BrMaterialRemove(br_material *material);"
       }
     },
     "0047F2EE": {
@@ -89801,6 +90101,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 179,
+        "prototype": "br_material * BrMaterialFind(char *pattern);"
       }
     },
     "0047F302": {
@@ -89809,6 +90114,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 181,
+        "prototype": "br_material_find_cbfn * BrMaterialFindHook(br_material_find_cbfn *hook);"
       }
     },
     "0047F316": {
@@ -89817,6 +90127,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 182,
+        "prototype": "br_uint_32 BrMaterialAddMany(br_material **items, int n);"
       }
     },
     "0047F376": {
@@ -89825,6 +90140,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 183,
+        "prototype": "br_uint_32 BrMaterialRemoveMany(br_material **items, int n);"
       }
     },
     "0047F3BA": {
@@ -89833,6 +90153,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 184,
+        "prototype": "br_uint_32 BrMaterialFindMany(char *pattern, br_material **items, int max);"
       }
     },
     "0047F3D9": {
@@ -89850,6 +90175,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 185,
+        "prototype": "br_uint_32 BrMaterialCount(char *pattern);"
       }
     },
     "0047F3ED": {
@@ -89868,6 +90198,11 @@
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
         "name": "3DMOVIE.BrMaterialEnum"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 188,
+        "prototype": "br_uint_32 BrMaterialEnum(char *pattern, br_material_enum_cbfn *callback, void *arg);"
       }
     },
     "0047F40C": {
@@ -89876,6 +90211,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 220,
+        "prototype": "br_pixelmap * BrMapAdd(br_pixelmap *pixelmap);"
       }
     },
     "0047F420": {
@@ -89884,6 +90224,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 221,
+        "prototype": "br_pixelmap * BrMapRemove(br_pixelmap *pixelmap);"
       }
     },
     "0047F434": {
@@ -89901,6 +90246,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 222,
+        "prototype": "br_pixelmap * BrMapFind(char *pattern);"
       }
     },
     "0047F448": {
@@ -89909,6 +90259,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 224,
+        "prototype": "br_map_find_cbfn * BrMapFindHook(br_map_find_cbfn *hook);"
       }
     },
     "0047F45C": {
@@ -89917,6 +90272,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 225,
+        "prototype": "br_uint_32 BrMapAddMany(br_pixelmap **items, int n);"
       }
     },
     "0047F478": {
@@ -89925,6 +90285,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 226,
+        "prototype": "br_uint_32 BrMapRemoveMany(br_pixelmap **items, int n);"
       }
     },
     "0047F494": {
@@ -89933,6 +90298,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 227,
+        "prototype": "br_uint_32 BrMapFindMany(char *pattern, br_pixelmap **items, int max);"
       }
     },
     "0047F4B3": {
@@ -89941,6 +90311,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 228,
+        "prototype": "br_uint_32 BrMapCount(char *pattern);"
       }
     },
     "0047F4C7": {
@@ -89949,6 +90324,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 231,
+        "prototype": "br_uint_32 BrMapEnum(char *pattern, br_map_enum_cbfn *callback, void *arg);"
       }
     },
     "0047F4E6": {
@@ -89957,6 +90337,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 237,
+        "prototype": "br_pixelmap * BrTableAdd(br_pixelmap *pixelmap);"
       }
     },
     "0047F4FA": {
@@ -89965,6 +90350,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 238,
+        "prototype": "br_pixelmap * BrTableRemove(br_pixelmap *pixelmap);"
       }
     },
     "0047F50E": {
@@ -89982,6 +90372,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 239,
+        "prototype": "br_pixelmap * BrTableFind(char *pattern);"
       }
     },
     "0047F522": {
@@ -89998,11 +90393,21 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 242,
+        "prototype": "br_uint_32 BrTableAddMany(br_pixelmap **items, int n);"
       }
     },
     "0047F550": {
       "manual-ollydbg": {
         "name": "BrTableRemoveMany"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 243,
+        "prototype": "br_uint_32 BrTableRemoveMany(br_pixelmap **items, int n);"
       }
     },
     "0047F552": {
@@ -90016,6 +90421,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 244,
+        "prototype": "br_uint_32 BrTableFindMany(char *pattern, br_pixelmap **items, int max);"
       }
     },
     "0047F58D": {
@@ -90024,6 +90434,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 245,
+        "prototype": "br_uint_32 BrTableCount(char *pattern);"
       }
     },
     "0047F5A1": {
@@ -90032,6 +90447,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 249,
+        "prototype": "br_uint_32 BrTableEnum(char *pattern, br_table_enum_cbfn *callback, void *arg);"
       }
     },
     "0047F5C0": {
@@ -90049,6 +90469,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 255,
+        "prototype": "br_resource_class * BrResClassAdd(br_resource_class *pixelmap);"
       }
     },
     "0047F5F3": {
@@ -90057,6 +90482,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 256,
+        "prototype": "br_resource_class * BrResClassRemove(br_resource_class *pixelmap);"
       }
     },
     "0047F623": {
@@ -90065,6 +90495,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 257,
+        "prototype": "br_resource_class * BrResClassFind(char *pattern);"
       }
     },
     "0047F637": {
@@ -90081,6 +90516,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 260,
+        "prototype": "br_uint_32 BrResClassAddMany(br_resource_class **items, int n);"
       }
     },
     "0047F69E": {
@@ -90089,6 +90529,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 261,
+        "prototype": "br_uint_32 BrResClassRemoveMany(br_resource_class **items, int n);"
       }
     },
     "0047F6F6": {
@@ -90097,6 +90542,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 262,
+        "prototype": "br_uint_32 BrResClassFindMany(char *pattern, br_resource_class **items, int max);"
       }
     },
     "0047F715": {
@@ -90105,6 +90555,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 263,
+        "prototype": "br_uint_32 BrResClassCount(char *pattern);"
       }
     },
     "0047F729": {
@@ -90113,6 +90568,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 267,
+        "prototype": "br_uint_32 BrResClassEnum(char *pattern, br_resclass_enum_cbfn *callback, void *arg);"
       }
     },
     "0047F75C": {
@@ -90121,6 +90581,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 213,
+        "prototype": "void BrModelApplyMap(br_model *model, int map_type, br_matrix34 *xform);"
       }
     },
     "0047F928": {
@@ -90143,6 +90608,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 217,
+        "prototype": "void BrModelFree(br_model *m);"
       }
     },
     "0047FB0C": {
@@ -90161,6 +90631,11 @@
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
         "name": "3DMOVIE.BrModelAllocate"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 216,
+        "prototype": "br_model * BrModelAllocate(char *name, int nvertices, int nfaces);"
       }
     },
     "0047FB88": {
@@ -90179,6 +90654,11 @@
       "ollydbg": {
         "args": "Arg1",
         "name": "3DMOVIE.BrMaterialAllocate"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 193,
+        "prototype": "br_material * BrMaterialAllocate(char *name);"
       }
     },
     "0047FBDC": {
@@ -90197,6 +90677,11 @@
       "ollydbg": {
         "args": "Arg1",
         "name": "3DMOVIE.BrMaterialFree"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 194,
+        "prototype": "void BrMaterialFree(br_material *m);"
       }
     },
     "0047FC08": {
@@ -90631,6 +91116,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 633,
+        "prototype": "br_uint_32 BrFileAttributes(void);"
       }
     },
     "0048293C": {
@@ -90678,6 +91168,11 @@
       "ollydbg": {
         "args": "Arg1",
         "name": "3DMOVIE.BrFileClose"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 640,
+        "prototype": "void BrFileClose(void *f);"
       }
     },
     "00482A24": {
@@ -90696,6 +91191,11 @@
       "ollydbg": {
         "args": "Arg1",
         "name": "3DMOVIE.BrFileEof"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 641,
+        "prototype": "int BrFileEof(void *f);"
       }
     },
     "00482A40": {
@@ -90714,6 +91214,11 @@
       "ollydbg": {
         "args": "Arg1",
         "name": "3DMOVIE.BrFileGetChar"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 642,
+        "prototype": "int BrFileGetChar(void *f);"
       }
     },
     "00482A5C": {
@@ -90732,6 +91237,11 @@
       "ollydbg": {
         "args": "Arg1,Arg2",
         "name": "3DMOVIE.BrFilePutChar"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 643,
+        "prototype": "void BrFilePutChar(int c, void *f);"
       }
     },
     "00482A7C": {
@@ -90750,6 +91260,11 @@
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4",
         "name": "3DMOVIE.BrFileRead"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 644,
+        "prototype": "int BrFileRead(void *buf, int size, int n, void *f);"
       }
     },
     "00482AA8": {
@@ -90768,6 +91283,11 @@
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4",
         "name": "3DMOVIE.BrFileWrite"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 645,
+        "prototype": "int BrFileWrite(void *buf, int size, int n, void *f);"
       }
     },
     "00482AD4": {
@@ -90786,6 +91306,11 @@
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
         "name": "3DMOVIE.BrFileGetLine"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 646,
+        "prototype": "int BrFileGetLine(char *buf, br_size_t buf_len, void * f);"
       }
     },
     "00482AFB": {
@@ -90794,6 +91319,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 647,
+        "prototype": "void BrFilePutLine(char *buf, void * f);"
       }
     },
     "00482B1B": {
@@ -90812,6 +91342,11 @@
       "ollydbg": {
         "args": "Arg1,Arg2",
         "name": "3DMOVIE.BrFileAdvance"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 648,
+        "prototype": "void BrFileAdvance(long int count, void *f);"
       }
     },
     "00482B3B": {
@@ -90830,6 +91365,11 @@
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
         "name": "3DMOVIE.BrFilePrintf"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 650,
+        "prototype": "int BrFilePrintf(void *f, char *fmt, ...);"
       }
     },
     "00482B80": {
@@ -90848,6 +91388,11 @@
       "ollydbg": {
         "args": "Arg1,Arg2",
         "name": "3DMOVIE.BrQuatToMatrix34"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 499,
+        "prototype": "br_matrix34 * BrQuatToMatrix34(br_matrix34 *mat, br_quat *q);"
       }
     },
     "00482EA4": {
@@ -90866,6 +91411,11 @@
       "ollydbg": {
         "args": "Arg1,Arg2",
         "name": "3DMOVIE.BrMatrix34ToQuat"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 500,
+        "prototype": "br_quat * BrMatrix34ToQuat(br_quat *q, br_matrix34 *mat);"
       }
     },
     "00483103": {
@@ -90874,6 +91424,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 502,
+        "prototype": "br_matrix4 * BrQuatToMatrix4(br_matrix4 *mat, br_quat *q);"
       }
     },
     "00483133": {
@@ -90882,6 +91437,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 503,
+        "prototype": "br_quat * BrMatrix4ToQuat(br_quat *q, br_matrix4 *mat);"
       }
     },
     "00483162": {
@@ -91022,6 +91582,11 @@
       "ollydbg": {
         "args": "Arg1,Arg2",
         "name": "3DMOVIE.BrMaterialUpdate"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 191,
+        "prototype": "void BrMaterialUpdate(br_material *material, br_uint_16 flags);"
       }
     },
     "00483C40": {
@@ -91314,6 +91879,11 @@
       "ollydbg": {
         "args": "Arg1,Arg2",
         "name": "3DMOVIE.BrModelUpdate"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 212,
+        "prototype": "void BrModelUpdate(br_model *model, br_uint_16 flags);"
       }
     },
     "00485470": {
@@ -91474,6 +92044,11 @@
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4,Arg5",
         "name": "3DMOVIE.BrPixelmapAllocate"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 290,
+        "prototype": "br_pixelmap * BrPixelmapAllocate(br_uint_8 type, br_uint_16 w, br_uint_16 h, void *pixels, int flags);"
       }
     },
     "00486728": {
@@ -91482,6 +92057,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 291,
+        "prototype": "br_pixelmap * BrPixelmapAllocateSub(br_pixelmap *pm, br_uint_16 x, br_uint_16 y, br_uint_16 w, br_uint_16 h);"
       }
     },
     "004867F0": {
@@ -91518,6 +92098,11 @@
       "ollydbg": {
         "args": "Arg1",
         "name": "3DMOVIE.BrPixelmapPixelSize"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 299,
+        "prototype": "br_uint_16 BrPixelmapPixelSize(br_pixelmap *pm);"
       }
     },
     "0048681E": {
@@ -91536,6 +92121,11 @@
       "ollydbg": {
         "args": "Arg1",
         "name": "3DMOVIE.BrPixelmapChannels"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 300,
+        "prototype": "br_uint_16 BrPixelmapChannels(br_pixelmap *pm);"
       }
     },
     "00486840": {
@@ -91733,6 +92323,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 313,
+        "prototype": "void BrPixelmapLine(br_pixelmap *dst, br_int_16 x1, br_int_16 y1, br_int_16 x2, br_int_16 y2, br_uint_32 colour);"
       }
     },
     "0048785C": {
@@ -91741,6 +92336,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 320,
+        "prototype": "br_pixelmap * BrPixelmapDoubleBuffer(br_pixelmap *dst, br_pixelmap *src);"
       }
     },
     "00487888": {
@@ -91758,6 +92358,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 314,
+        "prototype": "void BrPixelmapText(br_pixelmap *dst, br_int_16 x, br_int_16 y, br_uint_32 colour, br_font *font, char *text);"
       }
     },
     "00487B23": {
@@ -91766,6 +92371,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 315,
+        "prototype": "void BrPixelmapTextF(br_pixelmap *dst, br_int_16 x, br_int_16 y, br_uint_32 colour, br_font *font, char *fmt, ...);"
       }
     },
     "00487B6B": {
@@ -91798,6 +92408,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "zbproto.h",
+        "line": 44,
+        "prototype": "void BrZbModelRender(br_actor *actor, br_model *model, br_material *material, br_uint_8 style, int on_screen, int use_custom);"
       }
     },
     "00487DCA": {
@@ -91849,6 +92464,11 @@
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4",
         "name": "3DMOVIE.BrZbSceneRenderBegin"
+      },
+      "prototype": {
+        "file": "zbproto.h",
+        "line": 28,
+        "prototype": "void BrZbSceneRenderBegin(br_actor *world, br_actor *camera, br_pixelmap *colour_buffer, br_pixelmap *depth_buffer);"
       }
     },
     "00488520": {
@@ -91857,6 +92477,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "zbproto.h",
+        "line": 33,
+        "prototype": "void BrZbSceneRenderAdd(br_actor *tree);"
       }
     },
     "00488540": {
@@ -91865,6 +92490,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "zbproto.h",
+        "line": 34,
+        "prototype": "void BrZbSceneRenderEnd(void);"
       }
     },
     "0048854F": {
@@ -91883,6 +92513,11 @@
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4",
         "name": "3DMOVIE.BrZbSceneRender"
+      },
+      "prototype": {
+        "file": "zbproto.h",
+        "line": 37,
+        "prototype": "void BrZbSceneRender( br_actor *world, br_actor *camera, br_pixelmap *colour_buffer, br_pixelmap *depth_buffer);"
       }
     },
     "00488592": {
@@ -91931,6 +92566,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "zbproto.h",
+        "line": 25,
+        "prototype": "void BrZbBegin(br_uint_8 colour_type, br_uint_8 depth_type);"
       }
     },
     "00488663": {
@@ -91948,6 +92588,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "zbproto.h",
+        "line": 26,
+        "prototype": "void BrZbEnd(void);"
       }
     },
     "00488687": {
@@ -121262,6 +121907,11 @@
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
         "name": "3DMOVIE.BrModelLoadMany"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 325,
+        "prototype": "br_uint_32 BrModelLoadMany(char *filename, br_model **models, br_uint_16 num);"
       }
     },
     "004CF294": {
@@ -121307,6 +121957,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 326,
+        "prototype": "br_uint_32 BrModelSaveMany(char *filename, br_model **models, br_uint_16 num);"
       }
     },
     "004CF4A6": {
@@ -121327,6 +121982,11 @@
     "004CF4C7": {
       "manual-ollydbg": {
         "name": "BrActorLoadMany"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 340,
+        "prototype": "br_uint_32 BrActorLoadMany(char *filename, br_actor **actors, br_uint_16 num);"
       }
     },
     "004CF526": {
@@ -121373,6 +122033,11 @@
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
         "name": "3DMOVIE.BrMaterialLoadMany"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 330,
+        "prototype": "br_uint_32 BrMaterialLoadMany(char *filename, br_material **materials, br_uint_16 num);"
       }
     },
     "004CF6EE": {
@@ -121404,6 +122069,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 331,
+        "prototype": "br_uint_32 BrMaterialSaveMany(char *filename, br_material **materials, br_uint_16 num);"
       }
     },
     "004CF7E4": {
@@ -121422,6 +122092,11 @@
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
         "name": "3DMOVIE.BrPixelmapLoadMany"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 335,
+        "prototype": "br_uint_32 BrPixelmapLoadMany(char *filename, br_pixelmap **pixelmaps, br_uint_16 num);"
       }
     },
     "004CF84C": {
@@ -121454,6 +122129,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 336,
+        "prototype": "br_uint_32 BrPixelmapSaveMany(char *filename, br_pixelmap **pixelmaps, br_uint_16 num);"
       }
     },
     "004CF927": {
@@ -121462,6 +122142,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 323,
+        "prototype": "br_model * BrModelLoad(char *filename);"
       }
     },
     "004CF953": {
@@ -121475,6 +122160,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 328,
+        "prototype": "br_material * BrMaterialLoad(char *filename);"
       }
     },
     "004CF99A": {
@@ -121488,6 +122178,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 333,
+        "prototype": "br_pixelmap * BrPixelmapLoad(char *filename);"
       }
     },
     "004CF9E1": {
@@ -121496,6 +122191,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 334,
+        "prototype": "br_uint_32 BrPixelmapSave(char *filename, br_pixelmap *pixelmap);"
       }
     },
     "004CF9FC": {
@@ -121504,6 +122204,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 338,
+        "prototype": "br_actor * BrActorLoad(char *filename);"
       }
     },
     "004CFA28": {
@@ -121517,6 +122222,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 588,
+        "prototype": "int BrScenePick3D( br_actor *world, br_actor *actor, br_bounds *bounds, br_pick3d_cbfn *callback, void *arg );"
       }
     },
     "004CFBA0": {
@@ -122197,6 +122907,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 653,
+        "prototype": "int BrWriteModeSet(int text);"
       }
     },
     "004D1D00": {

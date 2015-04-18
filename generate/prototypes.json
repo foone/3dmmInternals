@@ -1,0 +1,1857 @@
+{
+  "BrActorAdd": {
+    "file": "fwproto.h",
+    "line": 274,
+    "prototype": "br_actor * BrActorAdd(br_actor *parent, br_actor *a);"
+  },
+  "BrActorAllocate": {
+    "file": "fwproto.h",
+    "line": 280,
+    "prototype": "br_actor * BrActorAllocate(br_uint_8 actor_type, void * type_data);"
+  },
+  "BrActorEnum": {
+    "file": "fwproto.h",
+    "line": 272,
+    "prototype": "br_uint_32 BrActorEnum(br_actor *parent, br_actor_enum_cbfn *callback , void *arg);"
+  },
+  "BrActorFree": {
+    "file": "fwproto.h",
+    "line": 281,
+    "prototype": "void BrActorFree(br_actor *a);"
+  },
+  "BrActorLoad": {
+    "file": "fwproto.h",
+    "line": 338,
+    "prototype": "br_actor * BrActorLoad(char *filename);"
+  },
+  "BrActorLoadMany": {
+    "file": "fwproto.h",
+    "line": 340,
+    "prototype": "br_uint_32 BrActorLoadMany(char *filename, br_actor **actors, br_uint_16 num);"
+  },
+  "BrActorRelink": {
+    "file": "fwproto.h",
+    "line": 276,
+    "prototype": "void BrActorRelink(br_actor *parent, br_actor *actor);"
+  },
+  "BrActorRemove": {
+    "file": "fwproto.h",
+    "line": 275,
+    "prototype": "br_actor * BrActorRemove(br_actor *a);"
+  },
+  "BrActorSave": {
+    "file": "fwproto.h",
+    "line": 339,
+    "prototype": "br_uint_32 BrActorSave(char *filename, br_actor *actor);"
+  },
+  "BrActorSaveMany": {
+    "file": "fwproto.h",
+    "line": 341,
+    "prototype": "br_uint_32 BrActorSaveMany(char *filename, br_actor **actors, br_uint_16 num);"
+  },
+  "BrActorSearch": {
+    "file": "fwproto.h",
+    "line": 284,
+    "prototype": "br_actor * BrActorSearch(br_actor *root, char *pattern);"
+  },
+  "BrActorSearchMany": {
+    "file": "fwproto.h",
+    "line": 283,
+    "prototype": "br_uint_32 BrActorSearchMany(br_actor *root, char *pattern, br_actor **actors, int max);"
+  },
+  "BrActorToActorMatrix34": {
+    "file": "fwproto.h",
+    "line": 277,
+    "prototype": "br_uint_8 BrActorToActorMatrix34(br_matrix34 *m, br_actor *a, br_actor *b);"
+  },
+  "BrActorToBounds": {
+    "file": "fwproto.h",
+    "line": 286,
+    "prototype": "br_bounds * BrActorToBounds( br_bounds *b, br_actor *ap);"
+  },
+  "BrActorToScreenMatrix4": {
+    "file": "fwproto.h",
+    "line": 278,
+    "prototype": "void BrActorToScreenMatrix4(br_matrix4 *m, br_actor *a, br_actor *camera);"
+  },
+  "BrAllocatorSet": {
+    "file": "fwproto.h",
+    "line": 630,
+    "prototype": "br_allocator * BrAllocatorSet(br_allocator *newal);"
+  },
+  "BrBegin": {
+    "file": "fwproto.h",
+    "line": 172,
+    "prototype": "void BrBegin(void);"
+  },
+  "BrBlockCopy": {
+    "file": "fwproto.h",
+    "line": 678,
+    "prototype": "void BrBlockCopy(void *dest_ptr, void *src_ptr, int dwords);"
+  },
+  "BrBlockFill": {
+    "file": "fwproto.h",
+    "line": 677,
+    "prototype": "void BrBlockFill(void *dest_ptr, int value, int dwords);"
+  },
+  "BrBoundsToMatrix34": {
+    "file": "fwproto.h",
+    "line": 287,
+    "prototype": "br_matrix34 * BrBoundsToMatrix34( br_matrix34 *mat, br_bounds *bounds);"
+  },
+  "BrClipPlaneDisable": {
+    "file": "fwproto.h",
+    "line": 352,
+    "prototype": "void BrClipPlaneDisable(br_actor *cp);"
+  },
+  "BrClipPlaneEnable": {
+    "file": "fwproto.h",
+    "line": 351,
+    "prototype": "void BrClipPlaneEnable(br_actor *cp);"
+  },
+  "BrEnd": {
+    "file": "fwproto.h",
+    "line": 173,
+    "prototype": "void BrEnd(void);"
+  },
+  "BrEnvironmentSet": {
+    "file": "fwproto.h",
+    "line": 348,
+    "prototype": "br_actor * BrEnvironmentSet(br_actor *a);"
+  },
+  "BrError": {
+    "file": "fwproto.h",
+    "line": 621,
+    "prototype": "void BrError(char *s, ...);"
+  },
+  "BrErrorHandlerSet": {
+    "file": "fwproto.h",
+    "line": 628,
+    "prototype": "br_errorhandler * BrErrorHandlerSet(br_errorhandler *neweh);"
+  },
+  "BrEulerToMatrix34": {
+    "file": "fwproto.h",
+    "line": 483,
+    "prototype": "br_matrix34 * BrEulerToMatrix34(br_matrix34 *mat, br_euler *euler);"
+  },
+  "BrEulerToMatrix4": {
+    "file": "fwproto.h",
+    "line": 486,
+    "prototype": "br_matrix4 * BrEulerToMatrix4(br_matrix4 *mat, br_euler *src);"
+  },
+  "BrEulerToQuat": {
+    "file": "fwproto.h",
+    "line": 489,
+    "prototype": "br_quat * BrEulerToQuat(br_quat *quat, br_euler *euler);"
+  },
+  "BrFarBlockCopy": {
+    "file": "fwproto.h",
+    "line": 681,
+    "prototype": "void BrFarBlockCopy(void *dest_ptr, void *src_ptr, int dwords);"
+  },
+  "BrFastRSqrt": {
+    "file": "fwproto.h",
+    "line": 150,
+    "prototype": "br_uint_32 BrFastRSqrt(br_uint_32 a);"
+  },
+  "BrFastSqrt": {
+    "file": "fwproto.h",
+    "line": 149,
+    "prototype": "br_uint_32 BrFastSqrt(br_uint_32 a);"
+  },
+  "BrFatal": {
+    "file": "fwproto.h",
+    "line": 623,
+    "prototype": "void BrFatal(char *name, int line, char *s, ...);"
+  },
+  "BrFileAdvance": {
+    "file": "fwproto.h",
+    "line": 648,
+    "prototype": "void BrFileAdvance(long int count, void *f);"
+  },
+  "BrFileAttributes": {
+    "file": "fwproto.h",
+    "line": 633,
+    "prototype": "br_uint_32 BrFileAttributes(void);"
+  },
+  "BrFileClose": {
+    "file": "fwproto.h",
+    "line": 640,
+    "prototype": "void BrFileClose(void *f);"
+  },
+  "BrFileEof": {
+    "file": "fwproto.h",
+    "line": 641,
+    "prototype": "int BrFileEof(void *f);"
+  },
+  "BrFileGetChar": {
+    "file": "fwproto.h",
+    "line": 642,
+    "prototype": "int BrFileGetChar(void *f);"
+  },
+  "BrFileGetLine": {
+    "file": "fwproto.h",
+    "line": 646,
+    "prototype": "int BrFileGetLine(char *buf, br_size_t buf_len, void * f);"
+  },
+  "BrFileOpenRead": {
+    "file": "fwproto.h",
+    "line": 636,
+    "prototype": "void * BrFileOpenRead(char *name, br_size_t n_magics, br_mode_test_cbfn *mode_test, int *mode_result);"
+  },
+  "BrFileOpenWrite": {
+    "file": "fwproto.h",
+    "line": 639,
+    "prototype": "void * BrFileOpenWrite(char *name, int text);"
+  },
+  "BrFilePrintf": {
+    "file": "fwproto.h",
+    "line": 650,
+    "prototype": "int BrFilePrintf(void *f, char *fmt, ...);"
+  },
+  "BrFilePutChar": {
+    "file": "fwproto.h",
+    "line": 643,
+    "prototype": "void BrFilePutChar(int c, void *f);"
+  },
+  "BrFilePutLine": {
+    "file": "fwproto.h",
+    "line": 647,
+    "prototype": "void BrFilePutLine(char *buf, void * f);"
+  },
+  "BrFileRead": {
+    "file": "fwproto.h",
+    "line": 644,
+    "prototype": "int BrFileRead(void *buf, int size, int n, void *f);"
+  },
+  "BrFileWrite": {
+    "file": "fwproto.h",
+    "line": 645,
+    "prototype": "int BrFileWrite(void *buf, int size, int n, void *f);"
+  },
+  "BrFilesystemSet": {
+    "file": "fwproto.h",
+    "line": 629,
+    "prototype": "br_filesystem * BrFilesystemSet(br_filesystem *newfs);"
+  },
+  "BrFixedACos": {
+    "file": "fwproto.h",
+    "line": 138,
+    "prototype": "br_angle BrFixedACos(br_fixed_ls c);"
+  },
+  "BrFixedASin": {
+    "file": "fwproto.h",
+    "line": 136,
+    "prototype": "br_angle BrFixedASin(br_fixed_ls s);"
+  },
+  "BrFixedATan2": {
+    "file": "fwproto.h",
+    "line": 140,
+    "prototype": "br_angle BrFixedATan2(br_fixed_ls x, br_fixed_ls y);"
+  },
+  "BrFixedATan2Fast": {
+    "file": "fwproto.h",
+    "line": 142,
+    "prototype": "br_angle BrFixedATan2Fast(br_fixed_ls x, br_fixed_ls y);"
+  },
+  "BrFixedAbs": {
+    "file": "fwproto.h",
+    "line": 13,
+    "prototype": "br_fixed_ls BrFixedAbs(br_fixed_ls a);"
+  },
+  "BrFixedCos": {
+    "file": "fwproto.h",
+    "line": 134,
+    "prototype": "br_fixed_ls BrFixedCos(br_angle a);"
+  },
+  "BrFixedDiv": {
+    "file": "fwproto.h",
+    "line": 80,
+    "prototype": "br_fixed_ls BrFixedDiv(br_fixed_ls a, br_fixed_ls b);"
+  },
+  "BrFixedDivF": {
+    "file": "fwproto.h",
+    "line": 83,
+    "prototype": "br_fixed_ls BrFixedDivF(br_fixed_ls a, br_fixed_ls b);"
+  },
+  "BrFixedDivR": {
+    "file": "fwproto.h",
+    "line": 86,
+    "prototype": "br_fixed_ls BrFixedDivR(br_fixed_ls a, br_fixed_ls b);"
+  },
+  "BrFixedFMac2": {
+    "file": "fwproto.h",
+    "line": 117,
+    "prototype": "br_fixed_ls BrFixedFMac2(br_fixed_lsf a, br_fixed_ls b, br_fixed_lsf c, br_fixed_ls d);"
+  },
+  "BrFixedFMac3": {
+    "file": "fwproto.h",
+    "line": 121,
+    "prototype": "br_fixed_ls BrFixedFMac3(br_fixed_lsf a, br_fixed_ls b, br_fixed_lsf c, br_fixed_ls d, br_fixed_lsf e, br_fixed_ls f);"
+  },
+  "BrFixedFMac4": {
+    "file": "fwproto.h",
+    "line": 126,
+    "prototype": "br_fixed_ls BrFixedFMac4(br_fixed_ls a, br_fixed_ls b, br_fixed_ls c, br_fixed_ls d, br_fixed_ls e, br_fixed_ls f, br_fixed_ls g, br_fixed_ls h);"
+  },
+  "BrFixedLength2": {
+    "file": "fwproto.h",
+    "line": 52,
+    "prototype": "br_fixed_ls BrFixedLength2(br_fixed_ls a, br_fixed_ls b);"
+  },
+  "BrFixedLength3": {
+    "file": "fwproto.h",
+    "line": 55,
+    "prototype": "br_fixed_ls BrFixedLength3(br_fixed_ls a, br_fixed_ls b, br_fixed_ls c);"
+  },
+  "BrFixedLength4": {
+    "file": "fwproto.h",
+    "line": 60,
+    "prototype": "br_fixed_ls BrFixedLength4(br_fixed_ls a, br_fixed_ls b, br_fixed_ls c, br_fixed_ls d);"
+  },
+  "BrFixedMac2": {
+    "file": "fwproto.h",
+    "line": 19,
+    "prototype": "br_fixed_ls BrFixedMac2(br_fixed_ls a, br_fixed_ls b, br_fixed_ls c, br_fixed_ls d);"
+  },
+  "BrFixedMac2Div": {
+    "file": "fwproto.h",
+    "line": 95,
+    "prototype": "br_fixed_ls BrFixedMac2Div(br_fixed_ls a, br_fixed_ls b, br_fixed_ls c, br_fixed_ls d, br_fixed_ls e);"
+  },
+  "BrFixedMac3": {
+    "file": "fwproto.h",
+    "line": 23,
+    "prototype": "br_fixed_ls BrFixedMac3(br_fixed_ls a, br_fixed_ls b, br_fixed_ls c, br_fixed_ls d, br_fixed_ls e, br_fixed_ls f);"
+  },
+  "BrFixedMac3Div": {
+    "file": "fwproto.h",
+    "line": 100,
+    "prototype": "br_fixed_ls BrFixedMac3Div(br_fixed_ls a, br_fixed_ls b, br_fixed_ls c, br_fixed_ls d, br_fixed_ls e, br_fixed_ls f, br_fixed_ls g);"
+  },
+  "BrFixedMac4": {
+    "file": "fwproto.h",
+    "line": 28,
+    "prototype": "br_fixed_ls BrFixedMac4(br_fixed_ls a, br_fixed_ls b, br_fixed_ls c, br_fixed_ls d, br_fixed_ls e, br_fixed_ls f, br_fixed_ls g, br_fixed_ls h);"
+  },
+  "BrFixedMac4Div": {
+    "file": "fwproto.h",
+    "line": 106,
+    "prototype": "br_fixed_ls BrFixedMac4Div(br_fixed_ls a, br_fixed_ls b, br_fixed_ls c, br_fixed_ls d, br_fixed_ls e, br_fixed_ls f, br_fixed_ls g, br_fixed_ls h, br_fixed_ls i);"
+  },
+  "BrFixedMul": {
+    "file": "fwproto.h",
+    "line": 16,
+    "prototype": "br_fixed_ls BrFixedMul(br_fixed_ls a, br_fixed_ls b);"
+  },
+  "BrFixedMulDiv": {
+    "file": "fwproto.h",
+    "line": 90,
+    "prototype": "br_fixed_ls BrFixedMulDiv(br_fixed_ls a, br_fixed_ls b, br_fixed_ls c);"
+  },
+  "BrFixedPow": {
+    "file": "fwproto.h",
+    "line": 145,
+    "prototype": "br_fixed_ls BrFixedPow(br_fixed_ls a, br_fixed_ls b);"
+  },
+  "BrFixedRLength2": {
+    "file": "fwproto.h",
+    "line": 66,
+    "prototype": "br_fixed_ls BrFixedRLength2(br_fixed_ls a, br_fixed_ls b);"
+  },
+  "BrFixedRLength3": {
+    "file": "fwproto.h",
+    "line": 69,
+    "prototype": "br_fixed_ls BrFixedRLength3(br_fixed_ls a, br_fixed_ls b, br_fixed_ls c);"
+  },
+  "BrFixedRLength4": {
+    "file": "fwproto.h",
+    "line": 74,
+    "prototype": "br_fixed_ls BrFixedRLength4(br_fixed_ls a, br_fixed_ls b, br_fixed_ls c, br_fixed_ls d);"
+  },
+  "BrFixedRcp": {
+    "file": "fwproto.h",
+    "line": 112,
+    "prototype": "br_fixed_ls BrFixedRcp(br_fixed_ls a);"
+  },
+  "BrFixedSin": {
+    "file": "fwproto.h",
+    "line": 132,
+    "prototype": "br_fixed_ls BrFixedSin(br_angle a);"
+  },
+  "BrFixedSqr": {
+    "file": "fwproto.h",
+    "line": 34,
+    "prototype": "br_fixed_ls BrFixedSqr(br_fixed_ls a);"
+  },
+  "BrFixedSqr2": {
+    "file": "fwproto.h",
+    "line": 37,
+    "prototype": "br_fixed_ls BrFixedSqr2(br_fixed_ls a, br_fixed_ls b);"
+  },
+  "BrFixedSqr3": {
+    "file": "fwproto.h",
+    "line": 41,
+    "prototype": "br_fixed_ls BrFixedSqr3(br_fixed_ls a, br_fixed_ls b, br_fixed_ls c);"
+  },
+  "BrFixedSqr4": {
+    "file": "fwproto.h",
+    "line": 45,
+    "prototype": "br_fixed_ls BrFixedSqr4(br_fixed_ls a, br_fixed_ls b, br_fixed_ls c, br_fixed_ls d);"
+  },
+  "BrFixedSqrt": {
+    "file": "fwproto.h",
+    "line": 144,
+    "prototype": "br_fixed_ls BrFixedSqrt(br_fixed_ls a);"
+  },
+  "BrFmtASCLoad": {
+    "file": "fmtproto.h",
+    "line": 13,
+    "prototype": "br_uint_32 BrFmtASCLoad(char *name, br_model **mtable, br_uint_16 max_models);"
+  },
+  "BrFmtBMPLoad": {
+    "file": "fmtproto.h",
+    "line": 20,
+    "prototype": "br_pixelmap * BrFmtBMPLoad(char *name, br_uint_32 flags);"
+  },
+  "BrFmtGIFLoad": {
+    "file": "fmtproto.h",
+    "line": 26,
+    "prototype": "br_pixelmap * BrFmtGIFLoad(char *name, br_uint_32 flags);"
+  },
+  "BrFmtIFFLoad": {
+    "file": "fmtproto.h",
+    "line": 29,
+    "prototype": "br_pixelmap * BrFmtIFFLoad(char *name, br_uint_32 flags);"
+  },
+  "BrFmtNFFLoad": {
+    "file": "fmtproto.h",
+    "line": 10,
+    "prototype": "br_model * BrFmtNFFLoad(char *name);"
+  },
+  "BrFmtScriptMaterialLoad": {
+    "file": "fmtproto.h",
+    "line": 17,
+    "prototype": "br_material * BrFmtScriptMaterialLoad(char *filename);"
+  },
+  "BrFmtScriptMaterialLoadMany": {
+    "file": "fmtproto.h",
+    "line": 16,
+    "prototype": "br_uint_32 BrFmtScriptMaterialLoadMany(char *filename, br_material **materials, br_uint_16 num);"
+  },
+  "BrFmtTGALoad": {
+    "file": "fmtproto.h",
+    "line": 23,
+    "prototype": "br_pixelmap * BrFmtTGALoad(char *name, br_uint_32 flags);"
+  },
+  "BrIFarBlockCopy": {
+    "file": "blockops.h",
+    "line": 17,
+    "prototype": "void BrIFarBlockCopy(void *dest_ptr, void *src_ptr, int dwords);"
+  },
+  "BrLightDisable": {
+    "file": "fwproto.h",
+    "line": 345,
+    "prototype": "void BrLightDisable(br_actor *l);"
+  },
+  "BrLightEnable": {
+    "file": "fwproto.h",
+    "line": 344,
+    "prototype": "void BrLightEnable(br_actor *l);"
+  },
+  "BrMapAdd": {
+    "file": "fwproto.h",
+    "line": 220,
+    "prototype": "br_pixelmap * BrMapAdd(br_pixelmap *pixelmap);"
+  },
+  "BrMapAddMany": {
+    "file": "fwproto.h",
+    "line": 225,
+    "prototype": "br_uint_32 BrMapAddMany(br_pixelmap **items, int n);"
+  },
+  "BrMapCount": {
+    "file": "fwproto.h",
+    "line": 228,
+    "prototype": "br_uint_32 BrMapCount(char *pattern);"
+  },
+  "BrMapEnum": {
+    "file": "fwproto.h",
+    "line": 231,
+    "prototype": "br_uint_32 BrMapEnum(char *pattern, br_map_enum_cbfn *callback, void *arg);"
+  },
+  "BrMapFind": {
+    "file": "fwproto.h",
+    "line": 222,
+    "prototype": "br_pixelmap * BrMapFind(char *pattern);"
+  },
+  "BrMapFindHook": {
+    "file": "fwproto.h",
+    "line": 224,
+    "prototype": "br_map_find_cbfn * BrMapFindHook(br_map_find_cbfn *hook);"
+  },
+  "BrMapFindMany": {
+    "file": "fwproto.h",
+    "line": 227,
+    "prototype": "br_uint_32 BrMapFindMany(char *pattern, br_pixelmap **items, int max);"
+  },
+  "BrMapRemove": {
+    "file": "fwproto.h",
+    "line": 221,
+    "prototype": "br_pixelmap * BrMapRemove(br_pixelmap *pixelmap);"
+  },
+  "BrMapRemoveMany": {
+    "file": "fwproto.h",
+    "line": 226,
+    "prototype": "br_uint_32 BrMapRemoveMany(br_pixelmap **items, int n);"
+  },
+  "BrMapUpdate": {
+    "file": "fwproto.h",
+    "line": 234,
+    "prototype": "void BrMapUpdate(br_pixelmap *item, br_uint_16 flags);"
+  },
+  "BrMaterialAdd": {
+    "file": "fwproto.h",
+    "line": 177,
+    "prototype": "br_material * BrMaterialAdd(br_material *material);"
+  },
+  "BrMaterialAddMany": {
+    "file": "fwproto.h",
+    "line": 182,
+    "prototype": "br_uint_32 BrMaterialAddMany(br_material **items, int n);"
+  },
+  "BrMaterialAllocate": {
+    "file": "fwproto.h",
+    "line": 193,
+    "prototype": "br_material * BrMaterialAllocate(char *name);"
+  },
+  "BrMaterialCount": {
+    "file": "fwproto.h",
+    "line": 185,
+    "prototype": "br_uint_32 BrMaterialCount(char *pattern);"
+  },
+  "BrMaterialEnum": {
+    "file": "fwproto.h",
+    "line": 188,
+    "prototype": "br_uint_32 BrMaterialEnum(char *pattern, br_material_enum_cbfn *callback, void *arg);"
+  },
+  "BrMaterialFind": {
+    "file": "fwproto.h",
+    "line": 179,
+    "prototype": "br_material * BrMaterialFind(char *pattern);"
+  },
+  "BrMaterialFindHook": {
+    "file": "fwproto.h",
+    "line": 181,
+    "prototype": "br_material_find_cbfn * BrMaterialFindHook(br_material_find_cbfn *hook);"
+  },
+  "BrMaterialFindMany": {
+    "file": "fwproto.h",
+    "line": 184,
+    "prototype": "br_uint_32 BrMaterialFindMany(char *pattern, br_material **items, int max);"
+  },
+  "BrMaterialFree": {
+    "file": "fwproto.h",
+    "line": 194,
+    "prototype": "void BrMaterialFree(br_material *m);"
+  },
+  "BrMaterialLoad": {
+    "file": "fwproto.h",
+    "line": 328,
+    "prototype": "br_material * BrMaterialLoad(char *filename);"
+  },
+  "BrMaterialLoadMany": {
+    "file": "fwproto.h",
+    "line": 330,
+    "prototype": "br_uint_32 BrMaterialLoadMany(char *filename, br_material **materials, br_uint_16 num);"
+  },
+  "BrMaterialRemove": {
+    "file": "fwproto.h",
+    "line": 178,
+    "prototype": "br_material * BrMaterialRemove(br_material *material);"
+  },
+  "BrMaterialRemoveMany": {
+    "file": "fwproto.h",
+    "line": 183,
+    "prototype": "br_uint_32 BrMaterialRemoveMany(br_material **items, int n);"
+  },
+  "BrMaterialSave": {
+    "file": "fwproto.h",
+    "line": 329,
+    "prototype": "br_uint_32 BrMaterialSave(char *filename, br_material *material);"
+  },
+  "BrMaterialSaveMany": {
+    "file": "fwproto.h",
+    "line": 331,
+    "prototype": "br_uint_32 BrMaterialSaveMany(char *filename, br_material **materials, br_uint_16 num);"
+  },
+  "BrMaterialUpdate": {
+    "file": "fwproto.h",
+    "line": 191,
+    "prototype": "void BrMaterialUpdate(br_material *material, br_uint_16 flags);"
+  },
+  "BrMatrix23ApplyP": {
+    "file": "fwproto.h",
+    "line": 552,
+    "prototype": "void BrMatrix23ApplyP(br_vector2 *A, br_vector2 *B, br_matrix23 *C);"
+  },
+  "BrMatrix23ApplyV": {
+    "file": "fwproto.h",
+    "line": 551,
+    "prototype": "void BrMatrix23ApplyV(br_vector2 *A, br_vector2 *B, br_matrix23 *C);"
+  },
+  "BrMatrix23Copy": {
+    "file": "fwproto.h",
+    "line": 524,
+    "prototype": "void BrMatrix23Copy(br_matrix23 *A, br_matrix23 *b);"
+  },
+  "BrMatrix23Identity": {
+    "file": "fwproto.h",
+    "line": 529,
+    "prototype": "void BrMatrix23Identity(br_matrix23 *mat);"
+  },
+  "BrMatrix23Inverse": {
+    "file": "fwproto.h",
+    "line": 557,
+    "prototype": "br_scalar BrMatrix23Inverse(br_matrix23 *out, br_matrix23 *in);"
+  },
+  "BrMatrix23LPInverse": {
+    "file": "fwproto.h",
+    "line": 558,
+    "prototype": "void BrMatrix23LPInverse(br_matrix23 *A, br_matrix23 *B);"
+  },
+  "BrMatrix23LPNormalise": {
+    "file": "fwproto.h",
+    "line": 559,
+    "prototype": "void BrMatrix23LPNormalise(br_matrix23 *A, br_matrix23 *B);"
+  },
+  "BrMatrix23Mul": {
+    "file": "fwproto.h",
+    "line": 525,
+    "prototype": "void BrMatrix23Mul(br_matrix23 *A, br_matrix23 *B, br_matrix23 *C);"
+  },
+  "BrMatrix23Post": {
+    "file": "fwproto.h",
+    "line": 527,
+    "prototype": "void BrMatrix23Post(br_matrix23 *mat , br_matrix23 *A);"
+  },
+  "BrMatrix23PostRotate": {
+    "file": "fwproto.h",
+    "line": 533,
+    "prototype": "void BrMatrix23PostRotate(br_matrix23 *mat, br_angle rz);"
+  },
+  "BrMatrix23PostScale": {
+    "file": "fwproto.h",
+    "line": 541,
+    "prototype": "void BrMatrix23PostScale(br_matrix23 *mat, br_scalar sx, br_scalar sy);"
+  },
+  "BrMatrix23PostShearX": {
+    "file": "fwproto.h",
+    "line": 545,
+    "prototype": "void BrMatrix23PostShearX(br_matrix23 *mat, br_scalar sy);"
+  },
+  "BrMatrix23PostShearY": {
+    "file": "fwproto.h",
+    "line": 549,
+    "prototype": "void BrMatrix23PostShearY(br_matrix23 *mat, br_scalar sx);"
+  },
+  "BrMatrix23PostTranslate": {
+    "file": "fwproto.h",
+    "line": 537,
+    "prototype": "void BrMatrix23PostTranslate(br_matrix23 *mat, br_scalar x, br_scalar y);"
+  },
+  "BrMatrix23Pre": {
+    "file": "fwproto.h",
+    "line": 526,
+    "prototype": "void BrMatrix23Pre(br_matrix23 *mat , br_matrix23 *A);"
+  },
+  "BrMatrix23PreRotate": {
+    "file": "fwproto.h",
+    "line": 532,
+    "prototype": "void BrMatrix23PreRotate(br_matrix23 *mat, br_angle rz);"
+  },
+  "BrMatrix23PreScale": {
+    "file": "fwproto.h",
+    "line": 540,
+    "prototype": "void BrMatrix23PreScale(br_matrix23 *mat, br_scalar sx, br_scalar sy);"
+  },
+  "BrMatrix23PreShearX": {
+    "file": "fwproto.h",
+    "line": 544,
+    "prototype": "void BrMatrix23PreShearX(br_matrix23 *mat, br_scalar sy);"
+  },
+  "BrMatrix23PreShearY": {
+    "file": "fwproto.h",
+    "line": 548,
+    "prototype": "void BrMatrix23PreShearY(br_matrix23 *mat, br_scalar sx);"
+  },
+  "BrMatrix23PreTranslate": {
+    "file": "fwproto.h",
+    "line": 536,
+    "prototype": "void BrMatrix23PreTranslate(br_matrix23 *mat, br_scalar x, br_scalar y);"
+  },
+  "BrMatrix23Rotate": {
+    "file": "fwproto.h",
+    "line": 531,
+    "prototype": "void BrMatrix23Rotate(br_matrix23 *mat, br_angle rz);"
+  },
+  "BrMatrix23Scale": {
+    "file": "fwproto.h",
+    "line": 539,
+    "prototype": "void BrMatrix23Scale(br_matrix23 *mat, br_scalar sx, br_scalar sy);"
+  },
+  "BrMatrix23ShearX": {
+    "file": "fwproto.h",
+    "line": 543,
+    "prototype": "void BrMatrix23ShearX(br_matrix23 *mat, br_scalar sy);"
+  },
+  "BrMatrix23ShearY": {
+    "file": "fwproto.h",
+    "line": 547,
+    "prototype": "void BrMatrix23ShearY(br_matrix23 *mat, br_scalar sx);"
+  },
+  "BrMatrix23TApplyP": {
+    "file": "fwproto.h",
+    "line": 555,
+    "prototype": "void BrMatrix23TApplyP(br_vector2 *A, br_vector2 *B, br_matrix23 *C);"
+  },
+  "BrMatrix23TApplyV": {
+    "file": "fwproto.h",
+    "line": 554,
+    "prototype": "void BrMatrix23TApplyV(br_vector2 *A, br_vector2 *B, br_matrix23 *C);"
+  },
+  "BrMatrix23Translate": {
+    "file": "fwproto.h",
+    "line": 535,
+    "prototype": "void BrMatrix23Translate(br_matrix23 *mat, br_scalar x, br_scalar y);"
+  },
+  "BrMatrix34Apply": {
+    "file": "fwproto.h",
+    "line": 400,
+    "prototype": "void BrMatrix34Apply(br_vector3 *A, br_vector4 *B, br_matrix34 *C);"
+  },
+  "BrMatrix34ApplyP": {
+    "file": "fwproto.h",
+    "line": 399,
+    "prototype": "void BrMatrix34ApplyP(br_vector3 *A, br_vector3 *B, br_matrix34 *C);"
+  },
+  "BrMatrix34ApplyV": {
+    "file": "fwproto.h",
+    "line": 398,
+    "prototype": "void BrMatrix34ApplyV(br_vector3 *A, br_vector3 *B, br_matrix34 *C);"
+  },
+  "BrMatrix34Copy": {
+    "file": "fwproto.h",
+    "line": 355,
+    "prototype": "void BrMatrix34Copy(br_matrix34 *A, br_matrix34 *b);"
+  },
+  "BrMatrix34Copy4": {
+    "file": "fwproto.h",
+    "line": 438,
+    "prototype": "void BrMatrix34Copy4(br_matrix34 *A, br_matrix4 *B);"
+  },
+  "BrMatrix34Identity": {
+    "file": "fwproto.h",
+    "line": 360,
+    "prototype": "void BrMatrix34Identity(br_matrix34 *mat);"
+  },
+  "BrMatrix34Inverse": {
+    "file": "fwproto.h",
+    "line": 406,
+    "prototype": "br_scalar BrMatrix34Inverse(br_matrix34 *out, br_matrix34 *in);"
+  },
+  "BrMatrix34LPInverse": {
+    "file": "fwproto.h",
+    "line": 407,
+    "prototype": "void BrMatrix34LPInverse(br_matrix34 *A, br_matrix34 *B);"
+  },
+  "BrMatrix34LPNormalise": {
+    "file": "fwproto.h",
+    "line": 408,
+    "prototype": "void BrMatrix34LPNormalise(br_matrix34 *A, br_matrix34 *B);"
+  },
+  "BrMatrix34Mul": {
+    "file": "fwproto.h",
+    "line": 356,
+    "prototype": "void BrMatrix34Mul(br_matrix34 *A, br_matrix34 *B, br_matrix34 *C);"
+  },
+  "BrMatrix34Post": {
+    "file": "fwproto.h",
+    "line": 358,
+    "prototype": "void BrMatrix34Post(br_matrix34 *mat , br_matrix34 *A);"
+  },
+  "BrMatrix34PostRotate": {
+    "file": "fwproto.h",
+    "line": 376,
+    "prototype": "void BrMatrix34PostRotate(br_matrix34 *mat, br_angle r, br_vector3 *axis);"
+  },
+  "BrMatrix34PostRotateX": {
+    "file": "fwproto.h",
+    "line": 364,
+    "prototype": "void BrMatrix34PostRotateX(br_matrix34 *mat, br_angle rx);"
+  },
+  "BrMatrix34PostRotateY": {
+    "file": "fwproto.h",
+    "line": 368,
+    "prototype": "void BrMatrix34PostRotateY(br_matrix34 *mat, br_angle ry);"
+  },
+  "BrMatrix34PostRotateZ": {
+    "file": "fwproto.h",
+    "line": 372,
+    "prototype": "void BrMatrix34PostRotateZ(br_matrix34 *mat, br_angle rz);"
+  },
+  "BrMatrix34PostScale": {
+    "file": "fwproto.h",
+    "line": 384,
+    "prototype": "void BrMatrix34PostScale(br_matrix34 *mat, br_scalar sx, br_scalar sy, br_scalar sz);"
+  },
+  "BrMatrix34PostShearX": {
+    "file": "fwproto.h",
+    "line": 388,
+    "prototype": "void BrMatrix34PostShearX(br_matrix34 *mat, br_scalar sy, br_scalar sz);"
+  },
+  "BrMatrix34PostShearY": {
+    "file": "fwproto.h",
+    "line": 392,
+    "prototype": "void BrMatrix34PostShearY(br_matrix34 *mat, br_scalar sx, br_scalar sz);"
+  },
+  "BrMatrix34PostShearZ": {
+    "file": "fwproto.h",
+    "line": 396,
+    "prototype": "void BrMatrix34PostShearZ(br_matrix34 *mat, br_scalar sx, br_scalar sy);"
+  },
+  "BrMatrix34PostTransform": {
+    "file": "fwproto.h",
+    "line": 520,
+    "prototype": "void BrMatrix34PostTransform(br_matrix34 *mat, br_transform *xform);"
+  },
+  "BrMatrix34PostTranslate": {
+    "file": "fwproto.h",
+    "line": 380,
+    "prototype": "void BrMatrix34PostTranslate(br_matrix34 *mat, br_scalar x, br_scalar y, br_scalar z);"
+  },
+  "BrMatrix34Pre": {
+    "file": "fwproto.h",
+    "line": 357,
+    "prototype": "void BrMatrix34Pre(br_matrix34 *mat , br_matrix34 *A);"
+  },
+  "BrMatrix34PreRotate": {
+    "file": "fwproto.h",
+    "line": 375,
+    "prototype": "void BrMatrix34PreRotate(br_matrix34 *mat, br_angle r, br_vector3 *axis);"
+  },
+  "BrMatrix34PreRotateX": {
+    "file": "fwproto.h",
+    "line": 363,
+    "prototype": "void BrMatrix34PreRotateX(br_matrix34 *mat, br_angle rx);"
+  },
+  "BrMatrix34PreRotateY": {
+    "file": "fwproto.h",
+    "line": 367,
+    "prototype": "void BrMatrix34PreRotateY(br_matrix34 *mat, br_angle ry);"
+  },
+  "BrMatrix34PreRotateZ": {
+    "file": "fwproto.h",
+    "line": 371,
+    "prototype": "void BrMatrix34PreRotateZ(br_matrix34 *mat, br_angle rz);"
+  },
+  "BrMatrix34PreScale": {
+    "file": "fwproto.h",
+    "line": 383,
+    "prototype": "void BrMatrix34PreScale(br_matrix34 *mat, br_scalar sx, br_scalar sy, br_scalar sz);"
+  },
+  "BrMatrix34PreShearX": {
+    "file": "fwproto.h",
+    "line": 387,
+    "prototype": "void BrMatrix34PreShearX(br_matrix34 *mat, br_scalar sy, br_scalar sz);"
+  },
+  "BrMatrix34PreShearY": {
+    "file": "fwproto.h",
+    "line": 391,
+    "prototype": "void BrMatrix34PreShearY(br_matrix34 *mat, br_scalar sx, br_scalar sz);"
+  },
+  "BrMatrix34PreShearZ": {
+    "file": "fwproto.h",
+    "line": 395,
+    "prototype": "void BrMatrix34PreShearZ(br_matrix34 *mat, br_scalar sx, br_scalar sy);"
+  },
+  "BrMatrix34PreTransform": {
+    "file": "fwproto.h",
+    "line": 519,
+    "prototype": "void BrMatrix34PreTransform(br_matrix34 *mat, br_transform *xform);"
+  },
+  "BrMatrix34PreTranslate": {
+    "file": "fwproto.h",
+    "line": 379,
+    "prototype": "void BrMatrix34PreTranslate(br_matrix34 *mat, br_scalar x, br_scalar y, br_scalar z);"
+  },
+  "BrMatrix34RollingBall": {
+    "file": "fwproto.h",
+    "line": 410,
+    "prototype": "void BrMatrix34RollingBall(br_matrix34 *mat, int dx, int dy, int radius);"
+  },
+  "BrMatrix34Rotate": {
+    "file": "fwproto.h",
+    "line": 374,
+    "prototype": "void BrMatrix34Rotate(br_matrix34 *mat, br_angle r, br_vector3 *axis);"
+  },
+  "BrMatrix34RotateX": {
+    "file": "fwproto.h",
+    "line": 362,
+    "prototype": "void BrMatrix34RotateX(br_matrix34 *mat, br_angle rx);"
+  },
+  "BrMatrix34RotateY": {
+    "file": "fwproto.h",
+    "line": 366,
+    "prototype": "void BrMatrix34RotateY(br_matrix34 *mat, br_angle ry);"
+  },
+  "BrMatrix34RotateZ": {
+    "file": "fwproto.h",
+    "line": 370,
+    "prototype": "void BrMatrix34RotateZ(br_matrix34 *mat, br_angle rz);"
+  },
+  "BrMatrix34Scale": {
+    "file": "fwproto.h",
+    "line": 382,
+    "prototype": "void BrMatrix34Scale(br_matrix34 *mat, br_scalar sx, br_scalar sy, br_scalar sz);"
+  },
+  "BrMatrix34ShearX": {
+    "file": "fwproto.h",
+    "line": 386,
+    "prototype": "void BrMatrix34ShearX(br_matrix34 *mat, br_scalar sy, br_scalar sz);"
+  },
+  "BrMatrix34ShearY": {
+    "file": "fwproto.h",
+    "line": 390,
+    "prototype": "void BrMatrix34ShearY(br_matrix34 *mat, br_scalar sx, br_scalar sz);"
+  },
+  "BrMatrix34ShearZ": {
+    "file": "fwproto.h",
+    "line": 394,
+    "prototype": "void BrMatrix34ShearZ(br_matrix34 *mat, br_scalar sx, br_scalar sy);"
+  },
+  "BrMatrix34TApply": {
+    "file": "fwproto.h",
+    "line": 404,
+    "prototype": "void BrMatrix34TApply(br_vector4 *A, br_vector4 *B, br_matrix34 *C);"
+  },
+  "BrMatrix34TApplyP": {
+    "file": "fwproto.h",
+    "line": 403,
+    "prototype": "void BrMatrix34TApplyP(br_vector3 *A, br_vector3 *B, br_matrix34 *C);"
+  },
+  "BrMatrix34TApplyV": {
+    "file": "fwproto.h",
+    "line": 402,
+    "prototype": "void BrMatrix34TApplyV(br_vector3 *A, br_vector3 *B, br_matrix34 *C);"
+  },
+  "BrMatrix34ToEuler": {
+    "file": "fwproto.h",
+    "line": 484,
+    "prototype": "br_euler * BrMatrix34ToEuler(br_euler *euler, br_matrix34 *mat);"
+  },
+  "BrMatrix34ToQuat": {
+    "file": "fwproto.h",
+    "line": 500,
+    "prototype": "br_quat * BrMatrix34ToQuat(br_quat *q, br_matrix34 *mat);"
+  },
+  "BrMatrix34ToTransform": {
+    "file": "fwproto.h",
+    "line": 516,
+    "prototype": "void BrMatrix34ToTransform(br_transform *xform, br_matrix34 *mat);"
+  },
+  "BrMatrix34Translate": {
+    "file": "fwproto.h",
+    "line": 378,
+    "prototype": "void BrMatrix34Translate(br_matrix34 *mat, br_scalar x, br_scalar y, br_scalar z);"
+  },
+  "BrMatrix4Adjoint": {
+    "file": "fwproto.h",
+    "line": 419,
+    "prototype": "void BrMatrix4Adjoint(br_matrix4 *A, br_matrix4 *B);"
+  },
+  "BrMatrix4Apply": {
+    "file": "fwproto.h",
+    "line": 430,
+    "prototype": "void BrMatrix4Apply(br_vector4 *A, br_vector4 *B, br_matrix4 *C);"
+  },
+  "BrMatrix4ApplyP": {
+    "file": "fwproto.h",
+    "line": 429,
+    "prototype": "void BrMatrix4ApplyP(br_vector4 *A, br_vector3 *B, br_matrix4 *C);"
+  },
+  "BrMatrix4ApplyV": {
+    "file": "fwproto.h",
+    "line": 428,
+    "prototype": "void BrMatrix4ApplyV(br_vector4 *A, br_vector3 *B, br_matrix4 *C);"
+  },
+  "BrMatrix4Copy": {
+    "file": "fwproto.h",
+    "line": 413,
+    "prototype": "void BrMatrix4Copy(br_matrix4 *A, br_matrix4 *B);"
+  },
+  "BrMatrix4Copy34": {
+    "file": "fwproto.h",
+    "line": 437,
+    "prototype": "void BrMatrix4Copy34(br_matrix4 *A, br_matrix34 *B);"
+  },
+  "BrMatrix4Determinant": {
+    "file": "fwproto.h",
+    "line": 420,
+    "prototype": "br_scalar BrMatrix4Determinant(br_matrix4 *mat);"
+  },
+  "BrMatrix4Identity": {
+    "file": "fwproto.h",
+    "line": 415,
+    "prototype": "void BrMatrix4Identity(br_matrix4 *mat);"
+  },
+  "BrMatrix4Inverse": {
+    "file": "fwproto.h",
+    "line": 418,
+    "prototype": "br_scalar BrMatrix4Inverse(br_matrix4 *A, br_matrix4 *B);"
+  },
+  "BrMatrix4Mul": {
+    "file": "fwproto.h",
+    "line": 414,
+    "prototype": "void BrMatrix4Mul(br_matrix4 *A, br_matrix4 *B, br_matrix4 *C);"
+  },
+  "BrMatrix4Perspective": {
+    "file": "fwproto.h",
+    "line": 422,
+    "prototype": "void BrMatrix4Perspective(br_matrix4 *mat, br_angle field_of_view, br_scalar aspect, br_scalar hither, br_scalar yon);"
+  },
+  "BrMatrix4Pre34": {
+    "file": "fwproto.h",
+    "line": 436,
+    "prototype": "void BrMatrix4Pre34(br_matrix4 *A, br_matrix34 *B);"
+  },
+  "BrMatrix4PreTransform": {
+    "file": "fwproto.h",
+    "line": 521,
+    "prototype": "void BrMatrix4PreTransform(br_matrix4 *mat, br_transform *xform);"
+  },
+  "BrMatrix4Scale": {
+    "file": "fwproto.h",
+    "line": 416,
+    "prototype": "void BrMatrix4Scale(br_matrix4 *mat, br_scalar sx, br_scalar sy, br_scalar sz);"
+  },
+  "BrMatrix4TApply": {
+    "file": "fwproto.h",
+    "line": 434,
+    "prototype": "void BrMatrix4TApply(br_vector4 *A, br_vector4 *B, br_matrix4 *C);"
+  },
+  "BrMatrix4TApplyP": {
+    "file": "fwproto.h",
+    "line": 433,
+    "prototype": "void BrMatrix4TApplyP(br_vector4 *A, br_vector3 *B, br_matrix4 *C);"
+  },
+  "BrMatrix4TApplyV": {
+    "file": "fwproto.h",
+    "line": 432,
+    "prototype": "void BrMatrix4TApplyV(br_vector4 *A, br_vector3 *B, br_matrix4 *C);"
+  },
+  "BrMatrix4ToEuler": {
+    "file": "fwproto.h",
+    "line": 487,
+    "prototype": "br_euler * BrMatrix4ToEuler(br_euler *dest, br_matrix4 *mat);"
+  },
+  "BrMatrix4ToQuat": {
+    "file": "fwproto.h",
+    "line": 503,
+    "prototype": "br_quat * BrMatrix4ToQuat(br_quat *q, br_matrix4 *mat);"
+  },
+  "BrMemAllocate": {
+    "file": "fwproto.h",
+    "line": 656,
+    "prototype": "void * BrMemAllocate(br_size_t size, br_uint_8 type);"
+  },
+  "BrMemCalloc": {
+    "file": "fwproto.h",
+    "line": 661,
+    "prototype": "void * BrMemCalloc(int nelems, br_size_t size, br_uint_8 type);"
+  },
+  "BrMemFree": {
+    "file": "fwproto.h",
+    "line": 657,
+    "prototype": "void BrMemFree(void *block);"
+  },
+  "BrMemInquire": {
+    "file": "fwproto.h",
+    "line": 658,
+    "prototype": "br_size_t BrMemInquire(br_uint_8 type);"
+  },
+  "BrMemStrDup": {
+    "file": "fwproto.h",
+    "line": 660,
+    "prototype": "char * BrMemStrDup(char *str);"
+  },
+  "BrModelAdd": {
+    "file": "fwproto.h",
+    "line": 197,
+    "prototype": "br_model * BrModelAdd(br_model *model);"
+  },
+  "BrModelAddMany": {
+    "file": "fwproto.h",
+    "line": 202,
+    "prototype": "br_uint_32 BrModelAddMany(br_model **items, int n);"
+  },
+  "BrModelAllocate": {
+    "file": "fwproto.h",
+    "line": 216,
+    "prototype": "br_model * BrModelAllocate(char *name, int nvertices, int nfaces);"
+  },
+  "BrModelApplyMap": {
+    "file": "fwproto.h",
+    "line": 213,
+    "prototype": "void BrModelApplyMap(br_model *model, int map_type, br_matrix34 *xform);"
+  },
+  "BrModelCount": {
+    "file": "fwproto.h",
+    "line": 205,
+    "prototype": "br_uint_32 BrModelCount(char *pattern);"
+  },
+  "BrModelEnum": {
+    "file": "fwproto.h",
+    "line": 209,
+    "prototype": "br_uint_32 BrModelEnum(char *pattern, br_model_enum_cbfn *callback, void *arg);"
+  },
+  "BrModelFind": {
+    "file": "fwproto.h",
+    "line": 199,
+    "prototype": "br_model * BrModelFind(char *pattern);"
+  },
+  "BrModelFindHook": {
+    "file": "fwproto.h",
+    "line": 201,
+    "prototype": "br_model_find_cbfn * BrModelFindHook(br_model_find_cbfn *hook);"
+  },
+  "BrModelFindMany": {
+    "file": "fwproto.h",
+    "line": 204,
+    "prototype": "br_uint_32 BrModelFindMany(char *pattern, br_model **items, int max);"
+  },
+  "BrModelFitMap": {
+    "file": "fwproto.h",
+    "line": 214,
+    "prototype": "br_matrix34 * BrModelFitMap(br_model *model, int axis_0, int axis_1, br_matrix34 *transform);"
+  },
+  "BrModelFree": {
+    "file": "fwproto.h",
+    "line": 217,
+    "prototype": "void BrModelFree(br_model *m);"
+  },
+  "BrModelLoad": {
+    "file": "fwproto.h",
+    "line": 323,
+    "prototype": "br_model * BrModelLoad(char *filename);"
+  },
+  "BrModelLoadMany": {
+    "file": "fwproto.h",
+    "line": 325,
+    "prototype": "br_uint_32 BrModelLoadMany(char *filename, br_model **models, br_uint_16 num);"
+  },
+  "BrModelRemove": {
+    "file": "fwproto.h",
+    "line": 198,
+    "prototype": "br_model * BrModelRemove(br_model *model);"
+  },
+  "BrModelRemoveMany": {
+    "file": "fwproto.h",
+    "line": 203,
+    "prototype": "br_uint_32 BrModelRemoveMany(br_model **items, int n);"
+  },
+  "BrModelSave": {
+    "file": "fwproto.h",
+    "line": 324,
+    "prototype": "br_uint_32 BrModelSave(char *filename, br_model *model);"
+  },
+  "BrModelSaveMany": {
+    "file": "fwproto.h",
+    "line": 326,
+    "prototype": "br_uint_32 BrModelSaveMany(char *filename, br_model **models, br_uint_16 num);"
+  },
+  "BrModelUpdate": {
+    "file": "fwproto.h",
+    "line": 212,
+    "prototype": "void BrModelUpdate(br_model *model, br_uint_16 flags);"
+  },
+  "BrOnScreenCheck": {
+    "file": "fwproto.h",
+    "line": 595,
+    "prototype": "br_uint_8 BrOnScreenCheck(br_bounds *bounds);"
+  },
+  "BrOriginToScreenXY": {
+    "file": "fwproto.h",
+    "line": 597,
+    "prototype": "br_uint_8 BrOriginToScreenXY(br_vector2 *screen);"
+  },
+  "BrOriginToScreenXYZO": {
+    "file": "fwproto.h",
+    "line": 598,
+    "prototype": "br_uint_32 BrOriginToScreenXYZO(br_vector3 *screen);"
+  },
+  "BrPixelmapAllocate": {
+    "file": "fwproto.h",
+    "line": 290,
+    "prototype": "br_pixelmap * BrPixelmapAllocate(br_uint_8 type, br_uint_16 w, br_uint_16 h, void *pixels, int flags);"
+  },
+  "BrPixelmapAllocateSub": {
+    "file": "fwproto.h",
+    "line": 291,
+    "prototype": "br_pixelmap * BrPixelmapAllocateSub(br_pixelmap *pm, br_uint_16 x, br_uint_16 y, br_uint_16 w, br_uint_16 h);"
+  },
+  "BrPixelmapChannels": {
+    "file": "fwproto.h",
+    "line": 300,
+    "prototype": "br_uint_16 BrPixelmapChannels(br_pixelmap *pm);"
+  },
+  "BrPixelmapClone": {
+    "file": "fwproto.h",
+    "line": 297,
+    "prototype": "br_pixelmap * BrPixelmapClone(br_pixelmap *src);"
+  },
+  "BrPixelmapCopy": {
+    "file": "fwproto.h",
+    "line": 312,
+    "prototype": "void BrPixelmapCopy(br_pixelmap *dst, br_pixelmap *src);"
+  },
+  "BrPixelmapDirtyRectangleCopy": {
+    "file": "fwproto.h",
+    "line": 308,
+    "prototype": "void BrPixelmapDirtyRectangleCopy(br_pixelmap *dst, br_pixelmap *src, br_int_16 x, br_int_16 y, br_uint_16 w, br_uint_16 h);"
+  },
+  "BrPixelmapDirtyRectangleFill": {
+    "file": "fwproto.h",
+    "line": 309,
+    "prototype": "void BrPixelmapDirtyRectangleFill(br_pixelmap *dst, br_int_16 x, br_int_16 y, br_uint_16 w, br_uint_16 h, br_uint_32 colour);"
+  },
+  "BrPixelmapDoubleBuffer": {
+    "file": "fwproto.h",
+    "line": 320,
+    "prototype": "br_pixelmap * BrPixelmapDoubleBuffer(br_pixelmap *dst, br_pixelmap *src);"
+  },
+  "BrPixelmapFill": {
+    "file": "fwproto.h",
+    "line": 303,
+    "prototype": "void BrPixelmapFill(br_pixelmap *dst, br_uint_32 colour);"
+  },
+  "BrPixelmapFree": {
+    "file": "fwproto.h",
+    "line": 294,
+    "prototype": "void BrPixelmapFree(br_pixelmap *pm);"
+  },
+  "BrPixelmapLine": {
+    "file": "fwproto.h",
+    "line": 313,
+    "prototype": "void BrPixelmapLine(br_pixelmap *dst, br_int_16 x1, br_int_16 y1, br_int_16 x2, br_int_16 y2, br_uint_32 colour);"
+  },
+  "BrPixelmapLoad": {
+    "file": "fwproto.h",
+    "line": 333,
+    "prototype": "br_pixelmap * BrPixelmapLoad(char *filename);"
+  },
+  "BrPixelmapLoadMany": {
+    "file": "fwproto.h",
+    "line": 335,
+    "prototype": "br_uint_32 BrPixelmapLoadMany(char *filename, br_pixelmap **pixelmaps, br_uint_16 num);"
+  },
+  "BrPixelmapMatch": {
+    "file": "fwproto.h",
+    "line": 296,
+    "prototype": "br_pixelmap * BrPixelmapMatch(br_pixelmap *src, br_uint_8 match_type);"
+  },
+  "BrPixelmapPixelSize": {
+    "file": "fwproto.h",
+    "line": 299,
+    "prototype": "br_uint_16 BrPixelmapPixelSize(br_pixelmap *pm);"
+  },
+  "BrPixelmapPlot": {
+    "file": "fwproto.h",
+    "line": 311,
+    "prototype": "void BrPixelmapPlot(br_pixelmap *dst, br_int_16 x, br_int_16 y, br_uint_32 colour);"
+  },
+  "BrPixelmapRectangleCopy": {
+    "file": "fwproto.h",
+    "line": 305,
+    "prototype": "void BrPixelmapRectangleCopy(br_pixelmap *dst, br_int_16 dx, br_int_16 dy, br_pixelmap *src, br_int_16 sx, br_int_16 sy, br_uint_16 w, br_uint_16 h);"
+  },
+  "BrPixelmapRectangleFill": {
+    "file": "fwproto.h",
+    "line": 306,
+    "prototype": "void BrPixelmapRectangleFill(br_pixelmap *dst, br_int_16 x, br_int_16 y, br_uint_16 w, br_uint_16 h, br_uint_32 colour);"
+  },
+  "BrPixelmapSave": {
+    "file": "fwproto.h",
+    "line": 334,
+    "prototype": "br_uint_32 BrPixelmapSave(char *filename, br_pixelmap *pixelmap);"
+  },
+  "BrPixelmapSaveMany": {
+    "file": "fwproto.h",
+    "line": 336,
+    "prototype": "br_uint_32 BrPixelmapSaveMany(char *filename, br_pixelmap **pixelmaps, br_uint_16 num);"
+  },
+  "BrPixelmapScale": {
+    "file": "scale.h",
+    "line": 7,
+    "prototype": "br_pixelmap * BrPixelmapScale(br_pixelmap *src, br_uint_32 new_x, br_uint_32 new_y, float fwidth);"
+  },
+  "BrPixelmapText": {
+    "file": "fwproto.h",
+    "line": 314,
+    "prototype": "void BrPixelmapText(br_pixelmap *dst, br_int_16 x, br_int_16 y, br_uint_32 colour, br_font *font, char *text);"
+  },
+  "BrPixelmapTextF": {
+    "file": "fwproto.h",
+    "line": 315,
+    "prototype": "void BrPixelmapTextF(br_pixelmap *dst, br_int_16 x, br_int_16 y, br_uint_32 colour, br_font *font, char *fmt, ...);"
+  },
+  "BrPixelmapTextHeight": {
+    "file": "fwproto.h",
+    "line": 318,
+    "prototype": "br_uint_16 BrPixelmapTextHeight(br_pixelmap *dst, br_font *font);"
+  },
+  "BrPixelmapTextWidth": {
+    "file": "fwproto.h",
+    "line": 317,
+    "prototype": "br_uint_16 BrPixelmapTextWidth(br_pixelmap *dst, br_font *font, char *text);"
+  },
+  "BrPointToScreenXY": {
+    "file": "fwproto.h",
+    "line": 600,
+    "prototype": "br_uint_8 BrPointToScreenXY(br_vector2 *screen, br_vector3 *point);"
+  },
+  "BrPointToScreenXYMany": {
+    "file": "fwproto.h",
+    "line": 603,
+    "prototype": "void BrPointToScreenXYMany(br_vector2 *screens, br_vector3 *points, br_uint_32 npoints);"
+  },
+  "BrPointToScreenXYZO": {
+    "file": "fwproto.h",
+    "line": 601,
+    "prototype": "br_uint_32 BrPointToScreenXYZO(br_vector3 *screen, br_vector3 *point);"
+  },
+  "BrPointToScreenXYZOMany": {
+    "file": "fwproto.h",
+    "line": 604,
+    "prototype": "void BrPointToScreenXYZOMany(br_vector3 *screens, br_uint_32 *outcodes, br_vector3 *points, br_uint_32 npoints);"
+  },
+  "BrPoolAllocate": {
+    "file": "fwproto.h",
+    "line": 506,
+    "prototype": "br_pool * BrPoolAllocate(int block_size, int chunk_size, br_uint_8 mem_type);"
+  },
+  "BrPoolBlockAllocate": {
+    "file": "fwproto.h",
+    "line": 509,
+    "prototype": "void * BrPoolBlockAllocate(struct br_pool *pool);"
+  },
+  "BrPoolBlockFree": {
+    "file": "fwproto.h",
+    "line": 510,
+    "prototype": "void BrPoolBlockFree(struct br_pool *pool, void *block);"
+  },
+  "BrPoolEmpty": {
+    "file": "fwproto.h",
+    "line": 512,
+    "prototype": "void BrPoolEmpty(struct br_pool *pool);"
+  },
+  "BrPoolFree": {
+    "file": "fwproto.h",
+    "line": 507,
+    "prototype": "void BrPoolFree(br_pool *pool);"
+  },
+  "BrQsort": {
+    "file": "fwproto.h",
+    "line": 618,
+    "prototype": "void BrQsort(void *basep, unsigned int nelems, unsigned int size, br_qsort_cbfn *comp);"
+  },
+  "BrQuantAddColours": {
+    "file": "quantize.h",
+    "line": 7,
+    "prototype": "void BrQuantAddColours(br_uint_8 *colours, br_uint_32 size);"
+  },
+  "BrQuantBegin": {
+    "file": "quantize.h",
+    "line": 3,
+    "prototype": "void BrQuantBegin(void);"
+  },
+  "BrQuantEnd": {
+    "file": "quantize.h",
+    "line": 4,
+    "prototype": "void BrQuantEnd(void);"
+  },
+  "BrQuantMakePalette": {
+    "file": "quantize.h",
+    "line": 10,
+    "prototype": "void BrQuantMakePalette(int base, int num_entries, br_pixelmap *palette);"
+  },
+  "BrQuantMapColours": {
+    "file": "quantize.h",
+    "line": 16,
+    "prototype": "void BrQuantMapColours(int base, br_uint_8 *colours, br_uint_8 *mapped_colours, int size);"
+  },
+  "BrQuantPrepareMapping": {
+    "file": "quantize.h",
+    "line": 13,
+    "prototype": "void BrQuantPrepareMapping(int base, int num_entries, br_pixelmap *palette);"
+  },
+  "BrQuatInvert": {
+    "file": "fwproto.h",
+    "line": 495,
+    "prototype": "br_quat * BrQuatInvert(br_quat *q, br_quat *qq);"
+  },
+  "BrQuatMul": {
+    "file": "fwproto.h",
+    "line": 493,
+    "prototype": "br_quat * BrQuatMul(br_quat *q, br_quat *l, br_quat *r);"
+  },
+  "BrQuatNormalise": {
+    "file": "fwproto.h",
+    "line": 494,
+    "prototype": "br_quat * BrQuatNormalise(br_quat *q, br_quat *qq);"
+  },
+  "BrQuatSlerp": {
+    "file": "fwproto.h",
+    "line": 497,
+    "prototype": "br_quat * BrQuatSlerp(br_quat *q, br_quat *l, br_quat *r, br_scalar t, br_int_16 spins);"
+  },
+  "BrQuatToEuler": {
+    "file": "fwproto.h",
+    "line": 490,
+    "prototype": "br_euler * BrQuatToEuler(br_euler *euler, br_quat *quat);"
+  },
+  "BrQuatToMatrix34": {
+    "file": "fwproto.h",
+    "line": 499,
+    "prototype": "br_matrix34 * BrQuatToMatrix34(br_matrix34 *mat, br_quat *q);"
+  },
+  "BrQuatToMatrix4": {
+    "file": "fwproto.h",
+    "line": 502,
+    "prototype": "br_matrix4 * BrQuatToMatrix4(br_matrix4 *mat, br_quat *q);"
+  },
+  "BrResAdd": {
+    "file": "fwproto.h",
+    "line": 668,
+    "prototype": "void * BrResAdd(void *vparent, void *vres);"
+  },
+  "BrResAllocate": {
+    "file": "fwproto.h",
+    "line": 664,
+    "prototype": "void * BrResAllocate(void *vparent, br_size_t size, int res_class);"
+  },
+  "BrResChildEnum": {
+    "file": "fwproto.h",
+    "line": 674,
+    "prototype": "br_uint_32 BrResChildEnum(void *vres, br_resenum_cbfn *callback, void *arg);"
+  },
+  "BrResClass": {
+    "file": "fwproto.h",
+    "line": 670,
+    "prototype": "br_uint_8 BrResClass(void * vres);"
+  },
+  "BrResClassAdd": {
+    "file": "fwproto.h",
+    "line": 255,
+    "prototype": "br_resource_class * BrResClassAdd(br_resource_class *pixelmap);"
+  },
+  "BrResClassAddMany": {
+    "file": "fwproto.h",
+    "line": 260,
+    "prototype": "br_uint_32 BrResClassAddMany(br_resource_class **items, int n);"
+  },
+  "BrResClassCount": {
+    "file": "fwproto.h",
+    "line": 263,
+    "prototype": "br_uint_32 BrResClassCount(char *pattern);"
+  },
+  "BrResClassEnum": {
+    "file": "fwproto.h",
+    "line": 267,
+    "prototype": "br_uint_32 BrResClassEnum(char *pattern, br_resclass_enum_cbfn *callback, void *arg);"
+  },
+  "BrResClassFind": {
+    "file": "fwproto.h",
+    "line": 257,
+    "prototype": "br_resource_class * BrResClassFind(char *pattern);"
+  },
+  "BrResClassFindMany": {
+    "file": "fwproto.h",
+    "line": 262,
+    "prototype": "br_uint_32 BrResClassFindMany(char *pattern, br_resource_class **items, int max);"
+  },
+  "BrResClassRemove": {
+    "file": "fwproto.h",
+    "line": 256,
+    "prototype": "br_resource_class * BrResClassRemove(br_resource_class *pixelmap);"
+  },
+  "BrResClassRemoveMany": {
+    "file": "fwproto.h",
+    "line": 261,
+    "prototype": "br_uint_32 BrResClassRemoveMany(br_resource_class **items, int n);"
+  },
+  "BrResFree": {
+    "file": "fwproto.h",
+    "line": 665,
+    "prototype": "void BrResFree(void *vres);"
+  },
+  "BrResRemove": {
+    "file": "fwproto.h",
+    "line": 669,
+    "prototype": "void * BrResRemove(void *vres);"
+  },
+  "BrResSize": {
+    "file": "fwproto.h",
+    "line": 671,
+    "prototype": "br_uint_32 BrResSize(void *vres);"
+  },
+  "BrResSizeTotal": {
+    "file": "fwproto.h",
+    "line": 672,
+    "prototype": "br_uint_32 BrResSizeTotal(void *vres);"
+  },
+  "BrResStrDup": {
+    "file": "fwproto.h",
+    "line": 666,
+    "prototype": "char * BrResStrDup(void *vparent, char *str);"
+  },
+  "BrScaleBegin": {
+    "file": "scale.h",
+    "line": 3,
+    "prototype": "void BrScaleBegin(void);"
+  },
+  "BrScaleEnd": {
+    "file": "scale.h",
+    "line": 4,
+    "prototype": "void BrScaleEnd(void);"
+  },
+  "BrSceneModelLight": {
+    "file": "fwproto.h",
+    "line": 606,
+    "prototype": "void BrSceneModelLight(br_model *model, br_material *default_material, br_actor *root, br_actor *a);"
+  },
+  "BrScenePick2D": {
+    "file": "fwproto.h",
+    "line": 574,
+    "prototype": "int BrScenePick2D( br_actor *world, br_actor *camera, br_pixelmap *viewport, int pick_x, int pick_y, br_pick2d_cbfn *callback, void *arg );"
+  },
+  "BrScenePick3D": {
+    "file": "fwproto.h",
+    "line": 588,
+    "prototype": "int BrScenePick3D( br_actor *world, br_actor *actor, br_bounds *bounds, br_pick3d_cbfn *callback, void *arg );"
+  },
+  "BrScratchFlush": {
+    "file": "fwproto.h",
+    "line": 688,
+    "prototype": "void BrScratchFlush(void);"
+  },
+  "BrScratchFree": {
+    "file": "fwproto.h",
+    "line": 686,
+    "prototype": "void BrScratchFree(void *scratch);"
+  },
+  "BrScratchInquire": {
+    "file": "fwproto.h",
+    "line": 687,
+    "prototype": "br_size_t BrScratchInquire(void);"
+  },
+  "BrSqrt": {
+    "file": "fwproto.h",
+    "line": 148,
+    "prototype": "br_uint_32 BrSqrt(br_uint_32 a);"
+  },
+  "BrSwap16": {
+    "file": "fwproto.h",
+    "line": 612,
+    "prototype": "br_uint_16 BrSwap16(br_uint_16 s);"
+  },
+  "BrSwap32": {
+    "file": "fwproto.h",
+    "line": 611,
+    "prototype": "br_uint_32 BrSwap32(br_uint_32 l);"
+  },
+  "BrSwapFloat": {
+    "file": "fwproto.h",
+    "line": 613,
+    "prototype": "br_float BrSwapFloat(br_float f);"
+  },
+  "BrTableAdd": {
+    "file": "fwproto.h",
+    "line": 237,
+    "prototype": "br_pixelmap * BrTableAdd(br_pixelmap *pixelmap);"
+  },
+  "BrTableAddMany": {
+    "file": "fwproto.h",
+    "line": 242,
+    "prototype": "br_uint_32 BrTableAddMany(br_pixelmap **items, int n);"
+  },
+  "BrTableCount": {
+    "file": "fwproto.h",
+    "line": 245,
+    "prototype": "br_uint_32 BrTableCount(char *pattern);"
+  },
+  "BrTableEnum": {
+    "file": "fwproto.h",
+    "line": 249,
+    "prototype": "br_uint_32 BrTableEnum(char *pattern, br_table_enum_cbfn *callback, void *arg);"
+  },
+  "BrTableFind": {
+    "file": "fwproto.h",
+    "line": 239,
+    "prototype": "br_pixelmap * BrTableFind(char *pattern);"
+  },
+  "BrTableFindMany": {
+    "file": "fwproto.h",
+    "line": 244,
+    "prototype": "br_uint_32 BrTableFindMany(char *pattern, br_pixelmap **items, int max);"
+  },
+  "BrTableRemove": {
+    "file": "fwproto.h",
+    "line": 238,
+    "prototype": "br_pixelmap * BrTableRemove(br_pixelmap *pixelmap);"
+  },
+  "BrTableRemoveMany": {
+    "file": "fwproto.h",
+    "line": 243,
+    "prototype": "br_uint_32 BrTableRemoveMany(br_pixelmap **items, int n);"
+  },
+  "BrTableUpdate": {
+    "file": "fwproto.h",
+    "line": 252,
+    "prototype": "void BrTableUpdate(br_pixelmap *item, br_uint_16 flags);"
+  },
+  "BrTransformToMatrix34": {
+    "file": "fwproto.h",
+    "line": 515,
+    "prototype": "void BrTransformToMatrix34(br_matrix34 *mat, br_transform *xform);"
+  },
+  "BrTransformToTransform": {
+    "file": "fwproto.h",
+    "line": 517,
+    "prototype": "void BrTransformToTransform(br_transform *dest, br_transform *src);"
+  },
+  "BrVector2Accumulate": {
+    "file": "fwproto.h",
+    "line": 447,
+    "prototype": "void BrVector2Accumulate(br_vector2 *v1, br_vector2 *v2);"
+  },
+  "BrVector2Add": {
+    "file": "fwproto.h",
+    "line": 446,
+    "prototype": "void BrVector2Add(br_vector2 *v1, br_vector2 *v2, br_vector2 *v3);"
+  },
+  "BrVector2Copy": {
+    "file": "fwproto.h",
+    "line": 441,
+    "prototype": "void BrVector2Copy(br_vector2 *v1, br_vector2 * v2);"
+  },
+  "BrVector2Dot": {
+    "file": "fwproto.h",
+    "line": 451,
+    "prototype": "br_scalar BrVector2Dot(br_vector2 *v1, br_vector2 *v2);"
+  },
+  "BrVector2InvScale": {
+    "file": "fwproto.h",
+    "line": 450,
+    "prototype": "void BrVector2InvScale(br_vector2 *v1, br_vector2 *v2, br_scalar s);"
+  },
+  "BrVector2Length": {
+    "file": "fwproto.h",
+    "line": 452,
+    "prototype": "br_scalar BrVector2Length(br_vector2 *v1);"
+  },
+  "BrVector2LengthSquared": {
+    "file": "fwproto.h",
+    "line": 453,
+    "prototype": "br_scalar BrVector2LengthSquared(br_vector2 *v1);"
+  },
+  "BrVector2Negate": {
+    "file": "fwproto.h",
+    "line": 445,
+    "prototype": "void BrVector2Negate(br_vector2 *v1, br_vector2 *v2);"
+  },
+  "BrVector2Normalise": {
+    "file": "fwproto.h",
+    "line": 476,
+    "prototype": "void BrVector2Normalise(br_vector2 *v1, br_vector2 *v2);"
+  },
+  "BrVector2Scale": {
+    "file": "fwproto.h",
+    "line": 449,
+    "prototype": "void BrVector2Scale(br_vector2 *v1, br_vector2 *v2, br_scalar s);"
+  },
+  "BrVector2Set": {
+    "file": "fwproto.h",
+    "line": 442,
+    "prototype": "void BrVector2Set(br_vector2 *v1, br_scalar s1, br_scalar s2);"
+  },
+  "BrVector2SetFloat": {
+    "file": "fwproto.h",
+    "line": 444,
+    "prototype": "void BrVector2SetFloat(br_vector2 *v1, float f1, float f2);"
+  },
+  "BrVector2SetInt": {
+    "file": "fwproto.h",
+    "line": 443,
+    "prototype": "void BrVector2SetInt(br_vector2 *v1, int i1, int i2);"
+  },
+  "BrVector2Sub": {
+    "file": "fwproto.h",
+    "line": 448,
+    "prototype": "void BrVector2Sub(br_vector2 *v1, br_vector2 *v2, br_vector2 *v3);"
+  },
+  "BrVector3Accumulate": {
+    "file": "fwproto.h",
+    "line": 462,
+    "prototype": "void BrVector3Accumulate(br_vector3 *v1, br_vector3 *v2);"
+  },
+  "BrVector3Add": {
+    "file": "fwproto.h",
+    "line": 461,
+    "prototype": "void BrVector3Add(br_vector3 *v1, br_vector3 *v2, br_vector3 *v3);"
+  },
+  "BrVector3Copy": {
+    "file": "fwproto.h",
+    "line": 456,
+    "prototype": "void BrVector3Copy(br_vector3 *v1, br_vector2 *v2);"
+  },
+  "BrVector3Cross": {
+    "file": "fwproto.h",
+    "line": 467,
+    "prototype": "void BrVector3Cross(br_vector3 *v1, br_vector3 *v2, br_vector3 *v3);"
+  },
+  "BrVector3Dot": {
+    "file": "fwproto.h",
+    "line": 466,
+    "prototype": "br_scalar BrVector3Dot(br_vector3 *v1, br_vector3 *v2);"
+  },
+  "BrVector3InvScale": {
+    "file": "fwproto.h",
+    "line": 465,
+    "prototype": "void BrVector3InvScale(br_vector3 *v1, br_vector3 *v2, br_scalar s);"
+  },
+  "BrVector3Length": {
+    "file": "fwproto.h",
+    "line": 468,
+    "prototype": "br_scalar BrVector3Length(br_vector3 *v1);"
+  },
+  "BrVector3LengthSquared": {
+    "file": "fwproto.h",
+    "line": 469,
+    "prototype": "br_scalar BrVector3LengthSquared(br_vector3 *v1);"
+  },
+  "BrVector3Negate": {
+    "file": "fwproto.h",
+    "line": 460,
+    "prototype": "void BrVector3Negate(br_vector3 *v1, br_vector3 *v2);"
+  },
+  "BrVector3Normalise": {
+    "file": "fwproto.h",
+    "line": 471,
+    "prototype": "void BrVector3Normalise(br_vector3 *v1, br_vector3 *v2);"
+  },
+  "BrVector3NormaliseLP": {
+    "file": "fwproto.h",
+    "line": 473,
+    "prototype": "void BrVector3NormaliseLP(br_vector3 *v1, br_vector3 *v2);"
+  },
+  "BrVector3NormaliseQuick": {
+    "file": "fwproto.h",
+    "line": 472,
+    "prototype": "void BrVector3NormaliseQuick(br_vector3 *v1, br_vector3 *v2);"
+  },
+  "BrVector3Scale": {
+    "file": "fwproto.h",
+    "line": 464,
+    "prototype": "void BrVector3Scale(br_vector3 *v1, br_vector3 *v2, br_scalar s);"
+  },
+  "BrVector3Set": {
+    "file": "fwproto.h",
+    "line": 457,
+    "prototype": "void BrVector3Set(br_vector3 *v1, br_scalar s1, br_scalar s2, br_scalar s3);"
+  },
+  "BrVector3SetFloat": {
+    "file": "fwproto.h",
+    "line": 459,
+    "prototype": "void BrVector3SetFloat(br_vector3 *v1, float f1, float f2, float f3);"
+  },
+  "BrVector3SetInt": {
+    "file": "fwproto.h",
+    "line": 458,
+    "prototype": "void BrVector3SetInt(br_vector3 *v1, int i1, int i2, int i3);"
+  },
+  "BrVector3Sub": {
+    "file": "fwproto.h",
+    "line": 463,
+    "prototype": "void BrVector3Sub(br_vector3 *v1, br_vector3 *v2, br_vector3 *v3);"
+  },
+  "BrVector4Copy": {
+    "file": "fwproto.h",
+    "line": 480,
+    "prototype": "void BrVector4Copy(br_vector4 *v1, br_vector4 *v2);"
+  },
+  "BrVector4Dot": {
+    "file": "fwproto.h",
+    "line": 479,
+    "prototype": "br_scalar BrVector4Dot(br_vector4 *v1, br_vector4 *v2);"
+  },
+  "BrWarning": {
+    "file": "fwproto.h",
+    "line": 622,
+    "prototype": "void BrWarning(char *s, ...);"
+  },
+  "BrWriteModeSet": {
+    "file": "fwproto.h",
+    "line": 653,
+    "prototype": "int BrWriteModeSet(int text);"
+  },
+  "BrZbBegin": {
+    "file": "zbproto.h",
+    "line": 25,
+    "prototype": "void BrZbBegin(br_uint_8 colour_type, br_uint_8 depth_type);"
+  },
+  "BrZbEnd": {
+    "file": "zbproto.h",
+    "line": 26,
+    "prototype": "void BrZbEnd(void);"
+  },
+  "BrZbModelRender": {
+    "file": "zbproto.h",
+    "line": 44,
+    "prototype": "void BrZbModelRender(br_actor *actor, br_model *model, br_material *material, br_uint_8 style, int on_screen, int use_custom);"
+  },
+  "BrZbSceneRender": {
+    "file": "zbproto.h",
+    "line": 37,
+    "prototype": "void BrZbSceneRender( br_actor *world, br_actor *camera, br_pixelmap *colour_buffer, br_pixelmap *depth_buffer);"
+  },
+  "BrZbSceneRenderAdd": {
+    "file": "zbproto.h",
+    "line": 33,
+    "prototype": "void BrZbSceneRenderAdd(br_actor *tree);"
+  },
+  "BrZbSceneRenderBegin": {
+    "file": "zbproto.h",
+    "line": 28,
+    "prototype": "void BrZbSceneRenderBegin(br_actor *world, br_actor *camera, br_pixelmap *colour_buffer, br_pixelmap *depth_buffer);"
+  },
+  "BrZbSceneRenderEnd": {
+    "file": "zbproto.h",
+    "line": 34,
+    "prototype": "void BrZbSceneRenderEnd(void);"
+  },
+  "BrZbSetRenderBoundsCallback": {
+    "file": "zbproto.h",
+    "line": 51,
+    "prototype": "br_renderbounds_cbfn * BrZbSetRenderBoundsCallback(br_renderbounds_cbfn *new_cbfn);"
+  },
+  "_BrAssert": {
+    "file": "fwproto.h",
+    "line": 624,
+    "prototype": "void _BrAssert(char *condition, char *file, unsigned line);"
+  },
+  "_BrUAssert": {
+    "file": "fwproto.h",
+    "line": 625,
+    "prototype": "void _BrUAssert(char *condition, char *file, unsigned line);"
+  }
+}

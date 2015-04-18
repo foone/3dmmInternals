@@ -1,9 +1,10 @@
 import sys
 sys.path.append('lib')
-import json,collections,subprocess,os
-import pefile,ms3dmm,pyudd,glob
-
-JSONLINT_PATH = os.path.expanduser(r'~\Application Data\npm\jsonlint.cmd')
+import json,collections,subprocess,os,glob
+if 'linux' in sys.platform:
+	JSONLINT_PATH = '/usr/local/bin/jsonlint' # TODO: don't hardcode this stupid shit
+else:
+	JSONLINT_PATH = os.path.expanduser(r'~\Application Data\npm\jsonlint.cmd')
 
 functions=collections.defaultdict(dict)
 
@@ -18,6 +19,7 @@ def cleanAddress(x):
 	return x.upper().rjust(8,'0')
 
 if __name__=='__main__':
+	import pefile,ms3dmm,pyudd
 
 	with open('disassembly.txt','r') as f:
 		f.next();f.next()

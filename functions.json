@@ -6948,6 +6948,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "check_version"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -8435,6 +8438,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "is_nt"
       }
     },
     "0040B620": {
@@ -9387,6 +9393,10 @@
       },
       "manual-ollydbg": {
         "name": "handleTimelineButtons"
+      },
+      "ollydbg": {
+        "args": "Arg1",
+        "name": "3DMOVIE.handleTimelineButtons"
       }
     },
     "0040D270": {
@@ -23229,6 +23239,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "ollydbg": {
+        "args": "Arg1",
+        "name": "3DMOVIE.0041DD80"
       }
     },
     "0041DDA0": {
@@ -93625,9 +93639,12 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "create_renderer"
+      },
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4",
-        "name": "3DMOVIE.0049D8B0"
+        "name": "3DMOVIE.create_renderer"
       }
     },
     "0049DB70": {
@@ -104889,6 +104906,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "ollydbg": {
+        "args": "Arg1,Arg2,Arg3",
+        "name": "3DMOVIE.004B2900"
       }
     },
     "004B2950": {
@@ -115952,7 +115973,8 @@
         "type-info": true
       },
       "ollydbg": {
-        "name": "unnamed"
+        "args": "Arg1,Arg2,Arg3,Arg4,Arg5",
+        "name": "3DMOVIE.004C70A4"
       }
     },
     "004C70F5": {

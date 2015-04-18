@@ -86814,6 +86814,11 @@
       "ollydbg": {
         "args": "Arg1",
         "name": "3DMOVIE._BrFixedAbs"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 13,
+        "prototype": "br_fixed_ls BrFixedAbs(br_fixed_ls a);"
       }
     },
     "004752A4": {
@@ -86832,6 +86837,11 @@
       "ollydbg": {
         "args": "Arg1,Arg2",
         "name": "3DMOVIE._BrFixedMul"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 16,
+        "prototype": "br_fixed_ls BrFixedMul(br_fixed_ls a, br_fixed_ls b);"
       }
     },
     "004752B5": {
@@ -86840,6 +86850,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 19,
+        "prototype": "br_fixed_ls BrFixedMac2(br_fixed_ls a, br_fixed_ls b, br_fixed_ls c, br_fixed_ls d);"
       }
     },
     "004752D8": {
@@ -86858,6 +86873,11 @@
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4,Arg5,Arg6",
         "name": "3DMOVIE._BrFixedMac3"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 23,
+        "prototype": "br_fixed_ls BrFixedMac3(br_fixed_ls a, br_fixed_ls b, br_fixed_ls c, br_fixed_ls d, br_fixed_ls e, br_fixed_ls f);"
       }
     },
     "00475305": {
@@ -86876,6 +86896,11 @@
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4,Arg5,Arg6,Arg7,Arg8",
         "name": "3DMOVIE._BrFixedMac4"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 28,
+        "prototype": "br_fixed_ls BrFixedMac4(br_fixed_ls a, br_fixed_ls b, br_fixed_ls c, br_fixed_ls d, br_fixed_ls e, br_fixed_ls f, br_fixed_ls g, br_fixed_ls h);"
       }
     },
     "0047533C": {
@@ -86894,6 +86919,11 @@
       "ollydbg": {
         "args": "Arg1,Arg2",
         "name": "3DMOVIE._BrFixedLength2"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 52,
+        "prototype": "br_fixed_ls BrFixedLength2(br_fixed_ls a, br_fixed_ls b);"
       }
     },
     "00475360": {
@@ -86912,6 +86942,11 @@
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
         "name": "3DMOVIE._BrFixedLength3"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 55,
+        "prototype": "br_fixed_ls BrFixedLength3(br_fixed_ls a, br_fixed_ls b, br_fixed_ls c);"
       }
     },
     "0047538D": {
@@ -86929,6 +86964,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 60,
+        "prototype": "br_fixed_ls BrFixedLength4(br_fixed_ls a, br_fixed_ls b, br_fixed_ls c, br_fixed_ls d);"
       }
     },
     "004753C3": {
@@ -86937,6 +86977,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 66,
+        "prototype": "br_fixed_ls BrFixedRLength2(br_fixed_ls a, br_fixed_ls b);"
       }
     },
     "004753E7": {
@@ -86945,6 +86990,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 69,
+        "prototype": "br_fixed_ls BrFixedRLength3(br_fixed_ls a, br_fixed_ls b, br_fixed_ls c);"
       }
     },
     "00475414": {
@@ -86953,6 +87003,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 74,
+        "prototype": "br_fixed_ls BrFixedRLength4(br_fixed_ls a, br_fixed_ls b, br_fixed_ls c, br_fixed_ls d);"
       }
     },
     "0047544A": {
@@ -86971,6 +87026,11 @@
       "ollydbg": {
         "args": "Arg1,Arg2",
         "name": "3DMOVIE._BrFixedDiv"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 80,
+        "prototype": "br_fixed_ls BrFixedDiv(br_fixed_ls a, br_fixed_ls b);"
       }
     },
     "0047545F": {
@@ -86979,6 +87039,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 86,
+        "prototype": "br_fixed_ls BrFixedDivR(br_fixed_ls a, br_fixed_ls b);"
       }
     },
     "00475475": {
@@ -86987,6 +87052,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 83,
+        "prototype": "br_fixed_ls BrFixedDivF(br_fixed_ls a, br_fixed_ls b);"
       }
     },
     "00475488": {
@@ -86995,6 +87065,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 90,
+        "prototype": "br_fixed_ls BrFixedMulDiv(br_fixed_ls a, br_fixed_ls b, br_fixed_ls c);"
       }
     },
     "00475498": {
@@ -87003,6 +87078,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 95,
+        "prototype": "br_fixed_ls BrFixedMac2Div(br_fixed_ls a, br_fixed_ls b, br_fixed_ls c, br_fixed_ls d, br_fixed_ls e);"
       }
     },
     "004754BA": {
@@ -87011,6 +87091,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 100,
+        "prototype": "br_fixed_ls BrFixedMac3Div(br_fixed_ls a, br_fixed_ls b, br_fixed_ls c, br_fixed_ls d, br_fixed_ls e, br_fixed_ls f, br_fixed_ls g);"
       }
     },
     "004754E6": {
@@ -87019,6 +87104,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 106,
+        "prototype": "br_fixed_ls BrFixedMac4Div(br_fixed_ls a, br_fixed_ls b, br_fixed_ls c, br_fixed_ls d, br_fixed_ls e, br_fixed_ls f, br_fixed_ls g, br_fixed_ls h, br_fixed_ls i);"
       }
     },
     "0047551C": {
@@ -87027,6 +87117,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 117,
+        "prototype": "br_fixed_ls BrFixedFMac2(br_fixed_lsf a, br_fixed_ls b, br_fixed_lsf c, br_fixed_ls d);"
       }
     },
     "00475541": {
@@ -87035,6 +87130,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 121,
+        "prototype": "br_fixed_ls BrFixedFMac3(br_fixed_lsf a, br_fixed_ls b, br_fixed_lsf c, br_fixed_ls d, br_fixed_lsf e, br_fixed_ls f);"
       }
     },
     "00475571": {
@@ -87043,6 +87143,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 126,
+        "prototype": "br_fixed_ls BrFixedFMac4(br_fixed_ls a, br_fixed_ls b, br_fixed_ls c, br_fixed_ls d, br_fixed_ls e, br_fixed_ls f, br_fixed_ls g, br_fixed_ls h);"
       }
     },
     "004755AC": {
@@ -87061,6 +87166,11 @@
       "ollydbg": {
         "args": "Arg1",
         "name": "3DMOVIE._BrFixedRcp"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 112,
+        "prototype": "br_fixed_ls BrFixedRcp(br_fixed_ls a);"
       }
     },
     "004755BD": {
@@ -87069,6 +87179,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 34,
+        "prototype": "br_fixed_ls BrFixedSqr(br_fixed_ls a);"
       }
     },
     "004755CD": {
@@ -87077,6 +87192,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 37,
+        "prototype": "br_fixed_ls BrFixedSqr2(br_fixed_ls a, br_fixed_ls b);"
       }
     },
     "004755EE": {
@@ -87085,6 +87205,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 41,
+        "prototype": "br_fixed_ls BrFixedSqr3(br_fixed_ls a, br_fixed_ls b, br_fixed_ls c);"
       }
     },
     "00475618": {
@@ -87093,6 +87218,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 45,
+        "prototype": "br_fixed_ls BrFixedSqr4(br_fixed_ls a, br_fixed_ls b, br_fixed_ls c, br_fixed_ls d);"
       }
     },
     "0047564B": {
@@ -87111,6 +87241,11 @@
       "ollydbg": {
         "args": "Arg1",
         "name": "3DMOVIE._BrFixedSin"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 132,
+        "prototype": "br_fixed_ls BrFixedSin(br_angle a);"
       }
     },
     "0047567C": {
@@ -87129,6 +87264,11 @@
       "ollydbg": {
         "args": "Arg1",
         "name": "3DMOVIE._BrFixedCos"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 134,
+        "prototype": "br_fixed_ls BrFixedCos(br_angle a);"
       }
     },
     "004756AD": {
@@ -87137,6 +87277,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 136,
+        "prototype": "br_angle BrFixedASin(br_fixed_ls s);"
       }
     },
     "004756E1": {
@@ -87155,6 +87300,11 @@
       "ollydbg": {
         "args": "Arg1",
         "name": "3DMOVIE._BrFixedACos"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 138,
+        "prototype": "br_angle BrFixedACos(br_fixed_ls c);"
       }
     },
     "00475715": {
@@ -87173,6 +87323,11 @@
       "ollydbg": {
         "args": "Arg1,Arg2",
         "name": "3DMOVIE._BrFixedATan2"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 140,
+        "prototype": "br_angle BrFixedATan2(br_fixed_ls x, br_fixed_ls y);"
       }
     },
     "00475919": {
@@ -87181,6 +87336,11 @@
       },
       "ollydbg": {
         "name": "unnamed"
+      },
+      "prototype": {
+        "file": "fwproto.h",
+        "line": 142,
+        "prototype": "br_angle BrFixedATan2Fast(br_fixed_ls x, br_fixed_ls y);"
       }
     },
     "00475A21": {

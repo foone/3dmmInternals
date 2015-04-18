@@ -18,6 +18,9 @@ def lintJSON(jobj):
 def cleanAddress(x):
 	return x.upper().rjust(8,'0')
 
+def dealiasFunction(x):
+	return x.strip().lstrip('_').lower()
+
 if __name__=='__main__':
 	import pefile,ms3dmm,pyudd
 
@@ -91,11 +94,11 @@ if __name__=='__main__':
 	with open('prototypes.json','rb') as f:
 		prototypes={}
 		for name,function_prototype in json.load(f).items():
-			prototypes[name.strip().lower()]=function_prototype
+			prototypes[dealiasFunction(name)]=function_prototype
 
 		for address,func in functions.items():
 
-			names=[func[key]['name'].strip().lower() for key in func if 'name' in func[key]]
+			names=[dealiasFunction(func[key]['name']) for key in func if 'name' in func[key]]
 			for name in names:
 				proto = prototypes.get(name)
 				if proto:

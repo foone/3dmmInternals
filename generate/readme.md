@@ -4,10 +4,11 @@ classes.json is similar but for classes, generated from constructors and vtable
 
 # How to generate functions.json & classes.json
 1. Open 3DMOVIE.EXE with OllyDbg 2.x, select the entire contents (click first line, scroll to the bottom, shift-click the last line). Right click, edit, copy as table. 
-2. Paste into a new text document named disassembly.txt. Save into this directory.
-3. Open 3DMOVIE.EXE in Ida Pro. Select all the functions in the function sub view, hit ctrl-insert to copy them. Paste into a new text file named "ida.txt".
-4. Copy 3DMOVIE.EXE into this directory (not needed if 3DMM has been installed on the system)
-5. Create a virtualenv, activate it, then install from requirements.txt:
+2. Copy the .udd file for OllyDbg into this directory. 
+3. Paste into a new text document named disassembly.txt. Save into this directory.
+4. Open 3DMOVIE.EXE in Ida Pro. Select all the functions in the function sub view, hit ctrl-insert to copy them. Paste into a new text file named "ida.txt".
+5. Copy 3DMOVIE.EXE into this directory (not needed if 3DMM has been installed on the system)
+6. Create a virtualenv, activate it, then install from requirements.txt:
 
   ```
   virtualenv venv
@@ -15,13 +16,13 @@ classes.json is similar but for classes, generated from constructors and vtable
   pip install -r requirements.txt
   ```
 
-6. Install node.js, then install jsonlint globally.
+7. Install node.js, then install jsonlint globally.
 
   ```
   npm install -g jsonlint
   ```
 
-7. run build.bat to build functions.json/classes.json file. You're done!
+8. run build.bat to build functions.json/classes.json file. You're done!
 
 # TODO/Gotchas
 

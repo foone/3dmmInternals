@@ -1,11 +1,11 @@
-import glob,re # lol I'm writing a parse!
+import glob,re # lol I'm writing a parser!
 import json,os
 from build_func_list import lintJSON
 PROTO_RE = re.compile(r'\s(BR_PUBLIC_ENTRY|BR_ASM_CALL|__far)')
 
 protos={}
 
-for hfile in glob.glob('include/*.h'):
+for hfile in glob.glob('brender_sdk/include/*.h'):
 	with open(hfile,'r') as f:
 		data=f.read()
 		data=re.sub(r'(\/\*(?:.*?)\*\/)','',data,flags=re.DOTALL)

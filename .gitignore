@@ -62,3 +62,4 @@ generate/functions.json
 generate/ida.txt
 generate/base-disassembly.txt
 generate/*.udd
+generate/brender_libs.json

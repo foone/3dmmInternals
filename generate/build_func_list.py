@@ -96,13 +96,20 @@ if __name__=='__main__':
 		for name,function_prototype in json.load(f).items():
 			prototypes[dealiasFunction(name)]=function_prototype
 
-		for address,func in functions.items():
+		library_info={}
+		with open('brender_libs.json','rb') as blf:
+			for name,function_info in json.load(blf).items():
+				library_info[dealiasFunction(name)]=function_info
 
+		for address,func in functions.items():
 			names=[dealiasFunction(func[key]['name']) for key in func if 'name' in func[key]]
 			for name in names:
 				proto = prototypes.get(name)
 				if proto:
 					func['prototype']=proto
+				info = library_info.get(name)
+				if info:
+					func['library']=info
 
 	with open('../functions.json','wb') as jf:
 		jf.write(lintJSON({'functions':functions}))

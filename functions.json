@@ -86808,6 +86808,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "fixed386.asm"
+      },
       "manual-ollydbg": {
         "name": "_BrFixedAbs"
       },
@@ -86831,6 +86835,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "fixed386.asm"
+      },
       "manual-ollydbg": {
         "name": "_BrFixedMul"
       },
@@ -86845,6 +86853,10 @@
       }
     },
     "004752B5": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "fixed386.asm"
+      },
       "manual-ollydbg": {
         "name": "_BrFixedMac2"
       },
@@ -86866,6 +86878,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "fixed386.asm"
       },
       "manual-ollydbg": {
         "name": "_BrFixedMac3"
@@ -86890,6 +86906,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "fixed386.asm"
+      },
       "manual-ollydbg": {
         "name": "_BrFixedMac4"
       },
@@ -86912,6 +86932,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "fixed386.asm"
       },
       "manual-ollydbg": {
         "name": "_BrFixedLength2"
@@ -86936,6 +86960,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "fixed386.asm"
+      },
       "manual-ollydbg": {
         "name": "_BrFixedLength3"
       },
@@ -86959,6 +86987,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "fixed386.asm"
+      },
       "manual-ollydbg": {
         "name": "_BrFixedLength4"
       },
@@ -86972,6 +87004,10 @@
       }
     },
     "004753C3": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "fixed386.asm"
+      },
       "manual-ollydbg": {
         "name": "_BrFixedRLength2"
       },
@@ -86985,6 +87021,10 @@
       }
     },
     "004753E7": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "fixed386.asm"
+      },
       "manual-ollydbg": {
         "name": "_BrFixedRLength3"
       },
@@ -86998,6 +87038,10 @@
       }
     },
     "00475414": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "fixed386.asm"
+      },
       "manual-ollydbg": {
         "name": "_BrFixedRLength4"
       },
@@ -87020,6 +87064,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "fixed386.asm"
+      },
       "manual-ollydbg": {
         "name": "_BrFixedDiv"
       },
@@ -87034,6 +87082,10 @@
       }
     },
     "0047545F": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "fixed386.asm"
+      },
       "manual-ollydbg": {
         "name": "_BrFixedDivR"
       },
@@ -87047,6 +87099,10 @@
       }
     },
     "00475475": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "fixed386.asm"
+      },
       "manual-ollydbg": {
         "name": "_BrFixedDivF"
       },
@@ -87060,6 +87116,10 @@
       }
     },
     "00475488": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "fixed386.asm"
+      },
       "manual-ollydbg": {
         "name": "_BrFixedMulDiv"
       },
@@ -87073,6 +87133,10 @@
       }
     },
     "00475498": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "fixed386.asm"
+      },
       "manual-ollydbg": {
         "name": "_BrFixedMac2Div"
       },
@@ -87086,6 +87150,10 @@
       }
     },
     "004754BA": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "fixed386.asm"
+      },
       "manual-ollydbg": {
         "name": "_BrFixedMac3Div"
       },
@@ -87099,6 +87167,10 @@
       }
     },
     "004754E6": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "fixed386.asm"
+      },
       "manual-ollydbg": {
         "name": "_BrFixedMac4Div"
       },
@@ -87112,6 +87184,10 @@
       }
     },
     "0047551C": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "fixed386.asm"
+      },
       "manual-ollydbg": {
         "name": "_BrFixedFMac2"
       },
@@ -87125,6 +87201,10 @@
       }
     },
     "00475541": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "fixed386.asm"
+      },
       "manual-ollydbg": {
         "name": "_BrFixedFMac3"
       },
@@ -87138,6 +87218,10 @@
       }
     },
     "00475571": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "fixed386.asm"
+      },
       "manual-ollydbg": {
         "name": "_BrFixedFMac4"
       },
@@ -87160,6 +87244,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "fixed386.asm"
+      },
       "manual-ollydbg": {
         "name": "_BrFixedRcp"
       },
@@ -87174,6 +87262,10 @@
       }
     },
     "004755BD": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "fixed386.asm"
+      },
       "manual-ollydbg": {
         "name": "_BrFixedSqr"
       },
@@ -87187,6 +87279,10 @@
       }
     },
     "004755CD": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "fixed386.asm"
+      },
       "manual-ollydbg": {
         "name": "_BrFixedSqr2"
       },
@@ -87200,6 +87296,10 @@
       }
     },
     "004755EE": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "fixed386.asm"
+      },
       "manual-ollydbg": {
         "name": "_BrFixedSqr3"
       },
@@ -87213,6 +87313,10 @@
       }
     },
     "00475618": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "fixed386.asm"
+      },
       "manual-ollydbg": {
         "name": "_BrFixedSqr4"
       },
@@ -87234,6 +87338,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "fixed386.asm"
       },
       "manual-ollydbg": {
         "name": "_BrFixedSin"
@@ -87258,6 +87366,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "fixed386.asm"
+      },
       "manual-ollydbg": {
         "name": "_BrFixedCos"
       },
@@ -87272,6 +87384,10 @@
       }
     },
     "004756AD": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "fixed386.asm"
+      },
       "manual-ollydbg": {
         "name": "_BrFixedASin"
       },
@@ -87293,6 +87409,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "fixed386.asm"
       },
       "manual-ollydbg": {
         "name": "_BrFixedACos"
@@ -87317,6 +87437,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "fixed386.asm"
+      },
       "manual-ollydbg": {
         "name": "_BrFixedATan2"
       },
@@ -87331,6 +87455,10 @@
       }
     },
     "00475919": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "fixed386.asm"
+      },
       "manual-ollydbg": {
         "name": "_BrFixedATan2Fast"
       },
@@ -87344,6 +87472,10 @@
       }
     },
     "00475A21": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "fixed386.asm"
+      },
       "manual-ollydbg": {
         "name": "__Sqrt"
       },
@@ -87361,6 +87493,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "fixed386.asm"
+      },
       "manual-ollydbg": {
         "name": "__Sqrt64"
       },
@@ -87369,6 +87505,10 @@
       }
     },
     "00475E20": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "fixed386.asm"
+      },
       "manual-ollydbg": {
         "name": "__FastSqrt"
       },
@@ -87377,6 +87517,10 @@
       }
     },
     "00475E4B": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "fixed386.asm"
+      },
       "manual-ollydbg": {
         "name": "__FastRSqrt"
       },
@@ -87394,6 +87538,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "fixed386.asm"
+      },
       "manual-ollydbg": {
         "name": "__FastRSqrt64"
       },
@@ -87410,6 +87558,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "surface.c"
       },
       "manual-ollydbg": {
         "name": "SurfacePerScene"
@@ -87485,6 +87637,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "surface.c"
+      },
       "manual-ollydbg": {
         "name": "BrLightEnable"
       },
@@ -87507,6 +87663,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "surface.c"
       },
       "manual-ollydbg": {
         "name": "BrLightDisable"
@@ -87555,6 +87715,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "matrix34.c"
+      },
       "manual-ollydbg": {
         "name": "BrMatrix34Copy"
       },
@@ -87578,6 +87742,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "matrix34.c"
+      },
       "manual-ollydbg": {
         "name": "BrMatrix34Mul"
       },
@@ -87600,6 +87768,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "matrix34.c"
       },
       "manual-ollydbg": {
         "name": "BrMatrix34Identity"
@@ -87684,6 +87856,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "matrix34.c"
+      },
       "manual-ollydbg": {
         "name": "BrMatrix34Translate"
       },
@@ -87706,6 +87882,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "matrix34.c"
       },
       "manual-ollydbg": {
         "name": "BrMatrix34Scale"
@@ -87730,6 +87910,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "matrix34.c"
+      },
       "manual-ollydbg": {
         "name": "BrMatrix34ShearX"
       },
@@ -87752,6 +87936,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "matrix34.c"
       },
       "manual-ollydbg": {
         "name": "BrMatrix34ShearY"
@@ -87776,6 +87964,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "matrix34.c"
+      },
       "manual-ollydbg": {
         "name": "BrMatrix34ShearZ"
       },
@@ -87798,6 +87990,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "matrix34.c"
       },
       "manual-ollydbg": {
         "name": "BrMatrix34Inverse"
@@ -87855,6 +88051,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "matrix34.c"
+      },
       "manual-ollydbg": {
         "name": "BrMatrix34Copy4"
       },
@@ -87896,6 +88096,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "matrix34.c"
       },
       "manual-ollydbg": {
         "name": "BrMatrix34ApplyP"
@@ -88085,6 +88289,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "matrix34.c"
+      },
       "manual-ollydbg": {
         "name": "BrMatrix34PreTranslate"
       },
@@ -88107,6 +88315,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "matrix34.c"
       },
       "manual-ollydbg": {
         "name": "BrMatrix34PostTranslate"
@@ -88190,6 +88402,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "matrix34.c"
+      },
       "manual-ollydbg": {
         "name": "BrMatrix34PreShearZ"
       },
@@ -88212,6 +88428,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "matrix34.c"
+      },
       "manual-ollydbg": {
         "name": "BrMatrix34PostShearZ"
       },
@@ -88226,6 +88446,10 @@
       }
     },
     "004787A0": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "actsupt.c"
+      },
       "manual-ollydbg": {
         "name": "BrActorEnum"
       },
@@ -88248,6 +88472,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "actsupt.c"
+      },
       "manual-ollydbg": {
         "name": "BrActorSearchMany"
       },
@@ -88262,6 +88490,10 @@
       }
     },
     "00478867": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "actsupt.c"
+      },
       "manual-ollydbg": {
         "name": "BrActorSearch"
       },
@@ -88298,6 +88530,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "actsupt.c"
+      },
       "manual-ollydbg": {
         "name": "BrActorAdd"
       },
@@ -88321,6 +88557,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "actsupt.c"
+      },
       "manual-ollydbg": {
         "name": "BrActorRemove"
       },
@@ -88335,6 +88575,10 @@
       }
     },
     "00478987": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "actsupt.c"
+      },
       "manual-ollydbg": {
         "name": "BrActorRelink"
       },
@@ -88356,6 +88600,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "actsupt.c"
       },
       "manual-ollydbg": {
         "name": "BrActorAllocate"
@@ -88399,6 +88647,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "actsupt.c"
+      },
       "manual-ollydbg": {
         "name": "BrActorToRoot"
       },
@@ -88415,6 +88667,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "actsupt.c"
       },
       "manual-ollydbg": {
         "name": "BrCameraToScreenMatrix4"
@@ -88433,6 +88689,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "actsupt.c"
+      },
       "manual-ollydbg": {
         "name": "BrVector3EyeInModel"
       },
@@ -88449,6 +88709,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "actsupt.c"
       },
       "manual-ollydbg": {
         "name": "BrActorToActorMatrix34"
@@ -88524,6 +88788,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "actsupt.c"
+      },
       "manual-ollydbg": {
         "name": "BrBoundsToMatrix34"
       },
@@ -88545,6 +88813,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "fwsetup.c"
       },
       "manual-ollydbg": {
         "name": "BrBegin"
@@ -88568,6 +88840,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "fwsetup.c"
+      },
       "manual-ollydbg": {
         "name": "BrEnd"
       },
@@ -88581,6 +88857,10 @@
       }
     },
     "004793D7": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "fwsetup.c"
+      },
       "manual-ollydbg": {
         "name": "BrErrorHandlerSet"
       },
@@ -88594,6 +88874,10 @@
       }
     },
     "004793F6": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "fwsetup.c"
+      },
       "manual-ollydbg": {
         "name": "BrFilesystemSet"
       },
@@ -88607,6 +88891,10 @@
       }
     },
     "00479415": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "fwsetup.c"
+      },
       "manual-ollydbg": {
         "name": "BrAllocatorSet"
       },
@@ -88659,6 +88947,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "pick.c"
+      },
       "manual-ollydbg": {
         "name": "BrScenePick2D"
       },
@@ -88701,6 +88993,10 @@
       }
     },
     "00479AF3": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "prelight.c"
+      },
       "manual-ollydbg": {
         "name": "BrSceneModelLight"
       },
@@ -88859,6 +89155,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "matrix4.c"
+      },
       "manual-ollydbg": {
         "name": "BrMatrix4Copy"
       },
@@ -88882,6 +89182,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "matrix4.c"
+      },
       "manual-ollydbg": {
         "name": "BrMatrix4Mul"
       },
@@ -88896,6 +89200,10 @@
       }
     },
     "0047B92C": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "matrix4.c"
+      },
       "manual-ollydbg": {
         "name": "BrMatrix4Identity"
       },
@@ -88909,6 +89217,10 @@
       }
     },
     "0047B9A4": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "matrix4.c"
+      },
       "manual-ollydbg": {
         "name": "BrMatrix4Scale"
       },
@@ -88930,6 +89242,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "matrix4.c"
       },
       "manual-ollydbg": {
         "name": "BrMatrix4Inverse"
@@ -88968,6 +89284,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "matrix4.c"
+      },
       "manual-ollydbg": {
         "name": "BrMatrix4Determinant"
       },
@@ -89005,6 +89325,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "matrix4.c"
       },
       "manual-ollydbg": {
         "name": "BrMatrix4Perspective"
@@ -89078,6 +89402,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "matrix4.c"
+      },
       "manual-ollydbg": {
         "name": "BrMatrix4Copy34"
       },
@@ -89100,6 +89428,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "matrix4.c"
       },
       "manual-ollydbg": {
         "name": "BrMatrix4Pre34"
@@ -89226,6 +89558,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "light8.c"
       },
       "manual-ollydbg": {
         "name": "LightingIndex"
@@ -89376,6 +89712,10 @@
         "static": false,
         "type-info": true
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "error.c"
+      },
       "manual-ollydbg": {
         "name": "BrError"
       },
@@ -89417,6 +89757,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "brlists.c"
+      },
       "manual-ollydbg": {
         "name": "BrNewList"
       },
@@ -89434,6 +89778,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "brlists.c"
+      },
       "manual-ollydbg": {
         "name": "BrAddHead"
       },
@@ -89443,6 +89791,10 @@
       }
     },
     "0047E453": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "brlists.c"
+      },
       "manual-ollydbg": {
         "name": "BrAddTail"
       },
@@ -89451,6 +89803,10 @@
       }
     },
     "0047E470": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "brlists.c"
+      },
       "manual-ollydbg": {
         "name": "BrRemHead"
       }
@@ -89461,6 +89817,10 @@
       }
     },
     "0047E48E": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "brlists.c"
+      },
       "manual-ollydbg": {
         "name": "BrRemTail"
       },
@@ -89469,6 +89829,10 @@
       }
     },
     "0047E4AA": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "brlists.c"
+      },
       "manual-ollydbg": {
         "name": "BrInsert"
       },
@@ -89485,6 +89849,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "brlists.c"
       },
       "manual-ollydbg": {
         "name": "BrRemove"
@@ -89504,6 +89872,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "brlists.c"
+      },
       "manual-ollydbg": {
         "name": "BrSimpleNewList"
       },
@@ -89522,6 +89894,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "brlists.c"
+      },
       "manual-ollydbg": {
         "name": "BrSimpleAddHead"
       },
@@ -89531,6 +89907,10 @@
       }
     },
     "0047E50E": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "brlists.c"
+      },
       "manual-ollydbg": {
         "name": "BrSimpleRemHead"
       },
@@ -89539,6 +89919,10 @@
       }
     },
     "0047E540": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "brlists.c"
+      },
       "manual-ollydbg": {
         "name": "BrSimpleInsert"
       }
@@ -89558,6 +89942,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "brlists.c"
+      },
       "manual-ollydbg": {
         "name": "BrSimpleRemove"
       },
@@ -89575,6 +89963,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "transfrm.c"
       },
       "manual-ollydbg": {
         "name": "BrTransformToMatrix34"
@@ -89628,6 +90020,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "transfrm.c"
+      },
       "manual-ollydbg": {
         "name": "BrMatrix4PreTransform"
       },
@@ -89650,6 +90046,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "transfrm.c"
       },
       "manual-ollydbg": {
         "name": "BrMatrix34ToTransform"
@@ -89679,6 +90079,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "register.c"
+      },
       "manual-ollydbg": {
         "name": "NamePatternMatch"
       },
@@ -89696,6 +90100,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "register.c"
+      },
       "manual-ollydbg": {
         "name": "RegistryNew"
       },
@@ -89705,6 +90113,10 @@
       }
     },
     "0047EB47": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "register.c"
+      },
       "manual-ollydbg": {
         "name": "RegistryClear"
       },
@@ -89721,6 +90133,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "register.c"
       },
       "manual-ollydbg": {
         "name": "RegistryAdd"
@@ -89739,6 +90155,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "register.c"
+      },
       "manual-ollydbg": {
         "name": "RegistryAddMany"
       },
@@ -89755,6 +90175,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "register.c"
       },
       "manual-ollydbg": {
         "name": "RegistryRemove"
@@ -89773,6 +90197,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "register.c"
+      },
       "manual-ollydbg": {
         "name": "RegistryRemoveMany"
       },
@@ -89789,6 +90217,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "register.c"
       },
       "manual-ollydbg": {
         "name": "RegistryFind"
@@ -89807,6 +90239,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "register.c"
+      },
       "manual-ollydbg": {
         "name": "RegistryFindMany"
       },
@@ -89824,6 +90260,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "register.c"
+      },
       "manual-ollydbg": {
         "name": "RegistryCount"
       },
@@ -89840,6 +90280,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "register.c"
       },
       "manual-ollydbg": {
         "name": "RegistryEnum"
@@ -89886,6 +90330,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "resource.c"
+      },
       "manual-ollydbg": {
         "name": "BrResAllocate"
       },
@@ -89922,6 +90370,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "resource.c"
       },
       "manual-ollydbg": {
         "name": "BrResFree"
@@ -90024,6 +90476,10 @@
         "static": false,
         "type-info": true
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "resource.c"
+      },
       "manual-ollydbg": {
         "name": "BrResStrDup"
       },
@@ -90046,6 +90502,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "regsupt.c"
+      },
       "manual-ollydbg": {
         "name": "BrModelAdd"
       },
@@ -90067,6 +90527,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "regsupt.c"
       },
       "manual-ollydbg": {
         "name": "BrModelRemove"
@@ -90091,6 +90555,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "regsupt.c"
+      },
       "manual-ollydbg": {
         "name": "BrModelFind"
       },
@@ -90104,6 +90572,10 @@
       }
     },
     "0047F1A0": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "regsupt.c"
+      },
       "manual-ollydbg": {
         "name": "BrModelFindHook"
       },
@@ -90117,6 +90589,10 @@
       }
     },
     "0047F1B4": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "regsupt.c"
+      },
       "manual-ollydbg": {
         "name": "BrModelAddMany"
       },
@@ -90130,6 +90606,10 @@
       }
     },
     "0047F210": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "regsupt.c"
+      },
       "manual-ollydbg": {
         "name": "BrModelRemoveMany"
       },
@@ -90143,6 +90623,10 @@
       }
     },
     "0047F254": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "regsupt.c"
+      },
       "manual-ollydbg": {
         "name": "BrModelFindMany"
       },
@@ -90165,6 +90649,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "regsupt.c"
+      },
       "manual-ollydbg": {
         "name": "BrModelCount"
       },
@@ -90186,6 +90674,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "regsupt.c"
       },
       "manual-ollydbg": {
         "name": "BrModelEnum"
@@ -90210,6 +90702,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "regsupt.c"
+      },
       "manual-ollydbg": {
         "name": "BrMaterialAdd"
       },
@@ -90232,6 +90728,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "regsupt.c"
       },
       "manual-ollydbg": {
         "name": "BrMaterialRemove"
@@ -90256,6 +90756,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "regsupt.c"
+      },
       "manual-ollydbg": {
         "name": "BrMaterialFind"
       },
@@ -90269,6 +90773,10 @@
       }
     },
     "0047F302": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "regsupt.c"
+      },
       "manual-ollydbg": {
         "name": "BrMaterialFindHook"
       },
@@ -90282,6 +90790,10 @@
       }
     },
     "0047F316": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "regsupt.c"
+      },
       "manual-ollydbg": {
         "name": "BrMaterialAddMany"
       },
@@ -90295,6 +90807,10 @@
       }
     },
     "0047F376": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "regsupt.c"
+      },
       "manual-ollydbg": {
         "name": "BrMaterialRemoveMany"
       },
@@ -90308,6 +90824,10 @@
       }
     },
     "0047F3BA": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "regsupt.c"
+      },
       "manual-ollydbg": {
         "name": "BrMaterialFindMany"
       },
@@ -90329,6 +90849,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "regsupt.c"
       },
       "manual-ollydbg": {
         "name": "BrMaterialCount"
@@ -90352,6 +90876,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "regsupt.c"
+      },
       "manual-ollydbg": {
         "name": "BrMaterialEnum"
       },
@@ -90366,6 +90894,10 @@
       }
     },
     "0047F40C": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "regsupt.c"
+      },
       "manual-ollydbg": {
         "name": "BrMapAdd"
       },
@@ -90379,6 +90911,10 @@
       }
     },
     "0047F420": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "regsupt.c"
+      },
       "manual-ollydbg": {
         "name": "BrMapRemove"
       },
@@ -90401,6 +90937,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "regsupt.c"
+      },
       "manual-ollydbg": {
         "name": "BrMapFind"
       },
@@ -90414,6 +90954,10 @@
       }
     },
     "0047F448": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "regsupt.c"
+      },
       "manual-ollydbg": {
         "name": "BrMapFindHook"
       },
@@ -90427,6 +90971,10 @@
       }
     },
     "0047F45C": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "regsupt.c"
+      },
       "manual-ollydbg": {
         "name": "BrMapAddMany"
       },
@@ -90440,6 +90988,10 @@
       }
     },
     "0047F478": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "regsupt.c"
+      },
       "manual-ollydbg": {
         "name": "BrMapRemoveMany"
       },
@@ -90453,6 +91005,10 @@
       }
     },
     "0047F494": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "regsupt.c"
+      },
       "manual-ollydbg": {
         "name": "BrMapFindMany"
       },
@@ -90466,6 +91022,10 @@
       }
     },
     "0047F4B3": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "regsupt.c"
+      },
       "manual-ollydbg": {
         "name": "BrMapCount"
       },
@@ -90479,6 +91039,10 @@
       }
     },
     "0047F4C7": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "regsupt.c"
+      },
       "manual-ollydbg": {
         "name": "BrMapEnum"
       },
@@ -90492,6 +91056,10 @@
       }
     },
     "0047F4E6": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "regsupt.c"
+      },
       "manual-ollydbg": {
         "name": "BrTableAdd"
       },
@@ -90505,6 +91073,10 @@
       }
     },
     "0047F4FA": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "regsupt.c"
+      },
       "manual-ollydbg": {
         "name": "BrTableRemove"
       },
@@ -90527,6 +91099,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "regsupt.c"
+      },
       "manual-ollydbg": {
         "name": "BrTableFind"
       },
@@ -90540,6 +91116,10 @@
       }
     },
     "0047F522": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "regsupt.c"
+      },
       "manual-ollydbg": {
         "name": "BrTableFindHook"
       },
@@ -90548,6 +91128,10 @@
       }
     },
     "0047F536": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "regsupt.c"
+      },
       "manual-ollydbg": {
         "name": "BrTableAddMany"
       },
@@ -90561,6 +91145,10 @@
       }
     },
     "0047F550": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "regsupt.c"
+      },
       "manual-ollydbg": {
         "name": "BrTableRemoveMany"
       },
@@ -90576,6 +91164,10 @@
       }
     },
     "0047F56E": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "regsupt.c"
+      },
       "manual-ollydbg": {
         "name": "BrTableFindMany"
       },
@@ -90589,6 +91181,10 @@
       }
     },
     "0047F58D": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "regsupt.c"
+      },
       "manual-ollydbg": {
         "name": "BrTableCount"
       },
@@ -90602,6 +91198,10 @@
       }
     },
     "0047F5A1": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "regsupt.c"
+      },
       "manual-ollydbg": {
         "name": "BrTableEnum"
       },
@@ -90624,6 +91224,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "regsupt.c"
+      },
       "manual-ollydbg": {
         "name": "BrResClassAdd"
       },
@@ -90637,6 +91241,10 @@
       }
     },
     "0047F5F3": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "regsupt.c"
+      },
       "manual-ollydbg": {
         "name": "BrResClassRemove"
       },
@@ -90650,6 +91258,10 @@
       }
     },
     "0047F623": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "regsupt.c"
+      },
       "manual-ollydbg": {
         "name": "BrResClassFind"
       },
@@ -90663,6 +91275,10 @@
       }
     },
     "0047F637": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "regsupt.c"
+      },
       "manual-ollydbg": {
         "name": "BrResClassFindHook"
       },
@@ -90671,6 +91287,10 @@
       }
     },
     "0047F64B": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "regsupt.c"
+      },
       "manual-ollydbg": {
         "name": "BrResClassAddMany"
       },
@@ -90684,6 +91304,10 @@
       }
     },
     "0047F69E": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "regsupt.c"
+      },
       "manual-ollydbg": {
         "name": "BrResClassRemoveMany"
       },
@@ -90697,6 +91321,10 @@
       }
     },
     "0047F6F6": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "regsupt.c"
+      },
       "manual-ollydbg": {
         "name": "BrResClassFindMany"
       },
@@ -90710,6 +91338,10 @@
       }
     },
     "0047F715": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "regsupt.c"
+      },
       "manual-ollydbg": {
         "name": "BrResClassCount"
       },
@@ -90723,6 +91355,10 @@
       }
     },
     "0047F729": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "regsupt.c"
+      },
       "manual-ollydbg": {
         "name": "BrResClassEnum"
       },
@@ -90736,6 +91372,10 @@
       }
     },
     "0047F75C": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "regsupt.c"
+      },
       "manual-ollydbg": {
         "name": "BrModelApplyMap"
       },
@@ -90763,6 +91403,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "regsupt.c"
+      },
       "manual-ollydbg": {
         "name": "BrModelFree"
       },
@@ -90784,6 +91428,10 @@
         "returns": true,
         "static": false,
         "type-info": true
+      },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "regsupt.c"
       },
       "manual-ollydbg": {
         "name": "BrModelAllocate"
@@ -90808,6 +91456,10 @@
         "static": false,
         "type-info": true
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "regsupt.c"
+      },
       "manual-ollydbg": {
         "name": "BrMaterialAllocate"
       },
@@ -90830,6 +91482,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "regsupt.c"
       },
       "manual-ollydbg": {
         "name": "BrMaterialFree"
@@ -90940,6 +91596,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "pmmemops.c"
+      },
       "manual-ollydbg": {
         "name": "_BrPmMemFill"
       },
@@ -90956,6 +91616,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "pmmemops.c"
       },
       "manual-ollydbg": {
         "name": "_BrPmMemRectangleCopy"
@@ -90988,6 +91652,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "pmmemops.c"
+      },
       "manual-ollydbg": {
         "name": "_BrPmMemRectangleFill"
       },
@@ -91004,6 +91672,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "pmmemops.c"
       },
       "manual-ollydbg": {
         "name": "_BrPmMemDirtyRectangleCopy"
@@ -91022,6 +91694,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "pmmemops.c"
+      },
       "manual-ollydbg": {
         "name": "_BrPmMemDirtyRectangleFill"
       },
@@ -91039,6 +91715,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "pmmemops.c"
+      },
       "manual-ollydbg": {
         "name": "_BrPmMemCopy"
       },
@@ -91055,6 +91735,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "pmmemops.c"
       },
       "manual-ollydbg": {
         "name": "_BrPmMemPlot"
@@ -91092,6 +91776,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "pmmemops.c"
+      },
       "manual-ollydbg": {
         "name": "_BrPmMemLine"
       },
@@ -91108,6 +91796,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "pmmemops.c"
       },
       "manual-ollydbg": {
         "name": "_BrPmMemCopyBits"
@@ -91126,6 +91818,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "memloops.asm"
+      },
       "manual-ollydbg": {
         "name": "__MemCopyBits_A"
       },
@@ -91142,6 +91838,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "memloops.asm"
       },
       "manual-ollydbg": {
         "name": "__MemFill_A"
@@ -91160,6 +91860,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "memloops.asm"
+      },
       "manual-ollydbg": {
         "name": "__MemRectFill_A"
       },
@@ -91176,6 +91880,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "memloops.asm"
       },
       "manual-ollydbg": {
         "name": "__MemRectCopy_A"
@@ -91210,6 +91918,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "memloops.asm"
       },
       "manual-ollydbg": {
         "name": "__MemPlot"
@@ -91246,6 +91958,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "memloops.asm"
+      },
       "manual-ollydbg": {
         "name": "__GetSysQual"
       },
@@ -91271,6 +91987,10 @@
       }
     },
     "0048292C": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "file.c"
+      },
       "manual-ollydbg": {
         "name": "BrFileAttributes"
       },
@@ -91322,6 +92042,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "file.c"
+      },
       "manual-ollydbg": {
         "name": "BrFileClose"
       },
@@ -91344,6 +92068,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "file.c"
       },
       "manual-ollydbg": {
         "name": "BrFileEof"
@@ -91368,6 +92096,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "file.c"
+      },
       "manual-ollydbg": {
         "name": "BrFileGetChar"
       },
@@ -91390,6 +92122,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "file.c"
       },
       "manual-ollydbg": {
         "name": "BrFilePutChar"
@@ -91414,6 +92150,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "file.c"
+      },
       "manual-ollydbg": {
         "name": "BrFileRead"
       },
@@ -91436,6 +92176,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "file.c"
       },
       "manual-ollydbg": {
         "name": "BrFileWrite"
@@ -91460,6 +92204,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "file.c"
+      },
       "manual-ollydbg": {
         "name": "BrFileGetLine"
       },
@@ -91474,6 +92222,10 @@
       }
     },
     "00482AFB": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "file.c"
+      },
       "manual-ollydbg": {
         "name": "BrFilePutLine"
       },
@@ -91495,6 +92247,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "file.c"
       },
       "manual-ollydbg": {
         "name": "BrFileAdvance"
@@ -91519,6 +92275,10 @@
         "static": false,
         "type-info": true
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "file.c"
+      },
       "manual-ollydbg": {
         "name": "BrFilePrintf"
       },
@@ -91541,6 +92301,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "quat.c"
       },
       "manual-ollydbg": {
         "name": "BrQuatToMatrix34"
@@ -91565,6 +92329,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "quat.c"
+      },
       "manual-ollydbg": {
         "name": "BrMatrix34ToQuat"
       },
@@ -91579,6 +92347,10 @@
       }
     },
     "00483103": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "quat.c"
+      },
       "manual-ollydbg": {
         "name": "BrQuatToMatrix4"
       },
@@ -91592,6 +92364,10 @@
       }
     },
     "00483133": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "quat.c"
+      },
       "manual-ollydbg": {
         "name": "BrMatrix4ToQuat"
       },
@@ -91735,6 +92511,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "prepmatl.c"
       },
       "manual-ollydbg": {
         "name": "BrMaterialUpdate"
@@ -92033,6 +92813,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "prepmesh.c"
+      },
       "manual-ollydbg": {
         "name": "BrModelUpdate"
       },
@@ -92047,6 +92831,10 @@
       }
     },
     "00485470": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "pmgenops.c"
+      },
       "manual-ollydbg": {
         "name": "_BrGenericLine"
       },
@@ -92063,6 +92851,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "pmgenops.c"
       },
       "manual-ollydbg": {
         "name": "_BrGenericDoubleBuffer"
@@ -92081,6 +92873,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "pmgenops.c"
+      },
       "manual-ollydbg": {
         "name": "_BrGenericMatch"
       },
@@ -92098,6 +92894,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "pmgenops.c"
+      },
       "manual-ollydbg": {
         "name": "_BrGenericClone"
       },
@@ -92114,6 +92914,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "pmgenops.c"
       },
       "manual-ollydbg": {
         "name": "_BrGenericFree"
@@ -92198,6 +93002,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "pixelmap.c"
+      },
       "manual-ollydbg": {
         "name": "BrPixelmapAllocate"
       },
@@ -92212,6 +93020,10 @@
       }
     },
     "00486728": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "pixelmap.c"
+      },
       "manual-ollydbg": {
         "name": "BrPixelmapAllocateSub"
       },
@@ -92234,6 +93046,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "pixelmap.c"
+      },
       "manual-ollydbg": {
         "name": "BrPixelmapFileSize"
       },
@@ -92251,6 +93067,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "pixelmap.c"
       },
       "manual-ollydbg": {
         "name": "BrPixelmapPixelSize"
@@ -92274,6 +93094,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "pixelmap.c"
       },
       "manual-ollydbg": {
         "name": "BrPixelmapChannels"
@@ -92316,6 +93140,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "scratch.c"
       },
       "manual-ollydbg": {
         "name": "BrScratchAllocate"
@@ -92478,6 +93306,10 @@
       }
     },
     "004875A0": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "pmdsptch.c"
+      },
       "manual-ollydbg": {
         "name": "BrPixelmapLine"
       },
@@ -92491,6 +93323,10 @@
       }
     },
     "0048785C": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "pmdsptch.c"
+      },
       "manual-ollydbg": {
         "name": "BrPixelmapDoubleBuffer"
       },
@@ -92513,6 +93349,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "pmdsptch.c"
+      },
       "manual-ollydbg": {
         "name": "BrPixelmapText"
       },
@@ -92526,6 +93366,10 @@
       }
     },
     "00487B23": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "pmdsptch.c"
+      },
       "manual-ollydbg": {
         "name": "BrPixelmapTextF"
       },
@@ -92562,6 +93406,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brzbixr.lib",
+        "object_file": "zbrendr.c"
       },
       "manual-ollydbg": {
         "name": "BrZbModelRender"
@@ -92618,6 +93466,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brzbixr.lib",
+        "object_file": "zbrendr.c"
+      },
       "manual-ollydbg": {
         "name": "BrZbSceneRenderBegin"
       },
@@ -92632,6 +93484,10 @@
       }
     },
     "00488520": {
+      "library": {
+        "lib_filename": "brzbixr.lib",
+        "object_file": "zbrendr.c"
+      },
       "manual-ollydbg": {
         "name": "BrZbSceneRenderAdd"
       },
@@ -92645,6 +93501,10 @@
       }
     },
     "00488540": {
+      "library": {
+        "lib_filename": "brzbixr.lib",
+        "object_file": "zbrendr.c"
+      },
       "manual-ollydbg": {
         "name": "BrZbSceneRenderEnd"
       },
@@ -92666,6 +93526,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brzbixr.lib",
+        "object_file": "zbrendr.c"
       },
       "manual-ollydbg": {
         "name": "BrZbSceneRender"
@@ -92721,6 +93585,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brzbixr.lib",
+        "object_file": "zbsetup.c"
+      },
       "manual-ollydbg": {
         "name": "BrZbBegin"
       },
@@ -92742,6 +93610,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brzbixr.lib",
+        "object_file": "zbsetup.c"
       },
       "manual-ollydbg": {
         "name": "BrZbEnd"
@@ -92765,6 +93637,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brzbixr.lib",
+        "object_file": "zbsetup.c"
+      },
       "manual-ollydbg": {
         "name": "TriangleRender_Null"
       },
@@ -92782,6 +93658,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brzbixr.lib",
+        "object_file": "zbsetup.c"
+      },
       "manual-ollydbg": {
         "name": "LineRender_Null"
       },
@@ -92798,6 +93678,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brzbixr.lib",
+        "object_file": "zbsetup.c"
       },
       "manual-ollydbg": {
         "name": "PointRender_Null"
@@ -93024,6 +93908,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brzbixr.lib",
+        "object_file": "zbmesh.c"
+      },
       "manual-ollydbg": {
         "name": "ZbMeshRender"
       },
@@ -93120,6 +94008,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brzbixr.lib",
+        "object_file": "zbmeshp.c"
+      },
       "manual-ollydbg": {
         "name": "ZbMeshRenderPoints"
       },
@@ -93155,6 +94047,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brzbixr.lib",
+        "object_file": "bbox.c"
+      },
       "manual-ollydbg": {
         "name": "ZbBoundingBoxRenderPoints"
       },
@@ -93172,6 +94068,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brzbixr.lib",
+        "object_file": "bbox.c"
+      },
       "manual-ollydbg": {
         "name": "ZbBoundingBoxRenderEdges"
       },
@@ -93188,6 +94088,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brzbixr.lib",
+        "object_file": "bbox.c"
       },
       "manual-ollydbg": {
         "name": "ZbBoundingBoxRenderFaces"
@@ -93340,6 +94244,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brzbixr.lib",
+        "object_file": "zbmeshe.c"
       },
       "manual-ollydbg": {
         "name": "ZbMeshRenderEdges"
@@ -93597,6 +94505,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brzbixr.lib",
+        "object_file": "ti8_piz.asm"
+      },
       "manual-ollydbg": {
         "name": "_TriangleRenderPIZ2"
       },
@@ -93615,6 +94527,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brzbixr.lib",
+        "object_file": "ti8_piz.asm"
+      },
       "manual-ollydbg": {
         "name": "_RawTriangle_PIZ2"
       },
@@ -93631,6 +94547,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brzbixr.lib",
+        "object_file": "ti8_piz.asm"
       },
       "manual-ollydbg": {
         "name": "_TriangleRenderPIZ2I"
@@ -93650,6 +94570,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brzbixr.lib",
+        "object_file": "ti8_piz.asm"
+      },
       "manual-ollydbg": {
         "name": "_RawTriangle_PIZ2I"
       },
@@ -93666,6 +94590,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brzbixr.lib",
+        "object_file": "ti8_piz.asm"
       },
       "manual-ollydbg": {
         "name": "_TriangleRenderPIZ2T"
@@ -93684,6 +94612,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brzbixr.lib",
+        "object_file": "ti8_piz.asm"
+      },
       "manual-ollydbg": {
         "name": "_RawTriangle_PIZ2T"
       },
@@ -93700,6 +94632,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brzbixr.lib",
+        "object_file": "ti8_piz.asm"
       },
       "manual-ollydbg": {
         "name": "_TriangleRenderPIZ2TI"
@@ -93718,6 +94654,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brzbixr.lib",
+        "object_file": "ti8_piz.asm"
+      },
       "manual-ollydbg": {
         "name": "_RawTriangle_PIZ2TI"
       },
@@ -93734,6 +94674,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brzbixr.lib",
+        "object_file": "zbmatl.c"
       },
       "manual-ollydbg": {
         "name": "ZbMaterialUpdate"
@@ -93752,6 +94696,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brzbixr.lib",
+        "object_file": "decal.c"
+      },
       "manual-ollydbg": {
         "name": "TriangleRenderPIZ2TAD"
       },
@@ -93768,6 +94716,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brzbixr.lib",
+        "object_file": "decal.c"
       },
       "manual-ollydbg": {
         "name": "TriangleRenderPIZ2TIAD"
@@ -93786,6 +94738,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brzbixr.lib",
+        "object_file": "mesh386.asm"
+      },
       "manual-ollydbg": {
         "name": "_OSFFVGroupCulled_A"
       },
@@ -93802,6 +94758,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brzbixr.lib",
+        "object_file": "mesh386.asm"
       },
       "manual-ollydbg": {
         "name": "_OSFFVGroupCulledLit_A"
@@ -93820,6 +94780,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brzbixr.lib",
+        "object_file": "mesh386.asm"
+      },
       "manual-ollydbg": {
         "name": "_OSCopyModelToScreen_A"
       },
@@ -93836,6 +94800,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brzbixr.lib",
+        "object_file": "mesh386.asm"
       },
       "manual-ollydbg": {
         "name": "_OSTVGroup_A"
@@ -93854,6 +94822,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brzbixr.lib",
+        "object_file": "mesh386.asm"
+      },
       "manual-ollydbg": {
         "name": "_OSTVGroupBC_A"
       },
@@ -93871,6 +94843,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brzbixr.lib",
+        "object_file": "mesh386.asm"
+      },
       "manual-ollydbg": {
         "name": "_OSTVGroupLit_A"
       },
@@ -93887,6 +94863,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brzbixr.lib",
+        "object_file": "mesh386.asm"
       },
       "manual-ollydbg": {
         "name": "_OSTVGroupLitBC_A"
@@ -121960,6 +122940,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "fileops.c"
+      },
       "manual-ollydbg": {
         "name": "FopRead_BOUNDS"
       },
@@ -122061,6 +123045,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "fileops.c"
+      },
       "manual-ollydbg": {
         "name": "BrModelLoadMany"
       },
@@ -122112,6 +123100,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "fileops.c"
+      },
       "manual-ollydbg": {
         "name": "BrModelSaveMany"
       },
@@ -122140,6 +123132,10 @@
       }
     },
     "004CF4C7": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "fileops.c"
+      },
       "manual-ollydbg": {
         "name": "BrActorLoadMany"
       },
@@ -122187,6 +123183,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "fileops.c"
+      },
       "manual-ollydbg": {
         "name": "BrMaterialLoadMany"
       },
@@ -122224,6 +123224,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "fileops.c"
+      },
       "manual-ollydbg": {
         "name": "BrMaterialSaveMany"
       },
@@ -122245,6 +123249,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "fileops.c"
       },
       "manual-ollydbg": {
         "name": "BrPixelmapLoadMany"
@@ -122284,6 +123292,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "fileops.c"
+      },
       "manual-ollydbg": {
         "name": "BrPixelmapSaveMany"
       },
@@ -122297,6 +123309,10 @@
       }
     },
     "004CF927": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "fileops.c"
+      },
       "manual-ollydbg": {
         "name": "BrModelLoad"
       },
@@ -122315,6 +123331,10 @@
       }
     },
     "004CF96E": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "fileops.c"
+      },
       "manual-ollydbg": {
         "name": "BrMaterialLoad"
       },
@@ -122333,6 +123353,10 @@
       }
     },
     "004CF9B5": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "fileops.c"
+      },
       "manual-ollydbg": {
         "name": "BrPixelmapLoad"
       },
@@ -122346,6 +123370,10 @@
       }
     },
     "004CF9E1": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "fileops.c"
+      },
       "manual-ollydbg": {
         "name": "BrPixelmapSave"
       },
@@ -122359,6 +123387,10 @@
       }
     },
     "004CF9FC": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "fileops.c"
+      },
       "manual-ollydbg": {
         "name": "BrActorLoad"
       },
@@ -122377,6 +123409,10 @@
       }
     },
     "004CFA50": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "pick.c"
+      },
       "manual-ollydbg": {
         "name": "BrScenePick3D"
       },
@@ -122399,6 +123435,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "datafile.c"
+      },
       "manual-ollydbg": {
         "name": "DfPush"
       },
@@ -122416,6 +123456,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "datafile.c"
       },
       "manual-ollydbg": {
         "name": "DfPop"
@@ -122435,6 +123479,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "datafile.c"
+      },
       "manual-ollydbg": {
         "name": "DfTop"
       },
@@ -122452,6 +123500,10 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "datafile.c"
       },
       "manual-ollydbg": {
         "name": "DfTopType"
@@ -122905,6 +123957,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "datafile.c"
+      },
       "manual-ollydbg": {
         "name": "DfCountSizeText"
       },
@@ -122992,6 +124048,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "datafile.c"
+      },
       "manual-ollydbg": {
         "name": "DfChunksInterpret"
       },
@@ -123037,6 +124097,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "datafile.c"
+      },
       "manual-ollydbg": {
         "name": "DfOpen"
       },
@@ -123054,6 +124118,10 @@
         "static": false,
         "type-info": false
       },
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "datafile.c"
+      },
       "manual-ollydbg": {
         "name": "DfClose"
       },
@@ -123062,6 +124130,10 @@
       }
     },
     "004D1CDF": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "datafile.c"
+      },
       "manual-ollydbg": {
         "name": "BrWriteModeSet"
       },
@@ -123982,6 +125054,10 @@
       }
     },
     "004E6C14": {
+      "library": {
+        "lib_filename": "brfwixr.lib",
+        "object_file": "fnt3x5.asm"
+      },
       "manual-ollydbg": {
         "name": "__FontFixed3x5"
       }

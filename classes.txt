@@ -91,14 +91,21 @@ KCDC constructor at 00418F30 doesn't match the pattern!
 
 
 class ' APP' (vtable at 004DE1A8) static at 4D4120
+ 10: is-active? 
+ 5C: Some kind of render-mode?
  8C: pointer to stio
 
 methods:
+	0040A720
+	0040C560
 	0041C4A0
 	0041C550
+	0041C8B0
+	0041CF40 
+	0041CFB0 param types: 1 ' GOB', 2: 'REGN', 3: ?, 4?
+	0041D130
 	00428660
 	00428F90
-	
 	
 vtable:
 	+100: 0041C550
@@ -164,14 +171,43 @@ class 'SCEN': (vtable at 004E24A0)
 methods:
 	004A8F90 changeFrame (int newFrame)
 
-class '  GG': (vtable at 004DF3A8) timeline class
+class '  GG': (vtable at 004DF3A8) timeline class ?
 	 20 Number of events
+methods:
+	0042D140
+	0042D480
+	
 
 
 
 class ' GNV' (vtable at 004DF168) picture class?
 
-class ' GPT' (vtable at 004DF278) text writing class?
+methods:
+	00420710 blit?
+
+
+class ' GPT' (vtable at 004DF278) size: 0x8C/140 bitmap image?
+ +1C(8) some substructure. 
+   +0(4): offset x?
+   +0(8): offset y?
+ +2C(4) pointer to DIB
+ +30(4) Pointer to pixels
+ +38(4) Stride?
+ +3C(10): rect substructure?
+   +0(4)@3C: left
+   +4(4)@40: top
+   +8(4)@44: right
+   +C(4)@48: bottom
+ +4C(4) Palette version
+ +68(4) ? (init to 0)
+
+methods:
+    0042A550 region calculation?
+    0042AF50 blit?
+
+class 'GRPB' (vtable at 004DF2C0) subclass of ' GPT'?
+
+class ' GST' (vtable at )  subclass of ' GPT'?
 
 class 'CURS' (vtable at 004DF140)
 	 18: cursor to set
@@ -181,8 +217,13 @@ methods:
 	0041F9E0 set cursor
 
 class ' FIL' (vtable at 004DF540)
+    010(24/18h): critical section
+    138(1): already open?
+    140(1): existing length, maybe? 
 	144: hFile pointer
 methods:
+	0042E9E0
+	0043D860 getFileLength
 	0043D8F0 readFile
 
 
@@ -223,34 +264,41 @@ methods:
 class ' CFL' (vtable at 004DF468)
 methods: 
   00430C50
-	
+  0043D8F0 readFromOffset(buffer,size,offset)
 	
 class ' APE' (vtable at 004DEB68) prop/actor appearance
  70(4): BWLD class 
 method:
 	00415640
 	
-class 'REGN' (vtable at 004DF248) regions?
+class 'REGN' (vtable at 004DF248) regions? size: 2Ch/44
+
 method:
 	004262A0
+	00426330
 	00426BC0
 
-
-class ' GOB' (vtable at 004DF198)
+class ' GOB' (vtable at 004DF198) size: 70h/112
 methods:
 	00424AF0
+	00423C50
+
 	
 class 'HBAL' (vtable at 004E0BB8)
 methods:
 	00422EE0
 	
-class ' GOK' (vtable at 004E0DF0)
+class ' GOK' (vtable at 004E0DF0) size: DCh/220
+	+A4: ?
 	+D4: menu pointer (0=no menu, or pointer to menu object?)
 methods:
 	0045D150 enable/disable popup menus? 3 arguments.
 	  argument 1: some id?
 		argument 2: ?
 		argument 3: -1 when hiding menus, 1/21h/22h otherwise
+	0045CEF0 ?
+vtable methods:
+	+44 (vtable)
 
 class '  GL' (vtable at 004DF318)
 	+10:
@@ -267,3 +315,17 @@ methods:
 	00447D20
 	00447DC0
 	
+
+class Rectangle (no vtable)
+	+0(4): left
+	+4(4): top
+	+8(4): right
+	+C(4): bottom
+methods:
+	00419E90 ?
+	00419F30 ?
+	0041A0E0 setPoint(LONG x, LONG y)
+	0041A230 setRect(RECT *rect)
+	0041A250 ?
+	00419D90
+

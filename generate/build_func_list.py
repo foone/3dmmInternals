@@ -2,18 +2,22 @@ import sys
 sys.path.append('lib')
 import json,collections,subprocess,os,glob
 if 'linux' in sys.platform:
-	JSONLINT_PATH = '/usr/local/bin/jsonlint' # TODO: don't hardcode this stupid shit
+	JSONLINT_PATH = 'jsonlint'
 else:
 	JSONLINT_PATH = os.path.expanduser(r'~\Application Data\npm\jsonlint.cmd')
 
 functions=collections.defaultdict(dict)
 
 def lintJSON(jobj):
-	p=subprocess.Popen([JSONLINT_PATH,'-'], 
-		stdout=subprocess.PIPE, stdin=subprocess.PIPE
-	)
-	out,_=p.communicate(json.dumps(jobj,sort_keys=True))
-	return out
+	unlinted=json.dumps(jobj,sort_keys=True)
+	try:
+		p=subprocess.Popen([JSONLINT_PATH,'-'], 
+			stdout=subprocess.PIPE, stdin=subprocess.PIPE
+		)
+		return p.communicate(unlinted)[0]
+	except OSError:
+		print >>sys.stderr,'Warning: Failed to pretty-print json!'
+		return unlinted
 
 def cleanAddress(x):
 	return x.upper().rjust(8,'0')
@@ -84,12 +88,11 @@ if __name__=='__main__':
 				function[outputname]=flag in flags
 			
 			functions[cleanAddress(address)]['ida']=function
-			
-	with open('fpo.json','rb') as f:
-		fpo=json.load(f)
-		for address in fpo:
-			functions[cleanAddress(address)]['fpo']=fpo[address]
-
+	
+	for keyname in ('fpo','method-analysis'):
+		with open('{}.json'.format(keyname),'rb') as f:
+			for address,data in json.load(f).items():
+				functions[cleanAddress(address)][keyname]=data
 
 	with open('prototypes.json','rb') as f:
 		prototypes={}

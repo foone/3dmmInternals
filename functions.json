@@ -7421,6 +7421,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class_APP::CalcWindowSize"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4,Arg5",
@@ -9119,6 +9122,9 @@
         "returns": true,
         "static": false,
         "type-info": true
+      },
+      "manual-ollydbg": {
+        "name": "class_APP::WindowProc"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -18760,6 +18766,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "memswap"
+      },
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
@@ -22450,6 +22459,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "class_APP::method41C070"
       },
       "method-analysis": "could-be-fastcall",
       "ollydbg": {
@@ -41079,6 +41091,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "class_CRF::method43B5A0"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -90050,6 +90065,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classBWLD::pick2D"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4",
@@ -90075,6 +90093,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classBODY::setCursorFromPositionDetails"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -108869,6 +108890,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "setCursorFromPosition"
+      },
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4",
@@ -109358,6 +109382,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classBODY::selectFromMouse"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -111146,6 +111173,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classMTRL::init"
+      },
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "name": "unnamed"
@@ -111170,6 +111200,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classMTRL::method4B2B00"
       },
       "method-analysis": "definitely",
       "ollydbg": {

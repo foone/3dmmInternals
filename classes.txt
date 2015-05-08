@@ -92,6 +92,8 @@ KCDC constructor at 00418F30 doesn't match the pattern!
 
 class ' APP' (vtable at 004DE1A8) static at 4D4120
  10: is-active? 
+ 4C: pointer to current cursor?
+ 50: secondary cursor?
  5C: Some kind of render-mode?
  8C: pointer to stio
 
@@ -152,6 +154,7 @@ methods:
 	00474590 render
 	00474740 renderBackground
 	00474A50 
+	00474B90 classBWLD::pick2D
 
 class 'SCEN': (vtable at 004E24A0)
 	  8: Current frame
@@ -170,6 +173,7 @@ class 'SCEN': (vtable at 004E24A0)
 
 methods:
 	004A8F90 changeFrame (int newFrame)
+	004AAB80 hover/select? 
 
 class '  GG': (vtable at 004DF3A8) timeline class ?
 	 20 Number of events
@@ -177,6 +181,18 @@ methods:
 	0042D140
 	0042D480
 	
+
+class 'BODY': (vtable at 004E25C0)
+
+methods:
+	004B0920 select by click
+	00474C00 hover on details
+
+
+class 'MTRL': (vtable at 004E2698)
+	+18(4): pointer to br_material
+method:
+	004B2B00 upload texture to brender?
 
 
 
@@ -211,7 +227,6 @@ class ' GST' (vtable at )  subclass of ' GPT'?
 
 class 'CURS' (vtable at 004DF140)
 	 18: cursor to set
-
 
 methods:
 	0041F9E0 set cursor
@@ -329,3 +344,10 @@ methods:
 	0041A250 ?
 	00419D90
 
+
+
+
+class ' CRF' (vtable at 4DF4F0)
+
+methods: 
+	0043B5A0 data loading?

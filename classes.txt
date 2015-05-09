@@ -315,13 +315,29 @@ methods:
 vtable methods:
 	+44 (vtable)
 
-class '  GL' (vtable at 004DF318)
+class '  GL' (vtable at 004DF318) size 28, extends _GLB extends BASE 
 	+10:
+	+18: initialized to 80h
+	+1C: initialized to 10h
 	+20: 
-	+24:
+	+24: initialized to arg1
 methods:
 	0042D570 returns an integer, 1 argument
 	0042DA80 returns a 0/1 integer, 1 argument
+	0042DAD0
+vtable: 11 entries
+	#1
+	#2
+	#3
+	#4
+	#5
+	0042D750
+	0042D9B0
+	0042D360
+	0042D7D0
+	0042D7C0
+	0042DA20
+
 
 class 'SCEG' (vtable at 004E1078)
 	+10(4): pointer (to other class, of type __GL)

@@ -34409,6 +34409,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class_GLB::init"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1",
@@ -34642,6 +34645,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "class__GL::init"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -35027,6 +35033,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "class__AL::init"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -44092,7 +44101,7 @@
         "type-info": false
       },
       "manual-ollydbg": {
-        "name": "GetLengthOfExtension"
+        "name": "class_FNI::GetLengthOfExtension"
       },
       "method-analysis": "could-be-fastcall",
       "ollydbg": {
@@ -55696,6 +55705,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classDOCB::init"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2",
@@ -59592,6 +59604,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classTXTB::init"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2",
@@ -60501,6 +60516,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classTXRD::init"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -102631,6 +102649,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classMUNS::init"
       },
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {

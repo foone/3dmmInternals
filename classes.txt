@@ -96,7 +96,7 @@ class ' APP' (vtable at 004DE1A8) static at 4D4120
  50: secondary cursor?
  5C: Some kind of render-mode?
  8C: pointer to stio
-
+ A0: quality setting: 2A=low, 28=high
 methods:
 	0040A720
 	0040C560
@@ -367,3 +367,15 @@ class ' CRF' (vtable at 4DF4F0)
 
 methods: 
 	0043B5A0 data loading?
+
+
+class ' DLG' (vtable at 004E05E0) size=40h
+	+34(4): init to arg1
+methods:
+	00456F10	
+
+
+class 'BRWR' (vtable at 00403100) scrollable actor/prop lists
+methods:
+	00403810 scrollDown
+	00403900 scrollUp

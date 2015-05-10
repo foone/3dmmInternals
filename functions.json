@@ -23478,6 +23478,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class_APP::method0041CFB0"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4",
@@ -29089,6 +29092,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class_GOB::method00424730"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "name": "unnamed"
@@ -31908,6 +31914,9 @@
         "static": false,
         "type-info": true
       },
+      "manual-ollydbg": {
+        "name": "CreateGPTForWindow"
+      },
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "Arg1",
@@ -32613,6 +32622,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class_GPT::method0042AF50"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4",
@@ -32930,6 +32942,9 @@
         "returns": true,
         "static": false,
         "type-info": true
+      },
+      "manual-ollydbg": {
+        "name": "class_GOB::method0042BA10"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -40141,6 +40156,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classCODM::method004344D0"
       },
       "method-analysis": "definitely",
       "ollydbg": {

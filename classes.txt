@@ -206,8 +206,10 @@ class ' GPT' (vtable at 004DF278) size: 0x8C/140 bitmap image?
  +1C(8) some substructure. 
    +0(4): offset x?
    +0(8): offset y?
- +2C(4) pointer to DIB
- +30(4) Pointer to pixels
+ +24(4): DC
+ +2C(4): pointer to DIB
+ +30(4): Pointer to pixels
+ +34(4): bit depth?
  +38(4) Stride?
  +3C(10): rect substructure?
    +0(4)@3C: left
@@ -243,10 +245,17 @@ methods:
 
 
 class 'BLCK' (vtable at 004DF558)
+	08(4): 
+	0C(4):
+	14(4):
+	18(4):
+	1C(4):
+	20(4):
 
 methods:
+	0043CD10
+	0043CDC0
 	0043D3F0
-	
 	
 	
 class ' FNI' (vtable at 004DF570) extends BaseThing
@@ -379,3 +388,9 @@ class 'BRWR' (vtable at 00403100) scrollable actor/prop lists
 methods:
 	00403810 scrollDown
 	00403900 scrollUp
+
+
+class 'CODM' (vtable at 004DF498)
+
+methods:
+	004344D0

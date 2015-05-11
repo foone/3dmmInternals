@@ -27257,6 +27257,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class_GNV::method00420710"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
@@ -27571,6 +27574,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "class_GNV::method00422050"
       },
       "method-analysis": "casted",
       "ollydbg": {
@@ -39318,6 +39324,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class_CFL::method004331F0"
+      },
       "method-analysis": "no-ecx",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4,Arg5",
@@ -39343,6 +39352,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "class_CFL::method00433230"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -45741,6 +45753,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classSNDM::method00440460"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -99923,6 +99938,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classMVIE::changeScene"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1",
@@ -100364,6 +100382,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classMVIE::method0049F5C0"
+      },
       "method-analysis": "could-be-fastcall",
       "ollydbg": {
         "args": "void",
@@ -100466,6 +100487,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classMVIE::method0049F800"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -105340,6 +105364,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classSCEN::init"
       },
       "method-analysis": "definitely",
       "ollydbg": {

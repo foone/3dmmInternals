@@ -124,16 +124,17 @@ class 'SMCC': (vtable at 004DE448)
   C: height
 
 
-static at 4E3E74
+static pointer at 4E3E74
 class 'MVIE': (vtable at 004E22C0)
 	148: current scene pointer
 	14C: scene count
 	158: pointer to BWLD
 
 methods:
-	3DMOVIE.0049E6E0(guessed Arg1)       ;Add scene
-	3DMOVIE.004A06C0(guessed Arg1,Arg2)  ;Add scene
-	3DMOVIE.004A1800(guessed Arg1)       ;Delete scene
+	0049E6E0(guessed Arg1)       ;Add scene
+	004A06C0(guessed Arg1,Arg2)  ;Add scene
+	004A1800(guessed Arg1)       ;Delete scene
+	0049E530
 
 class 'BWLD': (vtable at 004E2278)
 	 10: width
@@ -199,7 +200,11 @@ method:
 class ' GNV' (vtable at 004DF168) picture class?
 
 methods:
-	00420710 blit?
+	00420710 blit? 
+		arg1: *_GNV
+		arg2: *Rectangle?
+		arg3:
+
 
 
 class ' GPT' (vtable at 004DF278) size: 0x8C/140 bitmap image?
@@ -394,3 +399,7 @@ class 'CODM' (vtable at 004DF498)
 
 methods:
 	004344D0
+
+
+static pointer at 4D556C
+class 'SNDM' (vtable at 004DF5D0)

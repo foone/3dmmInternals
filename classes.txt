@@ -251,7 +251,7 @@ methods:
 
 class 'BLCK' (vtable at 004DF558)
 	08(4): 
-	0C(4):
+	0C(4): _FIL pointer
 	14(4):
 	18(4):
 	1C(4):
@@ -318,6 +318,7 @@ methods:
 	00422EE0
 	
 class ' GOK' (vtable at 004E0DF0) size: DCh/220
+	+10: pointer to _GPT? 
 	+A4: ?
 	+D4: menu pointer (0=no menu, or pointer to menu object?)
 methods:
@@ -403,3 +404,9 @@ methods:
 
 static pointer at 4D556C
 class 'SNDM' (vtable at 004DF5D0)
+
+
+class 'MBMP' (vtable at 004DF5A0)
+
+method:
+	00425300

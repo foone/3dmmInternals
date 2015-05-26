@@ -8257,6 +8257,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class_APP::method0040A430"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "name": "unnamed"
@@ -9097,6 +9100,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class_APP::method0040C560"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "name": "unnamed"
@@ -9398,6 +9404,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "class_KWA::method0040CA40"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -23453,6 +23462,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class_APP::method0041CF40"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "name": "unnamed"
@@ -23531,6 +23543,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "class_APP::method0041D130"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -29978,6 +29993,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classMBMP::method00425300"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4,Arg5,Arg6,Arg7",
@@ -35043,6 +35061,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "class_APP::method0042DA50"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -40890,6 +40911,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classBACO::init"
+      },
       "method-analysis": "could-be-fastcall",
       "ollydbg": {
         "name": "unnamed"
@@ -41014,6 +41038,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classMBMP::method0043B080"
       },
       "method-analysis": "could-be-fastcall",
       "ollydbg": {
@@ -42669,6 +42696,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classBLCK::method0043CD10"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1",
@@ -42694,6 +42724,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classBLCK::method0043CDC0"
       },
       "method-analysis": "could-be-fastcall",
       "ollydbg": {
@@ -43006,6 +43039,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classBLCK::method0043D3F0"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -44813,6 +44849,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "class_FIL::method0043F610"
       },
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
@@ -72133,6 +72172,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classGORB::method0045E620"
       },
       "method-analysis": "could-be-fastcall",
       "ollydbg": {

@@ -12,7 +12,7 @@ members:
 
 method: 
   41A470: 
-	41A4D0: 
+  41A4D0: 
 
 vtable: initialized to 004DEEF0
   #1: 418F10: calls 00418EF0 with arg1=arg1.
@@ -26,10 +26,10 @@ related functions:
   if arg1 == 41423555:
     return 1
   else:
-		call 004190D0 with arg1
-		
+    call 004190D0 with arg1
+    
 004190D0:
-	return arg1==42415345 ('BASE'?) 
+  return arg1==42415345 ('BASE'?) 
 
 
 duplicate functions: 004190B0 == 004190D0
@@ -45,23 +45,23 @@ static instance at 4D5278
 
 members:
   +4: ref count
-	+8: random seed (initialized to current time)
+  +8: random seed (initialized to current time)
 
 
 vtable: initialized to 004DEF08
   #1: 0041A7E0: call 0041A7C0 arg1=arg1
-	#2: 0041A7F0: returns 524E44 ('RND') 
-	#3: 0041AAE0: Checks arg1 against 01, if true, frees this. returns this
-	#4: 00419100: see base
-	#5: 00419110: see base
-	#6: 0041A880: mutate seed and return value
+  #2: 0041A7F0: returns 524E44 ('RND') 
+  #3: 0041AAE0: Checks arg1 against 01, if true, frees this. returns this
+  #4: 00419100: see base
+  #5: 00419110: see base
+  #6: 0041A880: mutate seed and return value
 
 related functions: 
-	0041A7C0:
-		if arg1==524E44:
-			return 1
-		else:
-			call  004190D0 with arg1
+  0041A7C0:
+    if arg1==524E44:
+      return 1
+    else:
+      call  004190D0 with arg1
 
 
 BaseThing class:
@@ -70,10 +70,10 @@ members: +04: reference count?
 
 vtable: initialized to 004DD200
   #1: 4190B0: return arg1 == 42415345 
-	#2: 4190A0: returns 45534142 ('BASE')
-	#3: 401B70: Checks arg1 against 01, if true, frees this. returns this
-	#4: 419100: increments (this+4) (refcount)?
-	#5: 419110: decrements (this+4), calls vtable#3 with arg1=01 if this+4==0
+  #2: 4190A0: returns 45534142 ('BASE')
+  #3: 401B70: Checks arg1 against 01, if true, frees this. returns this
+  #4: 419100: increments (this+4) (refcount)?
+  #5: 419110: decrements (this+4), calls vtable#3 with arg1=01 if this+4==0
 
 
 
@@ -98,19 +98,19 @@ class ' APP' (vtable at 004DE1A8) static at 4D4120
  8C: pointer to stio
  A0: quality setting: 2A=low, 28=high
 methods:
-	0040A720
-	0040C560
-	0041C4A0
-	0041C550
-	0041C8B0
-	0041CF40 
-	0041CFB0 param types: 1 ' GOB', 2: 'REGN', 3: ?, 4?
-	0041D130
-	00428660
-	00428F90
-	
+  0040A720
+  0040C560
+  0041C4A0
+  0041C550
+  0041C8B0
+  0041CF40 
+  0041CFB0 param types: 1 ' GOB', 2: 'REGN', 3: ?, 4?
+  0041D130
+  00428660
+  00428F90
+  
 vtable:
-	+100: 0041C550
+  +100: 0041C550
   +054: wndproc handler
 
 
@@ -126,84 +126,89 @@ class 'SMCC': (vtable at 004DE448)
 
 static pointer at 4E3E74
 class 'MVIE': (vtable at 004E22C0)
-	148: current scene pointer
-	14C: scene count
-	158: pointer to BWLD
+  148: current scene pointer
+  14C: scene count
+  158: pointer to BWLD
 
 methods:
-	0049E6E0(guessed Arg1)       ;Add scene
-	004A06C0(guessed Arg1,Arg2)  ;Add scene
-	004A1800(guessed Arg1)       ;Delete scene
-	0049E530
+  0049E6E0(guessed Arg1)       ;Add scene
+  004A06C0(guessed Arg1,Arg2)  ;Add scene
+  004A1800(guessed Arg1)       ;Delete scene
+  0049E530
 
 class 'BWLD': (vtable at 004E2278)
-	 10: width
-	 14: height
-	 20: width
-	 24: height
-	 28: world pointer (br_actor*)
-	 30: pre/post render handlers
-	 50: matrix34 (initialized to identity)
-	 84: camera (br_actor*)
-	100: 544x306 bitmap
-	104: 544x306 bitmap
-	10C: output pixel (br_pixelmap*)
-	138: depth buffer (br_pixelmap*)
-	16C: dirty flag
-	170: skip handlers flag
+   10: width
+   14: height
+   20: width
+   24: height
+   28: world pointer (br_actor*)
+   30: pre/post render handlers
+   50: matrix34 (initialized to identity)
+   84: camera (br_actor*)
+  100: 544x306 bitmap
+  104: 544x306 bitmap
+  10C: output pixel (br_pixelmap*)
+  138: depth buffer (br_pixelmap*)
+  16C: dirty flag
+  170: skip handlers flag
 methods: 
-	00474590 render
-	00474740 renderBackground
-	00474A50 
-	00474B90 classBWLD::pick2D
+  00474590 render
+  00474740 renderBackground
+  00474A50 
+  00474B90 classBWLD::pick2D
 
 class 'SCEN': (vtable at 004E24A0)
-	  8: Current frame
-	  C: Frame count
-	 14: Link to timeline
-	 18: Number of events in previous frames?
-	 1C: Background name (1 byte: Pascal)
-	138: Selected actor/prop/3dword
-	13C: Selected text box
-	140: Transition type:
-	    00 = instant
-		01 = dissolve w/black
-		02 = dissolve w/white
-		03 = dissolve
-	148: Music on current frame
+    8: Current frame
+    C: Frame count
+   14: Link to timeline
+   18: Number of events in previous frames?
+   1C: Background name (1 byte: Pascal)
+  138: Selected actor/prop/3dword
+  13C: Selected text box
+  140: Transition type:
+      00 = instant
+    01 = dissolve w/black
+    02 = dissolve w/white
+    03 = dissolve
+  148: Music on current frame
 
 methods:
-	004A8F90 changeFrame (int newFrame)
-	004AAB80 hover/select? 
+  004A8F90 changeFrame (int newFrame)
+  004AAB80 hover/select? 
 
 class '  GG': (vtable at 004DF3A8) timeline class ?
-	 20 Number of events
+   20 Number of events
 methods:
-	0042D140
-	0042D480
-	
+  0042D140
+  0042D480
+  
 
 class 'BODY': (vtable at 004E25C0)
 
 methods:
-	004B0920 select by click
-	00474C00 hover on details
+  004B0920 select by click
+  00474C00 hover on details
 
 
 class 'MTRL': (vtable at 004E2698)
-	+18(4): pointer to br_material
+  +18(4): pointer to br_material
 method:
-	004B2B00 upload texture to brender?
+  004B2B00 upload texture to brender?
 
 
 
-class ' GNV' (vtable at 004DF168) picture class?
-
+class ' GNV' (vtable at 004DF168) picture class? size: 0x88
+  +0C(10h): Rectangle?
+  +1C(10h): Rectangle
+  +68(  4): Some pointer passed to 0042B330
 methods:
-	00420710 blit? 
-		arg1: *_GNV
-		arg2: *Rectangle?
-		arg3:
+  00420710 blit? 
+    arg1: *_GNV
+    arg2: *Rectangle?
+    arg3:
+  00422010 blit?
+    arg1: MBMP*
+    arg2: destination rect?
 
 
 
@@ -233,55 +238,55 @@ class 'GRPB' (vtable at 004DF2C0) subclass of ' GPT'?
 class ' GST' (vtable at )  subclass of ' GPT'?
 
 class 'CURS' (vtable at 004DF140)
-	 18: cursor to set
+   18: cursor to set
 
 methods:
-	0041F9E0 set cursor
+  0041F9E0 set cursor
 
 class ' FIL' (vtable at 004DF540)
     010(24/18h): critical section
     138(1): already open?
     140(1): existing length, maybe? 
-	144: hFile pointer
+  144: hFile pointer
 methods:
-	0042E9E0
-	0043D860 getFileLength
-	0043D8F0 readFile
+  0042E9E0
+  0043D860 getFileLength
+  0043D8F0 readFile
 
 
 class 'BLCK' (vtable at 004DF558)
-	08(4): 
-	0C(4): _FIL pointer
-	14(4):
-	18(4):
-	1C(4):
-	20(4):
+  08(4): 
+  0C(4): _FIL pointer
+  14(4):
+  18(4):
+  1C(4):
+  20(4):
 
 methods:
-	0043CD10
-	0043CDC0
-	0043D3F0
-	
-	
+  0043CD10
+  0043CDC0
+  0043D3F0
+  
+  
 class ' FNI' (vtable at 004DF570) extends BaseThing
-	8(4): unknown, initialized to 2C2E2E2E (',...') maybe reversed extension?
-	C(1): unknown, initialized to 0 length?
-	D(1): unknown, initialized to 0 PString?
-	
+  8(4): unknown, initialized to 2C2E2E2E (',...') maybe reversed extension?
+  C(1): unknown, initialized to 0 length?
+  D(1): unknown, initialized to 0 PString?
+  
 (meta)constructor at 0043DD90, subconstructor at 0043DD80
 
 methods:
 
-	0042FFB0
-	0043E2A0
-	0043E3C0 extractBasename(PString *output)
-	0043E400 
-	0043E410 getFileStatus
-	0043E950 addPathToDirectory(char *filename)
-	0043DFD0
-	
+  0042FFB0
+  0043E2A0
+  0043E3C0 extractBasename(PString *output)
+  0043E400 
+  0043E410 getFileStatus
+  0043E950 addPathToDirectory(char *filename)
+  0043DFD0
+  
 
-	
+  
 004193F0 
 0041AD30 maybe strcmp? for pstring
 
@@ -294,86 +299,91 @@ class ' CFL' (vtable at 004DF468)
 methods: 
   00430C50
   0043D8F0 readFromOffset(buffer,size,offset)
-	
+  
 class ' APE' (vtable at 004DEB68) prop/actor appearance
  70(4): BWLD class 
 method:
-	00415640
-	
+  00415640
+  
 class 'REGN' (vtable at 004DF248) regions? size: 2Ch/44
+  + 8(4): left
+  + C(4): top
+  +10(4): right
+  +14(4): bottom
+  +20(4): Some GDI object
 
 method:
-	004262A0
-	00426330
-	00426BC0
+  004262A0
+  00426330
+  00426BC0
 
 class ' GOB' (vtable at 004DF198) size: 70h/112
 methods:
-	00424AF0
-	00423C50
+  00424AF0
+  00423C50
 
-	
+  
 class 'HBAL' (vtable at 004E0BB8)
 methods:
-	00422EE0
-	
+  00422EE0
+  
 class ' GOK' (vtable at 004E0DF0) size: DCh/220
-	+10: pointer to _GPT? 
-	+A4: ?
-	+D4: menu pointer (0=no menu, or pointer to menu object?)
+  +10: pointer to _GPT? 
+  +A4: ?
+  +D4: menu pointer (0=no menu, or pointer to menu object?)
 methods:
-	0045D150 enable/disable popup menus? 3 arguments.
-	  argument 1: some id?
-		argument 2: ?
-		argument 3: -1 when hiding menus, 1/21h/22h otherwise
-	0045CEF0 ?
+  0045D150 enable/disable popup menus? 3 arguments.
+    argument 1: some id?
+    argument 2: ?
+    argument 3: -1 when hiding menus, 1/21h/22h otherwise
+  0045CEF0 ?
 vtable methods:
-	+44 (vtable)
+  +44 (vtable)
 
 class '  GL' (vtable at 004DF318) size 28, extends _GLB extends BASE 
-	+10:
-	+18: initialized to 80h
-	+1C: initialized to 10h
-	+20: 
-	+24: initialized to arg1
+  +10:
+  +18: initialized to 80h
+  +1C: initialized to 10h
+  +20: 
+  +24: initialized to arg1
 methods:
-	0042D570 returns an integer, 1 argument
-	0042DA80 returns a 0/1 integer, 1 argument
-	0042DAD0
+  0042D570 returns an integer, 1 argument
+  0042DA80 returns a 0/1 integer, 1 argument
+  0042DAD0
 vtable: 11 entries
-	#1
-	#2
-	#3
-	#4
-	#5
-	0042D750
-	0042D9B0
-	0042D360
-	0042D7D0
-	0042D7C0
-	0042DA20
+  #1
+  #2
+  #3
+  #4
+  #5
+  0042D750
+  0042D9B0
+  0042D360
+  0042D7D0
+  0042D7C0
+  0042DA20
 
 
 class 'SCEG' (vtable at 004E1078)
-	+10(4): pointer (to other class, of type __GL)
-	+24(1): tested against 1
+  +10(4): pointer (to other class, of type __GL)
+  +24(1): tested against 1
 methods:
-	00447D20
-	00447DC0
-	
+  00447D20
+  00447DC0
+  
 
 class Rectangle (no vtable)
-	+0(4): left
-	+4(4): top
-	+8(4): right
-	+C(4): bottom
+  +0(4): left
+  +4(4): top
+  +8(4): right
+  +C(4): bottom
 methods:
-	00419E90 ?
-	00419F30 ?
-	0041A0E0 setPoint(LONG x, LONG y)
-	0041A230 setRect(RECT *rect)
-	0041A250 ?
-	00419D90
+  00419E90 ?
+  00419F30 ?
+  0041A0E0 setPoint(LONG x, LONG y)
+  0041A230 setRect(RECT *rect)
+  0041A250 ?
+  00419D90
 
 
 
@@ -381,32 +391,38 @@ methods:
 class ' CRF' (vtable at 4DF4F0)
 
 methods: 
-	0043B5A0 data loading?
+  0043B5A0 data loading?
 
 
 class ' DLG' (vtable at 004E05E0) size=40h
-	+34(4): init to arg1
+  +34(4): init to arg1
 methods:
-	00456F10	
+  00456F10  
 
 
 class 'BRWR' (vtable at 00403100) scrollable actor/prop lists
 methods:
-	00403810 scrollDown
-	00403900 scrollUp
+  00403810 scrollDown
+  00403900 scrollUp
 
 
 class 'CODM' (vtable at 004DF498)
 
 methods:
-	004344D0
+  004344D0
 
 
 static pointer at 4D556C
 class 'SNDM' (vtable at 004DF5D0)
 
 
-class 'MBMP' (vtable at 004DF5A0)
+class 'MBMP' (vtable at 004DF5A0) size=20h
+  +18(4) height * 2
+  +1C(4) pointer raw chunk data
 
 method:
-	00425300
+  00425300
+
+class ' GTE' (vtable at 004DF218)
+  + 8(4) initialized to 3?
+  +10(4) pointer to GOB?

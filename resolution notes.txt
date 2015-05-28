@@ -1,0 +1,8 @@
+resolution notes
+
+function 00408190 compares if the current resolution is 640x480
+function 004083E0 passes 640x480 to AdjustWindowRect
+function 0040B620 hardcodes 640x480 in resolution changing
+
+640(*6?) is hardcoded at 0046E809 in function 0046D600. 480(*5?) is at 0046E7C1
+640(*6?) is hardcoded at 0046FA80 in function 0046F280. 480(*5?) is at 0046FA44

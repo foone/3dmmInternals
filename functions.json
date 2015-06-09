@@ -9209,6 +9209,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class_APP::pushAcceleratorTable"
+      },
       "method-analysis": "could-be-fastcall",
       "ollydbg": {
         "args": "void",
@@ -9235,6 +9238,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class_APP::popAcceleratorTable"
+      },
       "method-analysis": "could-be-fastcall",
       "ollydbg": {
         "name": "unnamed"
@@ -9260,6 +9266,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class_APP::pushAcceleratorTableWrapper"
+      },
       "method-analysis": "no-ecx"
     },
     "0040C970": {
@@ -9281,6 +9290,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "class_APP::popAcceleratorTableWrapper"
       },
       "method-analysis": "no-ecx",
       "ollydbg": {
@@ -20305,6 +20317,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classRectangle::isWithin"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2",
@@ -28629,6 +28644,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class_GOB::method00423880"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "name": "unnamed"
@@ -31410,6 +31428,9 @@
         "returns": true,
         "static": false,
         "type-info": true
+      },
+      "manual-ollydbg": {
+        "name": "class_APP::messageLoop"
       },
       "ollydbg": {
         "name": "unnamed"
@@ -70845,6 +70866,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "class_GOK::method0046CEF0"
       },
       "method-analysis": "definitely",
       "ollydbg": {

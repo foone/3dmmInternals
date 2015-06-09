@@ -91,12 +91,13 @@ KCDC constructor at 00418F30 doesn't match the pattern!
 
 
 class ' APP' (vtable at 004DE1A8) static at 4D4120
- 10: is-active? 
- 4C: pointer to current cursor?
- 50: secondary cursor?
- 5C: Some kind of render-mode?
- 8C: pointer to stio
- A0: quality setting: 2A=low, 28=high
+ 010: is-active? 
+ 04C: pointer to current cursor?
+ 050: secondary cursor?
+ 05C: Some kind of render-mode?
+ 08C: pointer to stio
+ 0A0: quality setting: 2A=low, 28=high
+ D58: Pointer to accelerator table (also static at 4D57EC)
 methods:
   0040A720
   0040C560
@@ -284,7 +285,7 @@ methods:
   0043E410 getFileStatus
   0043E950 addPathToDirectory(char *filename)
   0043DFD0
-  
+
 
   
 004193F0 
@@ -321,6 +322,7 @@ class ' GOB' (vtable at 004DF198) size: 70h/112
 methods:
   00424AF0
   00423C50
+  00423880 // iterate over buttons?
 
   
 class 'HBAL' (vtable at 004E0BB8)
@@ -425,4 +427,14 @@ method:
 
 class ' GTE' (vtable at 004DF218)
   + 8(4) initialized to 3?
+  + C(4)
   +10(4) pointer to GOB?
+  +14(4)
+method: 
+  00425150 // iterate... tree?
+
+
+class 'HBTN' (vtable at 004E0CC0)
+  
+method:
+  0045DBD0 # determining action/target?

@@ -319,11 +319,12 @@ method:
   00426BC0
 
 class ' GOB' (vtable at 004DF198) size: 70h/112
+  +5C(4) pointer to _KWA/_GOK?
 methods:
   00424AF0
   00423C50
   00423880 // iterate over buttons?
-
+global pointer to GOB at 4D585C. start of tree/list?
   
 class 'HBAL' (vtable at 004E0BB8)
 methods:
@@ -331,6 +332,7 @@ methods:
   
 class ' GOK' (vtable at 004E0DF0) size: DCh/220
   +10: pointer to _GPT? 
+  +60(4) Pointer to GOK/GOK/more GOK
   +A4: ?
   +D4: menu pointer (0=no menu, or pointer to menu object?)
 methods:

@@ -29192,6 +29192,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class_GOK::method00424990"
+      },
       "method-analysis": "could-be-fastcall",
       "ollydbg": {
         "args": "void",
@@ -29217,6 +29220,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "class_GOB::method004249D0"
       },
       "method-analysis": "could-be-fastcall",
       "ollydbg": {

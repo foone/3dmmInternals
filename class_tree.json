@@ -1,0 +1,233 @@
+{
+  "BASE": {
+    "parent": null
+  },
+  " CMH": {
+    "parent": "BASE"
+  },
+  " GOB": {
+    "parent": " CMH"
+  },
+  " GOK": {
+    "parent": " GOB"
+  },
+  "BRWD": {
+    "parent": " GOK"
+  },
+  "BRWR": {
+    "parent": "BRWD"
+  },
+  "WOKS": {
+    "parent": " GOB"
+  },
+  " KWA": {
+    "parent": "WOKS"
+  },
+  "stio": {
+    "parent": " GOB"
+  },
+  "tgob": {
+    "parent": " GOB"
+  },
+  " DDG": {
+    "parent": " GOB"
+  },
+  " MVU": {
+    "parent": " DDG"
+  },
+  "TXTG": {
+    "parent": " DDG"
+  },
+  "TXRG": {
+    "parent": "TXTG"
+  },
+  "TBXG": {
+    "parent": "TXRG"
+  },
+  "TBXB": {
+    "parent": " GOB"
+  },
+  "brwm": {
+    "parent": "BRWD"
+  },
+  "TXHG": {
+    "parent": "TXRG"
+  },
+  "HBAL": {
+    "parent": " GOK"
+  },
+  "HBTN": {
+    "parent": " GOK"
+  },
+  " ESL": {
+    "parent": " GOK"
+  },
+  "ESLL": {
+    "parent": " ESL"
+  },
+  "BRWP": {
+    "parent": "BRWD"
+  },
+  "EDCB": {
+    "parent": " GOB"
+  },
+  "EDPL": {
+    "parent": "EDCB"
+  },
+  "EDSL": {
+    "parent": "EDPL"
+  },
+  " SNE": {
+    "parent": "EDSL"
+  },
+  " APE": {
+    "parent": " GOB"
+  },
+  "ESLA": {
+    "parent": " GOK"
+  },
+  "ESLR": {
+    "parent": " ESL"
+  },
+  "SCRT": {
+    "parent": " GOK"
+  },
+  "GOMP": {
+    "parent": " GOB"
+  },
+  " DMD": {
+    "parent": " GOB"
+  },
+  " DMW": {
+    "parent": " GOB"
+  },
+  " DSG": {
+    "parent": " GOB"
+  },
+  "DSSP": {
+    "parent": " GOB"
+  },
+  "DSSM": {
+    "parent": " GOB"
+  },
+  " CTL": {
+    "parent": " GOB"
+  },
+  " SCB": {
+    "parent": " CTL"
+  },
+  " WSB": {
+    "parent": " CTL"
+  },
+  "TATR": {
+    "parent": " CMH"
+  },
+  "CLOK": {
+    "parent": " CMH"
+  },
+  "MVIE": {
+    "parent": "DOCB"
+  },
+  "DOCB": {
+    "parent": " CMH"
+  },
+  "GVID": {
+    "parent": " CMH"
+  },
+  " MSQ": {
+    "parent": " CMH"
+  },
+  "SUNS": {
+    "parent": "BASE"
+  },
+  "splt": {
+    "parent": " GOK"
+  },
+  "BRWT": {
+    "parent": "BRWD"
+  },
+  "BRWA": {
+    "parent": "BRWT"
+  },
+  "BRWI": {
+    "parent": "brwm"
+  },
+  "BRWB": {
+    "parent": "BRWD"
+  },
+  "BRWC": {
+    "parent": "BRWD"
+  },
+  "ESLT": {
+    "parent": " GOK"
+  },
+  "  MP": {
+    "parent": "BRWD"
+  },
+  "mpft": {
+    "parent": "BRWT"
+  },
+  "CAMS": {
+    "parent": "BACO"
+  },
+  "BACO": {
+    "parent": "BASE"
+  },
+  "MIDS": {
+    "parent": "BACO"
+  },
+  "CURS": {
+    "parent": "BACO"
+  },
+  "MBMP": {
+    "parent": "BACO"
+  },
+  "MDWS": {
+    "parent": "BACO"
+  },
+  "CABO": {
+    "parent": "BACO"
+  },
+  "SCPT": {
+    "parent": "BACO"
+  },
+  "GKDS": {
+    "parent": "BACO"
+  },
+  "ZBMP": {
+    "parent": "BACO"
+  },
+  "MSND": {
+    "parent": "BACO"
+  },
+  "BKGD": {
+    "parent": "BACO"
+  },
+  "ACTN": {
+    "parent": "BACO"
+  },
+  " TDT": {
+    "parent": "BACO"
+  },
+  "MTRL": {
+    "parent": "BACO"
+  },
+  "CMTL": {
+    "parent": "BACO"
+  },
+  "MODL": {
+    "parent": "BACO"
+  },
+  " TDF": {
+    "parent": "BACO"
+  },
+  "TMAP": {
+    "parent": "BACO"
+  },
+  "BODY": {
+    "parent": "BASE"
+  },
+  "Rectangle": {
+    "parent": null
+  }
+}

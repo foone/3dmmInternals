@@ -115,7 +115,7 @@ vtable:
   +054: wndproc handler
 
 
-class 'stio': (vtable at 004DE3C8, and 004DF198) constructor at 0040E640 
+class 'stio': (vtable at 004DE3C8, and 004DF198) constructor at 0040E640 size 0c8h
  7C: pointer to SMCC
 
 class 'SMCC': (vtable at 004DE448)
@@ -324,6 +324,9 @@ methods:
   00424AF0
   00423C50
   00423880 // iterate over buttons?
+vtable:
+  +44 render to screen (arg1,arg2)
+
 global pointer to GOB at 4D585C. start of tree/list?
   
 class 'HBAL' (vtable at 004E0BB8)
@@ -382,9 +385,10 @@ class Rectangle (no vtable)
   +8(4): right
   +C(4): bottom
 methods:
-  00419E90 ?
+  00419E10 bool CalculateIntersectionBetween(Rectangle *a, Rectangle *b)
+  00419E90 bool CalculateIntersection(Rectangle *other)
   00419F30 ?
-  0041A0E0 setPoint(LONG x, LONG y)
+  0041A0E0 ShiftPoint(LONG x, LONG y)
   0041A230 setRect(RECT *rect)
   0041A250 ?
   00419D90
@@ -427,16 +431,23 @@ class 'MBMP' (vtable at 004DF5A0) size=20h
 method:
   00425300
 
-class ' GTE' (vtable at 004DF218)
+class ' GTE' (vtable at 004DF218) constructor at 00425100
   + 8(4) initialized to 3?
   + C(4)
   +10(4) pointer to GOB?
   +14(4)
 method: 
-  00425150 // iterate... tree?
+  00425120 // begin iterate?
+  00425150 // iterate... tree/list?
+
+
 
 
 class 'HBTN' (vtable at 004E0CC0)
   
 method:
   0045DBD0 # determining action/target?
+
+class '_KWA' (vtable at 004DE2E0) constructor at 004092B0 size 140h
+
+class '_MVU' (vtable at 004E2350) constructor at 004A28F0 size 130

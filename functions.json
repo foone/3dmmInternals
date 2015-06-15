@@ -96,6 +96,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classsplt::init"
+      },
       "method-analysis": "ecx-overwritten",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
@@ -1416,6 +1419,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classSCRT::init"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1",
@@ -1972,6 +1978,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classGOMP::init"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -4871,6 +4880,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classbrwm::init"
+      },
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4",
@@ -5127,6 +5139,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classBRWA::init"
+      },
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "Arg1",
@@ -5254,6 +5269,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classBRWI::init"
+      },
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
@@ -5306,6 +5324,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classBRWP::init"
+      },
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "Arg1,Arg2",
@@ -5331,6 +5352,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classBRWB::init"
       },
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
@@ -5408,6 +5432,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classBRWC::init"
+      },
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "Arg1",
@@ -5458,6 +5485,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classBRWR::init"
       },
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
@@ -10600,6 +10630,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classstio::init"
+      },
       "method-analysis": "ecx-overwritten",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4",
@@ -13285,6 +13318,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classtgob::init"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1",
@@ -14187,6 +14223,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classESLT::init"
+      },
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4,Arg5,Arg6",
@@ -14465,6 +14504,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class_SNE::init"
+      },
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
@@ -14514,6 +14556,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classESLA::init"
       },
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
@@ -14666,6 +14711,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classESLL::init"
       },
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
@@ -14946,6 +14994,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classESLR::init"
       },
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
@@ -15613,6 +15664,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "class_APE::init"
       },
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
@@ -16546,6 +16600,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class__MP::init"
+      },
       "method-analysis": "ecx-overwritten",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4,Arg5,Arg6,Arg7,Arg8,Arg9,Arg10,Arg11,Arg12,Arg13",
@@ -16671,6 +16728,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classmpft::init"
       },
       "method-analysis": "ecx-overwritten",
       "ollydbg": {
@@ -17063,6 +17123,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classTATR::init"
       },
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
@@ -20068,6 +20131,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classRectangle::CalculateIntersectionBetween"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2",
@@ -20095,7 +20161,7 @@
         "type-info": false
       },
       "manual-ollydbg": {
-        "name": "classRectangle::fitWithin"
+        "name": "classRectangle::CalculateIntersection"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -24288,6 +24354,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classCLOK::init"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2",
@@ -26044,6 +26113,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classCURS::init"
       },
       "ollydbg": {
         "name": "unnamed"
@@ -28310,6 +28382,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class_GOB::init"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1",
@@ -28361,6 +28436,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "class_GOB::init2"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -28851,7 +28929,7 @@
         "type-info": false
       },
       "manual-ollydbg": {
-        "name": "classWOKS::method00424210"
+        "name": "class_GOB::method00424210"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -28984,7 +29062,7 @@
         "type-info": false
       },
       "manual-ollydbg": {
-        "name": "classWOKS::method004243A0"
+        "name": "class_GOB::method004243A0"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -29777,7 +29855,7 @@
         "type-info": false
       },
       "manual-ollydbg": {
-        "name": "class_GTE::method00425120"
+        "name": "class_GTE::start"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -29806,7 +29884,7 @@
         "type-info": false
       },
       "manual-ollydbg": {
-        "name": "class_GTE::method00425150"
+        "name": "class_GTE::next"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -44835,6 +44913,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classMBMP::init"
+      },
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4,Arg5,Arg6,Arg7,Arg8,Arg9",
@@ -47754,6 +47835,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classCAMS::init"
+      },
       "method-analysis": "could-be-fastcall",
       "ollydbg": {
         "name": "unnamed"
@@ -49870,6 +49954,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classMDWS::init"
       },
       "method-analysis": "could-be-fastcall",
       "ollydbg": {
@@ -52190,6 +52277,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classMIDS::init"
+      },
       "method-analysis": "could-be-fastcall",
       "ollydbg": {
         "name": "unnamed"
@@ -52719,6 +52809,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classGVID::init"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -54540,6 +54633,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classCABO::init"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -54918,6 +55014,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classSCPT::init"
       },
       "method-analysis": "ecx-overwritten",
       "ollydbg": {
@@ -57042,6 +57141,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class_DDG::init"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2",
@@ -57618,6 +57720,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class_DMD::init"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2",
@@ -57739,6 +57844,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "class_DMW::init"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -58140,6 +58248,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class_DSG::init"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1",
@@ -58290,6 +58401,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classDSSP::init"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -58492,6 +58606,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classDSSM::init"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -62522,6 +62639,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classTXTG::init"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2",
@@ -63522,6 +63642,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classTXRG::init"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2",
@@ -64305,6 +64428,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class_CTL::init"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1",
@@ -64432,6 +64558,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "class_SCB::init"
       },
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
@@ -64664,6 +64793,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "class_WSB::init"
       },
       "method-analysis": "ecx-overwritten",
       "ollydbg": {
@@ -66601,6 +66733,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classEDCB::init"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2",
@@ -67184,6 +67319,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classEDPL::init"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1",
@@ -67409,6 +67547,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classEDSL::init"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -68024,6 +68165,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classGKDS::init"
+      },
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "name": "unnamed"
@@ -68173,6 +68317,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classWOKS::init"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -69598,6 +69745,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classHBAL::init"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1",
@@ -69722,6 +69872,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classHBTN::init"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -70544,6 +70697,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "class_GOK::init"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -73770,6 +73926,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classCABO::init2"
       },
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
@@ -90580,6 +90739,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classZBMP::init"
+      },
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "Arg1,Arg2",
@@ -90629,6 +90791,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classZBMP::init2"
       },
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
@@ -99633,6 +99798,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classMVIE::init"
+      },
       "method-analysis": "could-be-fastcall",
       "ollydbg": {
         "name": "unnamed"
@@ -102218,6 +102386,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class_MVU::init"
+      },
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4",
@@ -103315,6 +103486,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classMSND::init"
+      },
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "name": "unnamed"
@@ -103339,6 +103513,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classMSND::init2"
       },
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
@@ -103675,6 +103852,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "class_MSQ::init"
       },
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
@@ -107277,6 +107457,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classSUNS::init"
+      },
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "name": "unnamed"
@@ -108436,6 +108619,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classBKGD::init"
+      },
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "name": "unnamed"
@@ -109327,6 +109513,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classBODY::init"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -110317,6 +110506,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classACTN::init"
+      },
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
@@ -110342,6 +110534,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classACTN::init2"
       },
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
@@ -110547,6 +110742,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "class_TDT::init"
       },
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
@@ -111480,6 +111678,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classMTRL::init"
+      },
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "Arg1,Arg2",
@@ -111715,6 +111916,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classCMTL::init"
       },
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
@@ -112085,6 +112289,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "class_TDT::init2"
       },
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
@@ -114330,6 +114537,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classTBXB::init"
+      },
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "Arg1,Arg2",
@@ -114554,6 +114764,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classTBXG::init"
       },
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
@@ -120836,6 +121049,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classMODL::init"
+      },
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "name": "unnamed"
@@ -121127,6 +121343,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "class_TDF::init"
       },
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
@@ -127446,6 +127665,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classTMAP::init"
       },
       "method-analysis": "ecx-overwritten",
       "ollydbg": {

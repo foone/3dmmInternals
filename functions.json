@@ -125,6 +125,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classBASE2::init"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "name": "unnamed"
@@ -4392,6 +4395,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class_BCL::init"
+      },
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4,Arg5",
@@ -4469,6 +4475,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classBCLS::init"
       },
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
@@ -9790,6 +9799,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classSSCB::init"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1",
@@ -12137,6 +12149,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classSMCC::init"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -18610,6 +18625,11 @@
         "name": "unnamed"
       }
     },
+    "00419173": {
+      "manual-ollydbg": {
+        "name": "class_BLL::init"
+      }
+    },
     "00419190": {
       "fpo": {
         "BP": 0,
@@ -19222,6 +19242,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "class_ERS::init"
       },
       "method-analysis": "could-be-fastcall",
       "ollydbg": {
@@ -20575,7 +20598,7 @@
         "type-info": false
       },
       "manual-ollydbg": {
-        "name": "TimerThing:new"
+        "name": "classUSAC::init"
       },
       "method-analysis": "could-be-fastcall",
       "ollydbg": {
@@ -21049,7 +21072,7 @@
         "type-info": false
       },
       "manual-ollydbg": {
-        "name": "RandomGenerator:new"
+        "name": "class_RND::init"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -21102,6 +21125,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "class_SFL::init"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -28411,6 +28437,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class_GOB::method422DE0"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1",
@@ -35514,6 +35543,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class_GGB::init"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2",
@@ -36150,6 +36182,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class__GG::init2"
+      },
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
@@ -36175,6 +36210,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "class__GG::init"
       },
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
@@ -36407,6 +36445,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class__AG::init"
+      },
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
@@ -36432,6 +36473,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "class__AG::init2"
       },
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
@@ -42652,6 +42696,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classBLCK::init"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -113380,6 +113427,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classACLP::init"
+      },
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
@@ -113586,6 +113636,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classAUND::init"
       },
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
@@ -116940,6 +116993,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classACTR::init"
       },
       "method-analysis": "could-be-fastcall",
       "ollydbg": {
@@ -130759,6 +130815,11 @@
     "004D7818": {
       "manual-ollydbg": {
         "name": "BrZbRenderBoundsCallbackPTR"
+      }
+    },
+    "004E24B8": {
+      "manual-ollydbg": {
+        "name": "classMUNB::vtable"
       }
     },
     "004E3CA8": {

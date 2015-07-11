@@ -7783,6 +7783,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class_APP::method409140"
+      },
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "name": "unnamed"
@@ -35777,6 +35780,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class__GG::method42E290"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2",
@@ -38515,6 +38521,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class_CFL::method4318F0"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2",
@@ -38541,6 +38550,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class_CFL::method431950"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2",
@@ -38566,6 +38578,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "class_CFL::findChunk"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -38721,6 +38736,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "class_CFL::method431C50"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -39449,6 +39467,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "class_CFL::method433050"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -42752,6 +42773,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classBLCK::init"
+      },
       "method-analysis": "could-be-fastcall",
       "ollydbg": {
         "args": "void",
@@ -43043,6 +43067,9 @@
         "returns": true,
         "static": false,
         "type-info": true
+      },
+      "manual-ollydbg": {
+        "name": "classBLCK::method43CF50"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -45066,7 +45093,7 @@
         "type-info": false
       },
       "manual-ollydbg": {
-        "name": "class_FIL::method0043F610"
+        "name": "class_FIL::loadChunk"
       },
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {

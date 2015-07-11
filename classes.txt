@@ -177,12 +177,13 @@ methods:
   004A8F90 changeFrame (int newFrame)
   004AAB80 hover/select? 
 
-class '  GG': (vtable at 004DF3A8) timeline class ?
-   20 Number of events
+class '  GG': (vtable at 004DF3A8) timeline class or list of references from a chunk?
+   14:(4) pointer to 8 byte-per-element array
+   20: Number of events
 methods:
   0042D140
   0042D480
-  
+  0042E290 possibly get-nth-reference
 
 class 'BODY': (vtable at 004E25C0)
 
@@ -253,15 +254,17 @@ methods:
   0042E9E0
   0043D860 getFileLength
   0043D8F0 readFile
+  0043F610 loadChunk (BLCK chunk_to_load)
 
 
-class 'BLCK' (vtable at 004DF558)
+class 'BLCK' (vtable at 004DF558) (size 20h-24h)
   08(4): 
   0C(4): _FIL pointer
-  14(4):
-  18(4):
+  14(4): Length of chunk
+  18(4): Offset of chunk
   1C(4):
   20(4):
+  24(4): 
 
 methods:
   0043CD10
@@ -296,10 +299,12 @@ methods:
 
 
 
-class ' CFL' (vtable at 004DF468)
+class ' CFL' (vtable at 004DF468) (size 3C)
+  +10(4) pointer to __GG 
 methods: 
   00430C50
   0043D8F0 readFromOffset(buffer,size,offset)
+  00431990 findChunk(BLCK out, DWORD id, CHUNKTYPE chunk)
   
 class ' APE' (vtable at 004DEB68) prop/actor appearance
  70(4): BWLD class 

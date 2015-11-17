@@ -102,7 +102,7 @@
       "method-analysis": "ecx-overwritten",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
-        "name": "3DMOVIE.00401040"
+        "name": "3DMOVIE.classsplt::init"
       }
     },
     "004011C0": {
@@ -202,6 +202,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classsplt::method401630"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -1428,7 +1431,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.00401FE0"
+        "name": "3DMOVIE.classSCRT::init"
       }
     },
     "00402000": {
@@ -1988,7 +1991,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.00402AB0"
+        "name": "3DMOVIE.classGOMP::init"
       }
     },
     "00402AD0": {
@@ -3937,6 +3940,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classbrwm::method403970"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "name": "unnamed"
@@ -4401,7 +4407,7 @@
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4,Arg5",
-        "name": "3DMOVIE.00404480"
+        "name": "3DMOVIE.class_BCL::init"
       }
     },
     "004044F0": {
@@ -4482,7 +4488,7 @@
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4,Arg5,Arg6",
-        "name": "3DMOVIE.004045C0"
+        "name": "3DMOVIE.classBCLS::init"
       }
     },
     "00404630": {
@@ -4895,7 +4901,7 @@
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4",
-        "name": "3DMOVIE.004050C0"
+        "name": "3DMOVIE.classbrwm::init"
       }
     },
     "004051C0": {
@@ -4994,6 +5000,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classbrwm::method405460"
       },
       "method-analysis": "could-be-fastcall",
       "ollydbg": {
@@ -5154,7 +5163,7 @@
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.00405AE0"
+        "name": "3DMOVIE.classBRWA::init"
       }
     },
     "00405BF0": {
@@ -5284,7 +5293,7 @@
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
-        "name": "3DMOVIE.00405EC0"
+        "name": "3DMOVIE.classBRWI::init"
       }
     },
     "00405FA0": {
@@ -5339,7 +5348,7 @@
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "Arg1,Arg2",
-        "name": "3DMOVIE.004060C0"
+        "name": "3DMOVIE.classBRWP::init"
       }
     },
     "00406180": {
@@ -5368,7 +5377,7 @@
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.00406180"
+        "name": "3DMOVIE.classBRWB::init"
       }
     },
     "00406240": {
@@ -5447,7 +5456,7 @@
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.00406340"
+        "name": "3DMOVIE.classBRWC::init"
       }
     },
     "00406400": {
@@ -5501,7 +5510,7 @@
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "Arg1,Arg2",
-        "name": "3DMOVIE.00406440"
+        "name": "3DMOVIE.classBRWR::init"
       }
     },
     "00406500": {
@@ -7079,6 +7088,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "appMainStatic"
+      },
       "method-analysis": "could-be-this-assignment"
     },
     "00407610": {
@@ -7091,10 +7103,13 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class_APP::main"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
-        "name": "3DMOVIE.00407610"
+        "name": "3DMOVIE.class_APP::main"
       }
     },
     "0040765B": {
@@ -7475,7 +7490,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4,Arg5",
-        "name": "3DMOVIE.004083E0"
+        "name": "3DMOVIE.class_APP::CalcWindowSize"
       }
     },
     "004084D0": {
@@ -7523,6 +7538,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "class_APP::method408550"
       },
       "method-analysis": "could-be-fastcall",
       "ollydbg": {
@@ -7684,7 +7702,7 @@
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4,Arg5",
-        "name": "3DMOVIE.00408C70"
+        "name": "3DMOVIE.GetSetRegistry"
       }
     },
     "00408DC0": {
@@ -7962,10 +7980,13 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class_APP::method4095C0"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
-        "name": "3DMOVIE.004095C0"
+        "name": "3DMOVIE.class_APP::method4095C0"
       }
     },
     "00409730": {
@@ -8789,7 +8810,7 @@
       "method-analysis": "could-be-fastcall",
       "ollydbg": {
         "args": "void",
-        "name": "3DMOVIE.0040B290"
+        "name": "3DMOVIE.class_APP::method0040B290"
       }
     },
     "0040B2F0": {
@@ -9257,7 +9278,7 @@
       "method-analysis": "could-be-fastcall",
       "ollydbg": {
         "args": "void",
-        "name": "3DMOVIE.0040C910"
+        "name": "3DMOVIE.class_APP::pushAcceleratorTable"
       }
     },
     "0040C940": {
@@ -9468,7 +9489,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.0040CA40"
+        "name": "3DMOVIE.class_KWA::method0040CA40"
       }
     },
     "0040CAA0": {
@@ -9515,6 +9536,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "class_KWA::method40CAC0"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -9808,7 +9832,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.0040CC80"
+        "name": "3DMOVIE.classSSCB::init"
       }
     },
     "0040CCA0": {
@@ -10651,7 +10675,7 @@
       "method-analysis": "ecx-overwritten",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4",
-        "name": "3DMOVIE.0040E640"
+        "name": "3DMOVIE.classstio::init"
       }
     },
     "0040E7C0": {
@@ -10781,7 +10805,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2",
-        "name": "3DMOVIE.0040EC30"
+        "name": "3DMOVIE.classstio::method0040EC30"
       }
     },
     "0040EC80": {
@@ -10810,7 +10834,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
-        "name": "3DMOVIE.0040EC80"
+        "name": "3DMOVIE.classstio::method0040EC80"
       }
     },
     "0040EE70": {
@@ -10933,6 +10957,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classstio::method40F490"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -12159,7 +12186,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4,Arg5",
-        "name": "3DMOVIE.004112F0"
+        "name": "3DMOVIE.classSMCC::init"
       }
     },
     "00411340": {
@@ -13342,7 +13369,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.004118F0"
+        "name": "3DMOVIE.classtgob::init"
       }
     },
     "00411960": {
@@ -14247,7 +14274,7 @@
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4,Arg5,Arg6",
-        "name": "3DMOVIE.00412170"
+        "name": "3DMOVIE.classESLT::init"
       }
     },
     "00412240": {
@@ -14528,7 +14555,7 @@
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
-        "name": "3DMOVIE.00412DE0"
+        "name": "3DMOVIE.class_SNE::init"
       }
     },
     "00412E50": {
@@ -14581,7 +14608,7 @@
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
-        "name": "3DMOVIE.00412F40"
+        "name": "3DMOVIE.classESLA::init"
       }
     },
     "00413000": {
@@ -14736,7 +14763,7 @@
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
-        "name": "3DMOVIE.00413440"
+        "name": "3DMOVIE.classESLL::init"
       }
     },
     "004135A0": {
@@ -15019,7 +15046,7 @@
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4",
-        "name": "3DMOVIE.004140D0"
+        "name": "3DMOVIE.classESLR::init"
       }
     },
     "004141B0": {
@@ -15689,7 +15716,7 @@
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4,Arg5,Arg6",
-        "name": "3DMOVIE.00414B70"
+        "name": "3DMOVIE.class_APE::init"
       }
     },
     "00414C00": {
@@ -16624,7 +16651,7 @@
       "method-analysis": "ecx-overwritten",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4,Arg5,Arg6,Arg7,Arg8,Arg9,Arg10,Arg11,Arg12,Arg13",
-        "name": "3DMOVIE.00415FA0"
+        "name": "3DMOVIE.class__MP::init"
       }
     },
     "00416180": {
@@ -16753,7 +16780,7 @@
       "method-analysis": "ecx-overwritten",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4,Arg5,Arg6",
-        "name": "3DMOVIE.004162B0"
+        "name": "3DMOVIE.classmpft::init"
       }
     },
     "00416400": {
@@ -17148,7 +17175,7 @@
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.00416760"
+        "name": "3DMOVIE.classTATR::init"
       }
     },
     "004167C0": {
@@ -18511,10 +18538,13 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class_CRF::method419100"
+      },
       "method-analysis": "could-be-fastcall",
       "ollydbg": {
         "args": "void",
-        "name": "3DMOVIE.00419100"
+        "name": "3DMOVIE.class_CRF::method419100"
       }
     },
     "00419110": {
@@ -18915,7 +18945,7 @@
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
-        "name": "3DMOVIE.00419330"
+        "name": "3DMOVIE.memswap"
       }
     },
     "00419380": {
@@ -19252,7 +19282,7 @@
       "method-analysis": "could-be-fastcall",
       "ollydbg": {
         "args": "void",
-        "name": "3DMOVIE.004195B0"
+        "name": "3DMOVIE.class_ERS::init"
       }
     },
     "004195E0": {
@@ -19274,6 +19304,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "class_ERS::setError"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -20163,7 +20196,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2",
-        "name": "3DMOVIE.00419E10"
+        "name": "3DMOVIE.classRectangle::CalculateIntersectionBetween"
       }
     },
     "00419E90": {
@@ -20192,7 +20225,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.classRectangle::method00419E90"
+        "name": "3DMOVIE.classRectangle::CalculateIntersection"
       }
     },
     "00419F10": {
@@ -20301,8 +20334,8 @@
       },
       "method-analysis": "definitely",
       "ollydbg": {
-        "args": "Arg1,Arg2,Arg3",
-        "name": "3DMOVIE.0041A0B0"
+        "args": "other_rectangle,xoffset,yoffset)(guessed Arg1,Arg2,Arg3",
+        "name": "3DMOVIE.classRectangle::setAtOffset"
       }
     },
     "0041A0E0": {
@@ -20415,7 +20448,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2",
-        "name": "3DMOVIE.0041A170"
+        "name": "3DMOVIE.classRectangle::isWithin"
       }
     },
     "0041A1A0": {
@@ -21080,7 +21113,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.RandomGenerator:new"
+        "name": "3DMOVIE.class_RND::init"
       }
     },
     "0041A880": {
@@ -21135,7 +21168,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.0041A8B0"
+        "name": "3DMOVIE.class_SFL::init"
       }
     },
     "0041A8E0": {
@@ -23192,6 +23225,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class_APP::method41C780"
+      },
       "method-analysis": "could-be-fastcall",
       "ollydbg": {
         "name": "unnamed"
@@ -23300,7 +23336,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
-        "name": "3DMOVIE.0041C8D0"
+        "name": "3DMOVIE.class_APP::method0041C8D0"
       }
     },
     "0041C980": {
@@ -23429,7 +23465,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
-        "name": "3DMOVIE.0041CA70"
+        "name": "3DMOVIE.class_APP::method0041CA70"
       }
     },
     "0041CC50": {
@@ -23615,7 +23651,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4",
-        "name": "3DMOVIE.0041CFB0"
+        "name": "3DMOVIE.class_APP::method0041CFB0"
       }
     },
     "0041D0E0": {
@@ -23669,7 +23705,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4",
-        "name": "3DMOVIE.0041D130"
+        "name": "3DMOVIE.class_APP::method0041D130"
       }
     },
     "0041D290": {
@@ -23726,7 +23762,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
-        "name": "3DMOVIE.0041D360"
+        "name": "3DMOVIE.class_APP::method0041D360"
       }
     },
     "0041D410": {
@@ -23755,7 +23791,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2",
-        "name": "3DMOVIE.0041D410"
+        "name": "3DMOVIE.class_APP::method0041D410"
       }
     },
     "0041D4A0": {
@@ -24389,7 +24425,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2",
-        "name": "3DMOVIE.0041DCE0"
+        "name": "3DMOVIE.classCLOK::init"
       }
     },
     "0041DD30": {
@@ -25052,6 +25088,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classCLOK::method41E3F0"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "name": "unnamed"
@@ -25126,6 +25165,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "class_CEX::init"
       },
       "method-analysis": "could-be-fastcall",
       "ollydbg": {
@@ -25605,6 +25647,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class_CEX::method41F030"
+      },
       "method-analysis": "could-be-fastcall",
       "ollydbg": {
         "name": "unnamed"
@@ -25629,6 +25674,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "class_CEX::method41F150"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -25679,6 +25727,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "class_CEX::method41F200"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -26650,7 +26701,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.0041FC30"
+        "name": "3DMOVIE.class_GNV::init"
       }
     },
     "0041FC60": {
@@ -26756,7 +26807,7 @@
       "method-analysis": "constructor",
       "ollydbg": {
         "args": "void",
-        "name": "3DMOVIE.0041FCF0"
+        "name": "3DMOVIE.class_GNV::method0041FCF0"
       }
     },
     "0041FD20": {
@@ -26785,7 +26836,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.0041FD20"
+        "name": "3DMOVIE.class_GNV::method0041FD20"
       }
     },
     "0041FDD0": {
@@ -27048,7 +27099,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.00420200"
+        "name": "3DMOVIE.class_GNV::method00420200"
       }
     },
     "00420240": {
@@ -27077,7 +27128,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.00420240"
+        "name": "3DMOVIE.class_GNV::method00420240"
       }
     },
     "00420300": {
@@ -27418,7 +27469,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
-        "name": "3DMOVIE.00420710"
+        "name": "3DMOVIE.class_GNV::method00420710"
       }
     },
     "00420770": {
@@ -27473,7 +27524,7 @@
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4,Arg5,Arg6",
-        "name": "3DMOVIE.00420820"
+        "name": "3DMOVIE.PixelFade"
       }
     },
     "00420980": {
@@ -27684,7 +27735,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
-        "name": "3DMOVIE.00421FA0"
+        "name": "3DMOVIE.class_GNV::method00421FA0"
       }
     },
     "00422010": {
@@ -27713,7 +27764,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2",
-        "name": "3DMOVIE.00422010"
+        "name": "3DMOVIE.class_GNV::method00422010"
       }
     },
     "00422050": {
@@ -27742,7 +27793,7 @@
       "method-analysis": "casted",
       "ollydbg": {
         "args": "Arg1,Arg2",
-        "name": "3DMOVIE.00422050"
+        "name": "3DMOVIE.class_GNV::method00422050"
       }
     },
     "004220D0": {
@@ -28417,7 +28468,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.00422DB0"
+        "name": "3DMOVIE.class_GOB::init"
       }
     },
     "00422DE0": {
@@ -28446,7 +28497,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.00422DE0"
+        "name": "3DMOVIE.class_GOB::method422DE0"
       }
     },
     "00422E80": {
@@ -28475,7 +28526,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.00422E80"
+        "name": "3DMOVIE.class_GOB::init2"
       }
     },
     "00422ED0": {
@@ -28653,7 +28704,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2",
-        "name": "3DMOVIE.004230E0"
+        "name": "3DMOVIE.classWOKS::method004230E0"
       }
     },
     "00423220": {
@@ -28937,7 +28988,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2",
-        "name": "3DMOVIE.004241B0"
+        "name": "3DMOVIE.class_GOB::method004241B0"
       }
     },
     "00424210": {
@@ -28966,7 +29017,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2",
-        "name": "3DMOVIE.00424210"
+        "name": "3DMOVIE.class_GOB::method00424210"
       }
     },
     "00424270": {
@@ -29099,7 +29150,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2",
-        "name": "3DMOVIE.004243A0"
+        "name": "3DMOVIE.class_GOB::method004243A0"
       }
     },
     "004244E0": {
@@ -29308,7 +29359,7 @@
       "method-analysis": "could-be-fastcall",
       "ollydbg": {
         "args": "void",
-        "name": "3DMOVIE.00424990"
+        "name": "3DMOVIE.class_GOK::method00424990"
       }
     },
     "004249D0": {
@@ -29489,10 +29540,13 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class_KWA::method424B50"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.00424B50"
+        "name": "3DMOVIE.class_KWA::method424B50"
       }
     },
     "00424BB0": {
@@ -29863,7 +29917,7 @@
       "method-analysis": "could-be-fastcall",
       "ollydbg": {
         "args": "void",
-        "name": "3DMOVIE.00425100"
+        "name": "3DMOVIE.class_GTE::init"
       }
     },
     "00425120": {
@@ -29892,7 +29946,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2",
-        "name": "3DMOVIE.00425120"
+        "name": "3DMOVIE.class_GTE::start"
       }
     },
     "00425150": {
@@ -29921,7 +29975,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
-        "name": "3DMOVIE.00425150"
+        "name": "3DMOVIE.class_GTE::next"
       }
     },
     "00425250": {
@@ -30172,11 +30226,7 @@
       "manual-ollydbg": {
         "name": "classMBMP::method00425300"
       },
-      "method-analysis": "definitely",
-      "ollydbg": {
-        "args": "Arg1,Arg2,Arg3,Arg4,Arg5,Arg6,Arg7",
-        "name": "3DMOVIE.00425300"
-      }
+      "method-analysis": "definitely"
     },
     "00425840": {
       "fpo": {
@@ -30223,11 +30273,7 @@
         "static": false,
         "type-info": false
       },
-      "method-analysis": "definitely",
-      "ollydbg": {
-        "args": "Arg1,Arg2,Arg3,Arg4,Arg5,Arg6",
-        "name": "3DMOVIE.00425850"
-      }
+      "method-analysis": "definitely"
     },
     "00425AF0": {
       "fpo": {
@@ -30573,7 +30619,7 @@
       "method-analysis": "could-be-fastcall",
       "ollydbg": {
         "args": "void",
-        "name": "3DMOVIE.00425EF0"
+        "name": "3DMOVIE.classrgsc::method00425EF0"
       }
     },
     "00425F10": {
@@ -30757,7 +30803,7 @@
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.00426220"
+        "name": "3DMOVIE.classREGN::new"
       }
     },
     "00426270": {
@@ -30811,7 +30857,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.004262A0"
+        "name": "3DMOVIE.classREGN::method004262A0"
       }
     },
     "00426300": {
@@ -30840,7 +30886,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2",
-        "name": "3DMOVIE.00426300"
+        "name": "3DMOVIE.classREGN::method00426300"
       }
     },
     "00426330": {
@@ -30869,7 +30915,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.00426330"
+        "name": "3DMOVIE.classREGN::setFromRectangle"
       }
     },
     "00426380": {
@@ -31028,7 +31074,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2",
-        "name": "3DMOVIE.00427130"
+        "name": "3DMOVIE.classREGN::method00427130"
       }
     },
     "00427260": {
@@ -31189,7 +31235,7 @@
       "method-analysis": "could-be-fastcall",
       "ollydbg": {
         "args": "void",
-        "name": "3DMOVIE.00427D10"
+        "name": "3DMOVIE.classREGN::method00427D10"
       }
     },
     "00427D60": {
@@ -32138,7 +32184,7 @@
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.00429CC0"
+        "name": "3DMOVIE.CreateGPTForWindow"
       }
     },
     "00429D10": {
@@ -32434,7 +32480,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2",
-        "name": "3DMOVIE.0042A3B0"
+        "name": "3DMOVIE.class_GPT::method0042A3B0"
       }
     },
     "0042A3E0": {
@@ -32733,7 +32779,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.0042ACC0"
+        "name": "3DMOVIE.class_GPT::method0042ACC0"
       }
     },
     "0042AD90": {
@@ -32762,7 +32808,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.0042AD90"
+        "name": "3DMOVIE.class_GPT::method0042AD90"
       }
     },
     "0042AE10": {
@@ -32846,7 +32892,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4",
-        "name": "3DMOVIE.0042AF50"
+        "name": "3DMOVIE.class_GPT::method0042AF50"
       }
     },
     "0042B330": {
@@ -32872,11 +32918,7 @@
       "manual-ollydbg": {
         "name": "class_GPT::method42B330(mbmp_source,dest_rect,fit_within)"
       },
-      "method-analysis": "definitely",
-      "ollydbg": {
-        "args": "Arg1,Arg2,Arg3",
-        "name": "3DMOVIE.class_GPT::method42B330"
-      }
+      "method-analysis": "definitely"
     },
     "0042B600": {
       "fpo": {
@@ -33065,7 +33107,7 @@
       "method-analysis": "no-ecx",
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.0042B950"
+        "name": "3DMOVIE.deleteWrappedObject"
       }
     },
     "0042B970": {
@@ -33170,7 +33212,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.0042BA10"
+        "name": "3DMOVIE.class_GOB::method0042BA10"
       }
     },
     "0042BA70": {
@@ -34735,7 +34777,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.0042D540"
+        "name": "3DMOVIE.class_GLB::init"
       }
     },
     "0042D570": {
@@ -34764,7 +34806,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.0042D570"
+        "name": "3DMOVIE.class__GL::method0042D570"
       }
     },
     "0042D590": {
@@ -34793,7 +34835,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2",
-        "name": "3DMOVIE.0042D590"
+        "name": "3DMOVIE.class__GL::method0042D590"
       }
     },
     "0042D5B0": {
@@ -34816,10 +34858,13 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class__GL::method42D5B0"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2",
-        "name": "3DMOVIE.0042D5B0"
+        "name": "3DMOVIE.class__GL::method42D5B0"
       }
     },
     "0042D5D0": {
@@ -34978,7 +35023,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.0042D730"
+        "name": "3DMOVIE.class__GL::init"
       }
     },
     "0042D750": {
@@ -35134,7 +35179,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
-        "name": "3DMOVIE.0042D910"
+        "name": "3DMOVIE.class__GL::method0042D910"
       }
     },
     "0042D9B0": {
@@ -35265,7 +35310,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.0042DA50"
+        "name": "3DMOVIE.class_APP::method0042DA50"
       }
     },
     "0042DA80": {
@@ -35372,7 +35417,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.0042DB70"
+        "name": "3DMOVIE.class__AL::init"
       }
     },
     "0042DB90": {
@@ -35552,7 +35597,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2",
-        "name": "3DMOVIE.0042DE10"
+        "name": "3DMOVIE.class_GGB::init"
       }
     },
     "0042DE50": {
@@ -35786,7 +35831,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2",
-        "name": "3DMOVIE.0042E290"
+        "name": "3DMOVIE.class__GG::method42E290"
       }
     },
     "0042E2D0": {
@@ -35815,7 +35860,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2",
-        "name": "3DMOVIE.0042E2D0"
+        "name": "3DMOVIE.class_DLG::method0042E2D0"
       }
     },
     "0042E300": {
@@ -35870,7 +35915,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.0042E330"
+        "name": "3DMOVIE.class_DLG::method0042E330"
       }
     },
     "0042E350": {
@@ -36003,7 +36048,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
-        "name": "3DMOVIE.0042E440"
+        "name": "3DMOVIE.class_DLG::method0042E440"
       }
     },
     "0042E4B0": {
@@ -36058,7 +36103,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4",
-        "name": "3DMOVIE.0042E4F0"
+        "name": "3DMOVIE.class_DLG::method0042E4F0"
       }
     },
     "0042E530": {
@@ -36113,7 +36158,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4",
-        "name": "3DMOVIE.0042E5C0"
+        "name": "3DMOVIE.class_DLG::method0042E5C0"
       }
     },
     "0042E6E0": {
@@ -36194,7 +36239,7 @@
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
-        "name": "3DMOVIE.0042E910"
+        "name": "3DMOVIE.class__GG::init2"
       }
     },
     "0042E980": {
@@ -36223,7 +36268,7 @@
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
-        "name": "3DMOVIE.0042E980"
+        "name": "3DMOVIE.class__GG::init"
       }
     },
     "0042E9E0": {
@@ -36457,7 +36502,7 @@
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
-        "name": "3DMOVIE.0042ED20"
+        "name": "3DMOVIE.class__AG::init"
       }
     },
     "0042ED90": {
@@ -36486,7 +36531,7 @@
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
-        "name": "3DMOVIE.0042ED90"
+        "name": "3DMOVIE.class__AG::init2"
       }
     },
     "0042EDF0": {
@@ -37266,10 +37311,13 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class_GST::method42F6E0"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2",
-        "name": "3DMOVIE.0042F6E0"
+        "name": "3DMOVIE.class_GST::method42F6E0"
       }
     },
     "0042F710": {
@@ -38527,7 +38575,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2",
-        "name": "3DMOVIE.004318F0"
+        "name": "3DMOVIE.class_CFL::method4318F0"
       }
     },
     "00431950": {
@@ -38556,7 +38604,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2",
-        "name": "3DMOVIE.00431950"
+        "name": "3DMOVIE.class_CFL::method431950"
       }
     },
     "00431990": {
@@ -38585,7 +38633,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
-        "name": "3DMOVIE.00431990"
+        "name": "3DMOVIE.class_CFL::findChunk"
       }
     },
     "004319F0": {
@@ -38743,7 +38791,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
-        "name": "3DMOVIE.00431C50"
+        "name": "3DMOVIE.class_CFL::method431C50"
       }
     },
     "00431CF0": {
@@ -39474,7 +39522,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4,Arg5",
-        "name": "3DMOVIE.00433050"
+        "name": "3DMOVIE.class_CFL::method433050"
       }
     },
     "00433100": {
@@ -39581,7 +39629,7 @@
       "method-analysis": "no-ecx",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4,Arg5",
-        "name": "3DMOVIE.004331F0"
+        "name": "3DMOVIE.class_CFL::method004331F0"
       }
     },
     "00433230": {
@@ -39610,7 +39658,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4,Arg5",
-        "name": "3DMOVIE.00433230"
+        "name": "3DMOVIE.class_CFL::method00433230"
       }
     },
     "00433310": {
@@ -42724,7 +42772,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2",
-        "name": "3DMOVIE.0043CB50"
+        "name": "3DMOVIE.classBLCK::init"
       }
     },
     "0043CBA0": {
@@ -42779,7 +42827,7 @@
       "method-analysis": "could-be-fastcall",
       "ollydbg": {
         "args": "void",
-        "name": "3DMOVIE.0043CBE0"
+        "name": "3DMOVIE.classBLCK::init"
       }
     },
     "0043CC00": {
@@ -42938,7 +42986,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.0043CD10"
+        "name": "3DMOVIE.classBLCK::method0043CD10"
       }
     },
     "0043CDC0": {
@@ -42967,7 +43015,7 @@
       "method-analysis": "could-be-fastcall",
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.0043CDC0"
+        "name": "3DMOVIE.classBLCK::method0043CDC0"
       }
     },
     "0043CDE0": {
@@ -43074,7 +43122,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4",
-        "name": "3DMOVIE.0043CF50"
+        "name": "3DMOVIE.classBLCK::method43CF50"
       }
     },
     "0043CFE0": {
@@ -43285,7 +43333,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "void",
-        "name": "3DMOVIE.0043D3F0"
+        "name": "3DMOVIE.classBLCK::method0043D3F0"
       }
     },
     "0043D4F0": {
@@ -44044,10 +44092,13 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class_FNI::method43DE80"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2",
-        "name": "3DMOVIE.0043DE80"
+        "name": "3DMOVIE.class_FNI::method43DE80"
       }
     },
     "0043DFC0": {
@@ -44519,7 +44570,7 @@
       "method-analysis": "could-be-fastcall",
       "ollydbg": {
         "args": "void",
-        "name": "3DMOVIE.GetLengthOfExtension"
+        "name": "3DMOVIE.class_FNI::GetLengthOfExtension"
       }
     },
     "0043E8D0": {
@@ -44993,7 +45044,7 @@
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4,Arg5,Arg6,Arg7,Arg8,Arg9",
-        "name": "3DMOVIE.0043F110"
+        "name": "3DMOVIE.classMBMP::init"
       }
     },
     "0043F180": {
@@ -45098,7 +45149,7 @@
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.0043F610"
+        "name": "3DMOVIE.class_FIL::loadChunk"
       }
     },
     "0043F760": {
@@ -45177,7 +45228,7 @@
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.0043F7D0"
+        "name": "3DMOVIE.classMBMP::method0043F7D0"
       }
     },
     "0043F800": {
@@ -46314,6 +46365,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classSDAM::method4407E0"
       },
       "method-analysis": "could-be-fastcall",
       "ollydbg": {
@@ -47532,10 +47586,7 @@
         "static": false,
         "type-info": false
       },
-      "method-analysis": "no-ecx",
-      "ollydbg": {
-        "name": "unnamed"
-      }
+      "method-analysis": "no-ecx"
     },
     "00441640": {
       "fpo": {
@@ -47582,10 +47633,7 @@
         "static": false,
         "type-info": false
       },
-      "method-analysis": "no-ecx",
-      "ollydbg": {
-        "name": "unnamed"
-      }
+      "method-analysis": "no-ecx"
     },
     "00441690": {
       "fpo": {
@@ -47607,10 +47655,7 @@
         "static": false,
         "type-info": false
       },
-      "method-analysis": "no-ecx",
-      "ollydbg": {
-        "name": "unnamed"
-      }
+      "method-analysis": "no-ecx"
     },
     "004416A0": {
       "fpo": {
@@ -47632,10 +47677,7 @@
         "static": false,
         "type-info": false
       },
-      "method-analysis": "no-ecx",
-      "ollydbg": {
-        "name": "unnamed"
-      }
+      "method-analysis": "no-ecx"
     },
     "004416B0": {
       "fpo": {
@@ -47657,10 +47699,7 @@
         "static": false,
         "type-info": false
       },
-      "method-analysis": "no-ecx",
-      "ollydbg": {
-        "name": "unnamed"
-      }
+      "method-analysis": "no-ecx"
     },
     "004416C0": {
       "fpo": {
@@ -47682,10 +47721,7 @@
         "static": false,
         "type-info": false
       },
-      "method-analysis": "no-ecx",
-      "ollydbg": {
-        "name": "unnamed"
-      }
+      "method-analysis": "no-ecx"
     },
     "004416D0": {
       "fpo": {
@@ -48407,6 +48443,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classamqu::method441ED0"
+      },
       "method-analysis": "could-be-fastcall",
       "ollydbg": {
         "name": "unnamed"
@@ -48482,10 +48521,13 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classamqu::method442130"
+      },
       "method-analysis": "could-be-fastcall",
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.00442130"
+        "name": "3DMOVIE.classamqu::method442130"
       }
     },
     "004421C0": {
@@ -48656,6 +48698,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classSDAM::method442450"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -52890,7 +52935,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.00445E10"
+        "name": "3DMOVIE.classGVID::init"
       }
     },
     "00445E30": {
@@ -54193,10 +54238,13 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classSCEG::method446CB0"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2",
-        "name": "3DMOVIE.00446CB0"
+        "name": "3DMOVIE.classSCEG::method446CB0"
       }
     },
     "00446E40": {
@@ -54318,6 +54366,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classSCEG::method446FF0"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -54837,6 +54888,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classSCEG::method448630"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "name": "unnamed"
@@ -55038,10 +55092,13 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "change_gl_instances_maybe"
+      },
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
-        "name": "3DMOVIE.00448780"
+        "name": "3DMOVIE.change_gl_instances_maybe"
       }
     },
     "00448820": {
@@ -55095,7 +55152,7 @@
       "method-analysis": "ecx-overwritten",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
-        "name": "3DMOVIE.00448870"
+        "name": "3DMOVIE.classSCPT::init"
       }
     },
     "004489A0": {
@@ -56163,7 +56220,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2",
-        "name": "3DMOVIE.00448FC0"
+        "name": "3DMOVIE.classDOCB::init"
       }
     },
     "00449030": {
@@ -57221,7 +57278,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2",
-        "name": "3DMOVIE.00449CB0"
+        "name": "3DMOVIE.class_DDG::init"
       }
     },
     "00449CF0": {
@@ -57800,7 +57857,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2",
-        "name": "3DMOVIE.0044A400"
+        "name": "3DMOVIE.class_DMD::init"
       }
     },
     "0044A420": {
@@ -57925,7 +57982,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2",
-        "name": "3DMOVIE.0044A550"
+        "name": "3DMOVIE.class_DMW::init"
       }
     },
     "0044A580": {
@@ -58328,7 +58385,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.0044B170"
+        "name": "3DMOVIE.class_DSG::init"
       }
     },
     "0044B190": {
@@ -58482,7 +58539,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.0044B400"
+        "name": "3DMOVIE.classDSSP::init"
       }
     },
     "0044B420": {
@@ -58687,7 +58744,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.0044B6D0"
+        "name": "3DMOVIE.classDSSM::init"
       }
     },
     "0044B6F0": {
@@ -60080,7 +60137,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2",
-        "name": "3DMOVIE.0044C2C0"
+        "name": "3DMOVIE.classTXTB::init"
       }
     },
     "0044C300": {
@@ -60993,7 +61050,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2",
-        "name": "3DMOVIE.0044D030"
+        "name": "3DMOVIE.classTXRD::init"
       }
     },
     "0044D070": {
@@ -62719,7 +62776,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2",
-        "name": "3DMOVIE.00450E50"
+        "name": "3DMOVIE.classTXTG::init"
       }
     },
     "00450EB0": {
@@ -63722,7 +63779,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2",
-        "name": "3DMOVIE.00454020"
+        "name": "3DMOVIE.classTXRG::init"
       }
     },
     "00454050": {
@@ -64508,7 +64565,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.00454F70"
+        "name": "3DMOVIE.class_CTL::init"
       }
     },
     "00454F90": {
@@ -64639,7 +64696,7 @@
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4,Arg5",
-        "name": "3DMOVIE.004550B0"
+        "name": "3DMOVIE.class_SCB::init"
       }
     },
     "00455160": {
@@ -64874,7 +64931,7 @@
       "method-analysis": "ecx-overwritten",
       "ollydbg": {
         "args": "Arg1,Arg2",
-        "name": "3DMOVIE.00455640"
+        "name": "3DMOVIE.class_WSB::init"
       }
     },
     "00455780": {
@@ -65750,7 +65807,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.004568A0"
+        "name": "3DMOVIE.class_DLG::init"
       }
     },
     "004568C0": {
@@ -65960,7 +66017,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2",
-        "name": "3DMOVIE.00456CD0"
+        "name": "3DMOVIE.class_DLG::method00456CD0"
       }
     },
     "00456DF0": {
@@ -66015,7 +66072,7 @@
       "method-analysis": "no-ecx",
       "ollydbg": {
         "args": "Arg1,Arg2",
-        "name": "3DMOVIE.00456E10"
+        "name": "3DMOVIE.class_DLG::method00456E10"
       }
     },
     "00456E30": {
@@ -66207,7 +66264,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.00457550"
+        "name": "3DMOVIE.class_DLG::method00457550"
       }
     },
     "00457590": {
@@ -66813,7 +66870,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2",
-        "name": "3DMOVIE.00457AC0"
+        "name": "3DMOVIE.classEDCB::init"
       }
     },
     "00457B10": {
@@ -67399,7 +67456,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.00458CA0"
+        "name": "3DMOVIE.classEDPL::init"
       }
     },
     "00458D40": {
@@ -67628,7 +67685,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.00459250"
+        "name": "3DMOVIE.classEDSL::init"
       }
     },
     "00459270": {
@@ -68398,7 +68455,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2",
-        "name": "3DMOVIE.00459A30"
+        "name": "3DMOVIE.classWOKS::init"
       }
     },
     "00459AF0": {
@@ -68494,6 +68551,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "class_KWA::method459B90"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -69543,6 +69603,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classTXHG::method45AEE0"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "name": "unnamed"
@@ -69825,7 +69888,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.0045B950"
+        "name": "3DMOVIE.classHBAL::init"
       }
     },
     "0045B970": {
@@ -69847,6 +69910,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classHBAL::method45B970"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -69897,6 +69963,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classHBAL::method45B9F0"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -69953,7 +70022,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.0045BCD0"
+        "name": "3DMOVIE.classHBTN::init"
       }
     },
     "0045BCF0": {
@@ -70778,7 +70847,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.0045C2D0"
+        "name": "3DMOVIE.class_GOK::init"
       }
     },
     "0045C310": {
@@ -70902,6 +70971,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class_GOK::method45C5B0"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "name": "unnamed"
@@ -70952,6 +71024,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class_GOK::method45C6C0"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "name": "unnamed"
@@ -70976,6 +71051,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "class_GOK::method45C7D0"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -71002,6 +71080,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class_GOK::method45CB80"
+      },
       "method-analysis": "could-be-fastcall",
       "ollydbg": {
         "name": "unnamed"
@@ -71026,6 +71107,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "class_GOK::method45CD30"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -71156,6 +71240,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class_GOK::method45CFD0"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "name": "unnamed"
@@ -71232,10 +71319,13 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class_GOK::method45D320"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4",
-        "name": "3DMOVIE.0045D320"
+        "name": "3DMOVIE.class_GOK::method45D320"
       }
     },
     "0045D3E0": {
@@ -71673,6 +71763,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "gor_wrap_image_generic"
+      },
       "method-analysis": "maybe",
       "ollydbg": {
         "name": "unnamed"
@@ -71698,10 +71791,13 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class_GOK::method45DC40"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
-        "name": "3DMOVIE.0045DC40"
+        "name": "3DMOVIE.class_GOK::method45DC40"
       }
     },
     "0045DDF0": {
@@ -71724,10 +71820,13 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class_GOK::method45DDF0"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.0045DDF0"
+        "name": "3DMOVIE.class_GOK::method45DDF0"
       }
     },
     "0045DE50": {
@@ -72297,6 +72396,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classGORF::init"
+      },
       "method-analysis": "ecx-overwritten",
       "ollydbg": {
         "name": "unnamed"
@@ -72446,6 +72548,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classGORB::init"
+      },
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "name": "unnamed"
@@ -72470,6 +72575,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classGORB::method45E5D0"
       },
       "method-analysis": "constructor",
       "ollydbg": {
@@ -72645,6 +72753,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classGORT::init"
       },
       "method-analysis": "ecx-overwritten",
       "ollydbg": {
@@ -72972,6 +73083,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classGORV::init"
       },
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
@@ -73846,6 +73960,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classSCEG::method45FA50"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -76920,10 +77037,7 @@
         "static": false,
         "type-info": false
       },
-      "method-analysis": "no-ecx",
-      "ollydbg": {
-        "name": "unnamed"
-      }
+      "method-analysis": "no-ecx"
     },
     "00464B40": {
       "fpo": {
@@ -76945,10 +77059,7 @@
         "static": false,
         "type-info": false
       },
-      "method-analysis": "no-ecx",
-      "ollydbg": {
-        "name": "unnamed"
-      }
+      "method-analysis": "no-ecx"
     },
     "00464B50": {
       "fpo": {
@@ -76970,10 +77081,7 @@
         "static": false,
         "type-info": false
       },
-      "method-analysis": "no-ecx",
-      "ollydbg": {
-        "name": "unnamed"
-      }
+      "method-analysis": "no-ecx"
     },
     "00464B60": {
       "fpo": {
@@ -76995,10 +77103,7 @@
         "static": false,
         "type-info": false
       },
-      "method-analysis": "no-ecx",
-      "ollydbg": {
-        "name": "unnamed"
-      }
+      "method-analysis": "no-ecx"
     },
     "00464B70": {
       "fpo": {
@@ -77020,10 +77125,7 @@
         "static": false,
         "type-info": false
       },
-      "method-analysis": "no-ecx",
-      "ollydbg": {
-        "name": "unnamed"
-      }
+      "method-analysis": "no-ecx"
     },
     "00464B80": {
       "fpo": {
@@ -77045,10 +77147,7 @@
         "static": false,
         "type-info": false
       },
-      "method-analysis": "no-ecx",
-      "ollydbg": {
-        "name": "unnamed"
-      }
+      "method-analysis": "no-ecx"
     },
     "00464B90": {
       "fpo": {
@@ -77070,10 +77169,7 @@
         "static": false,
         "type-info": false
       },
-      "method-analysis": "no-ecx",
-      "ollydbg": {
-        "name": "unnamed"
-      }
+      "method-analysis": "no-ecx"
     },
     "00464BA0": {
       "fpo": {
@@ -77371,9 +77467,6 @@
         "returns": true,
         "static": false,
         "type-info": false
-      },
-      "ollydbg": {
-        "name": "unnamed"
       }
     },
     "00464F30": {
@@ -77396,10 +77489,7 @@
         "static": false,
         "type-info": false
       },
-      "method-analysis": "no-ecx",
-      "ollydbg": {
-        "name": "unnamed"
-      }
+      "method-analysis": "no-ecx"
     },
     "00464F40": {
       "fpo": {
@@ -77421,10 +77511,7 @@
         "static": false,
         "type-info": false
       },
-      "method-analysis": "no-ecx",
-      "ollydbg": {
-        "name": "unnamed"
-      }
+      "method-analysis": "no-ecx"
     },
     "00464F50": {
       "fpo": {
@@ -77446,10 +77533,7 @@
         "static": false,
         "type-info": false
       },
-      "method-analysis": "no-ecx",
-      "ollydbg": {
-        "name": "unnamed"
-      }
+      "method-analysis": "no-ecx"
     },
     "00464F60": {
       "fpo": {
@@ -77471,10 +77555,7 @@
         "static": false,
         "type-info": false
       },
-      "method-analysis": "no-ecx",
-      "ollydbg": {
-        "name": "unnamed"
-      }
+      "method-analysis": "no-ecx"
     },
     "00464F70": {
       "fpo": {
@@ -77496,10 +77577,7 @@
         "static": false,
         "type-info": false
       },
-      "method-analysis": "no-ecx",
-      "ollydbg": {
-        "name": "unnamed"
-      }
+      "method-analysis": "no-ecx"
     },
     "00464F80": {
       "fpo": {
@@ -77521,10 +77599,7 @@
         "static": false,
         "type-info": false
       },
-      "method-analysis": "no-ecx",
-      "ollydbg": {
-        "name": "unnamed"
-      }
+      "method-analysis": "no-ecx"
     },
     "00464F90": {
       "fpo": {
@@ -77546,11 +77621,7 @@
         "static": false,
         "type-info": false
       },
-      "method-analysis": "could-be-this-assignment",
-      "ollydbg": {
-        "args": "Arg1",
-        "name": "3DMOVIE.00464F90"
-      }
+      "method-analysis": "could-be-this-assignment"
     },
     "00465180": {
       "fpo": {
@@ -78410,9 +78481,6 @@
         "returns": true,
         "static": false,
         "type-info": false
-      },
-      "ollydbg": {
-        "name": "unnamed"
       }
     },
     "00465A00": {
@@ -78435,10 +78503,7 @@
         "static": false,
         "type-info": false
       },
-      "method-analysis": "no-ecx",
-      "ollydbg": {
-        "name": "unnamed"
-      }
+      "method-analysis": "no-ecx"
     },
     "00465A10": {
       "fpo": {
@@ -78460,10 +78525,7 @@
         "static": false,
         "type-info": false
       },
-      "method-analysis": "no-ecx",
-      "ollydbg": {
-        "name": "unnamed"
-      }
+      "method-analysis": "no-ecx"
     },
     "00465A20": {
       "fpo": {
@@ -80036,10 +80098,7 @@
         "static": false,
         "type-info": false
       },
-      "method-analysis": "no-ecx",
-      "ollydbg": {
-        "name": "unnamed"
-      }
+      "method-analysis": "no-ecx"
     },
     "00467330": {
       "fpo": {
@@ -80061,10 +80120,7 @@
         "static": false,
         "type-info": false
       },
-      "method-analysis": "no-ecx",
-      "ollydbg": {
-        "name": "unnamed"
-      }
+      "method-analysis": "no-ecx"
     },
     "00467340": {
       "fpo": {
@@ -80086,10 +80142,7 @@
         "static": false,
         "type-info": false
       },
-      "method-analysis": "no-ecx",
-      "ollydbg": {
-        "name": "unnamed"
-      }
+      "method-analysis": "no-ecx"
     },
     "00467350": {
       "fpo": {
@@ -80111,10 +80164,7 @@
         "static": false,
         "type-info": false
       },
-      "method-analysis": "no-ecx",
-      "ollydbg": {
-        "name": "unnamed"
-      }
+      "method-analysis": "no-ecx"
     },
     "00467360": {
       "fpo": {
@@ -80136,10 +80186,7 @@
         "static": false,
         "type-info": false
       },
-      "method-analysis": "no-ecx",
-      "ollydbg": {
-        "name": "unnamed"
-      }
+      "method-analysis": "no-ecx"
     },
     "00467370": {
       "fpo": {
@@ -80161,10 +80208,7 @@
         "static": false,
         "type-info": false
       },
-      "method-analysis": "no-ecx",
-      "ollydbg": {
-        "name": "unnamed"
-      }
+      "method-analysis": "no-ecx"
     },
     "00467380": {
       "fpo": {
@@ -80211,10 +80255,7 @@
         "static": false,
         "type-info": false
       },
-      "method-analysis": "no-ecx",
-      "ollydbg": {
-        "name": "unnamed"
-      }
+      "method-analysis": "no-ecx"
     },
     "004673A0": {
       "fpo": {
@@ -80236,10 +80277,7 @@
         "static": false,
         "type-info": false
       },
-      "method-analysis": "no-ecx",
-      "ollydbg": {
-        "name": "unnamed"
-      }
+      "method-analysis": "no-ecx"
     },
     "004673B0": {
       "fpo": {
@@ -80738,10 +80776,7 @@
         "static": false,
         "type-info": false
       },
-      "method-analysis": "no-ecx",
-      "ollydbg": {
-        "name": "unnamed"
-      }
+      "method-analysis": "no-ecx"
     },
     "00467A70": {
       "fpo": {
@@ -84975,10 +85010,13 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "play_wave_object"
+      },
       "method-analysis": "no-ecx",
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.0046C300"
+        "name": "3DMOVIE.play_wave_object"
       }
     },
     "0046C3D0": {
@@ -88958,6 +88996,9 @@
         "static": false,
         "type-info": true
       },
+      "manual-ollydbg": {
+        "name": "write_wave_packet"
+      },
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "name": "unnamed"
@@ -90622,7 +90663,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4",
-        "name": "3DMOVIE.00474B90"
+        "name": "3DMOVIE.classBWLD::pick2D"
       }
     },
     "00474C00": {
@@ -90651,7 +90692,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
-        "name": "3DMOVIE.00474C00"
+        "name": "3DMOVIE.classBODY::setCursorFromPositionDetails"
       }
     },
     "00474C50": {
@@ -90819,7 +90860,7 @@
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "Arg1,Arg2",
-        "name": "3DMOVIE.00474D50"
+        "name": "3DMOVIE.classZBMP::init"
       }
     },
     "00474DD0": {
@@ -90872,7 +90913,7 @@
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.00474E40"
+        "name": "3DMOVIE.classZBMP::init2"
       }
     },
     "00474F40": {
@@ -100321,7 +100362,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.0049E530"
+        "name": "3DMOVIE.classMVIE::changeScene"
       }
     },
     "0049E6E0": {
@@ -100344,10 +100385,13 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classMVIE::method49E6E0"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.0049E6E0"
+        "name": "3DMOVIE.classMVIE::method49E6E0"
       }
     },
     "0049E740": {
@@ -100765,7 +100809,7 @@
       "method-analysis": "could-be-fastcall",
       "ollydbg": {
         "args": "void",
-        "name": "3DMOVIE.0049F5C0"
+        "name": "3DMOVIE.classMVIE::method0049F5C0"
       }
     },
     "0049F600": {
@@ -100871,7 +100915,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2",
-        "name": "3DMOVIE.0049F800"
+        "name": "3DMOVIE.classMVIE::method0049F800"
       }
     },
     "0049FD60": {
@@ -101574,10 +101618,13 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classMVIE::method4A0850"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.004A0850"
+        "name": "3DMOVIE.classMVIE::method4A0850"
       }
     },
     "004A09F0": {
@@ -101599,6 +101646,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classMVIE::method4A09F0"
       },
       "method-analysis": "could-be-fastcall",
       "ollydbg": {
@@ -101664,10 +101714,13 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classMVIE::method4A0EE0"
+      },
       "method-analysis": "could-be-fastcall",
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.004A0EE0"
+        "name": "3DMOVIE.classMVIE::method4A0EE0"
       }
     },
     "004A14A0": {
@@ -102466,7 +102519,7 @@
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4",
-        "name": "3DMOVIE.004A28F0"
+        "name": "3DMOVIE.class_MVU::init"
       }
     },
     "004A29E0": {
@@ -103210,7 +103263,7 @@
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "void",
-        "name": "3DMOVIE.004A5960"
+        "name": "3DMOVIE.classMUNS::init"
       }
     },
     "004A5990": {
@@ -103594,7 +103647,7 @@
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4,Arg5,Arg6",
-        "name": "3DMOVIE.004A5C90"
+        "name": "3DMOVIE.classMSND::init2"
       }
     },
     "004A5D30": {
@@ -103901,10 +103954,13 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classMSND::method4A69C0"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4,Arg5,Arg6,Arg7",
-        "name": "3DMOVIE.004A69C0"
+        "name": "3DMOVIE.classMSND::method4A69C0"
       }
     },
     "004A6AE0": {
@@ -103933,7 +103989,7 @@
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "void",
-        "name": "3DMOVIE.004A6AE0"
+        "name": "3DMOVIE.class_MSQ::init"
       }
     },
     "004A6B80": {
@@ -104848,10 +104904,13 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classTAGM::method4A8270"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4",
-        "name": "3DMOVIE.004A8270"
+        "name": "3DMOVIE.classTAGM::method4A8270"
       }
     },
     "004A8350": {
@@ -105760,7 +105819,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1",
-        "name": "3DMOVIE.004A8C90"
+        "name": "3DMOVIE.classSCEN::init"
       }
     },
     "004A8CE0": {
@@ -109489,7 +109548,7 @@
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4",
-        "name": "3DMOVIE.004B0020"
+        "name": "3DMOVIE.setCursorFromPosition"
       }
     },
     "004B00C0": {
@@ -109594,7 +109653,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "void",
-        "name": "3DMOVIE.004B01D0"
+        "name": "3DMOVIE.classBODY::init"
       }
     },
     "004B0440": {
@@ -109985,7 +110044,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
-        "name": "3DMOVIE.004B0920"
+        "name": "3DMOVIE.classBODY::selectFromMouse"
       }
     },
     "004B0960": {
@@ -110586,7 +110645,7 @@
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
-        "name": "3DMOVIE.004B1160"
+        "name": "3DMOVIE.classACTN::init"
       }
     },
     "004B11D0": {
@@ -111758,7 +111817,7 @@
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "Arg1,Arg2",
-        "name": "3DMOVIE.004B2950"
+        "name": "3DMOVIE.classMTRL::init"
       }
     },
     "004B2A80": {
@@ -111815,7 +111874,7 @@
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
-        "name": "3DMOVIE.004B2B00"
+        "name": "3DMOVIE.classMTRL::method4B2B00"
       }
     },
     "004B2DF0": {
@@ -112370,7 +112429,7 @@
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
-        "name": "3DMOVIE.004B3630"
+        "name": "3DMOVIE.class_TDT::init2"
       }
     },
     "004B36F0": {
@@ -113460,7 +113519,7 @@
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
-        "name": "3DMOVIE.004B6C80"
+        "name": "3DMOVIE.classACLP::init"
       }
     },
     "004B6E10": {
@@ -113670,7 +113729,7 @@
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "void",
-        "name": "3DMOVIE.004B7380"
+        "name": "3DMOVIE.classAUND::init"
       }
     },
     "004B73C0": {
@@ -114623,7 +114682,7 @@
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "Arg1,Arg2",
-        "name": "3DMOVIE.004B79E0"
+        "name": "3DMOVIE.classTBXB::init"
       }
     },
     "004B7AC0": {
@@ -114851,7 +114910,7 @@
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "Arg1,Arg2",
-        "name": "3DMOVIE.004B8830"
+        "name": "3DMOVIE.classTBXG::init"
       }
     },
     "004B88A0": {
@@ -127755,7 +127814,7 @@
       "method-analysis": "ecx-overwritten",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
-        "name": "3DMOVIE.004CD2F0"
+        "name": "3DMOVIE.classTMAP::init"
       }
     },
     "004CD460": {

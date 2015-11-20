@@ -23,6 +23,9 @@
   " CMH": {
     "parent": "BASE"
   },
+  " CRM": {
+    "parent": "BASE"
+  },
   " CTL": {
     "parent": " GOB"
   },
@@ -233,6 +236,12 @@
   "Rectangle": {
     "parent": null
   },
+  "SCEB": {
+    "parent": "BASE"
+  },
+  "SCEG": {
+    "parent": "SCEB"
+  },
   "SCPT": {
     "parent": "BACO"
   },
@@ -244,6 +253,9 @@
   },
   "SSCB": {
     "parent": "BASE"
+  },
+  "STRG": {
+    "parent": " CRM"
   },
   "SUNS": {
     "parent": "BASE"

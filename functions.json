@@ -10754,6 +10754,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classstio::method40E8C0"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1",
@@ -19051,6 +19054,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "_memcmp"
+      },
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
@@ -19076,6 +19082,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "memcmp"
       },
       "method-analysis": "no-ecx",
       "ollydbg": {
@@ -19131,6 +19140,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "memmove"
       },
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
@@ -34928,6 +34940,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class__GL::method42D5F0"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1",
@@ -35350,6 +35365,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "class__GL::method42DA80"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -41889,6 +41907,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class_CRM::method43BDC0"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "name": "unnamed"
@@ -42017,6 +42038,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "class_CRM::method43C010"
       },
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
@@ -54133,6 +54157,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class_CRM::method446A20"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2",
@@ -54184,6 +54211,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classSCEG::method446AB0"
+      },
       "method-analysis": "could-be-fastcall",
       "ollydbg": {
         "name": "unnamed"
@@ -54209,6 +54239,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classSCEG::method446B60"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "name": "unnamed"
@@ -54233,6 +54266,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classSCEG::method446BB0"
       },
       "method-analysis": "could-be-fastcall",
       "ollydbg": {
@@ -54308,6 +54344,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classSCEG::method446E40"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -54437,6 +54476,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classSCEG::method447140"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1",
@@ -54462,6 +54504,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classSCEG::method447D20"
       },
       "method-analysis": "could-be-fastcall",
       "ollydbg": {
@@ -68628,6 +68673,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class_KWA::method459C30"
+      },
       "ollydbg": {
         "name": "unnamed"
       }
@@ -73804,6 +73852,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classSCEG::init"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
@@ -73829,6 +73880,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classSCEG::method45F980"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -74031,7 +74085,7 @@
         "type-info": false
       },
       "manual-ollydbg": {
-        "name": "classSCEG::method45FA50"
+        "name": "classSCEG::evalOpcode"
       },
       "method-analysis": "definitely",
       "ollydbg": {

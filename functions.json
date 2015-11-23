@@ -7961,6 +7961,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class_APP::method409450"
+      },
       "method-analysis": "could-be-fastcall",
       "ollydbg": {
         "name": "unnamed"
@@ -19113,7 +19116,7 @@
         "type-info": false
       },
       "manual-ollydbg": {
-        "name": "memcpy"
+        "name": "memcpy(fromptr, toptr, size)"
       },
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
@@ -34808,7 +34811,7 @@
         "type-info": false
       },
       "manual-ollydbg": {
-        "name": "class_GLB::init"
+        "name": "class_GLB::init(element_size)"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -34837,7 +34840,7 @@
         "type-info": false
       },
       "manual-ollydbg": {
-        "name": "class__GL::method0042D570"
+        "name": "class__GL::indexList"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -34866,7 +34869,7 @@
         "type-info": false
       },
       "manual-ollydbg": {
-        "name": "class__GL::method0042D590"
+        "name": "class__GL::copyListEntry(index,destptr)"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -34895,7 +34898,7 @@
         "type-info": false
       },
       "manual-ollydbg": {
-        "name": "class__GL::method42D5B0"
+        "name": "class__GL::copyIntoList(index,fromptr)"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -34978,6 +34981,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "createList"
+      },
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
         "args": "Arg1,Arg2",
@@ -35057,7 +35063,7 @@
         "type-info": false
       },
       "manual-ollydbg": {
-        "name": "class__GL::init"
+        "name": "class__GL::init(element_size)"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -35460,7 +35466,7 @@
         "type-info": false
       },
       "manual-ollydbg": {
-        "name": "class__AL::init"
+        "name": "class__AL::init(element_size)"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -41867,6 +41873,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "class_CRM::init"
       },
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
@@ -68707,7 +68716,7 @@
         "type-info": false
       },
       "manual-ollydbg": {
-        "name": "class_KWA::method459C30"
+        "name": "class_KWA::createSCEG"
       },
       "ollydbg": {
         "name": "unnamed"

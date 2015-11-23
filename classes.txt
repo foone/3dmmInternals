@@ -456,3 +456,9 @@ method:
 class '_KWA' (vtable at 004DE2E0) constructor at 004092B0 size 140h
 
 class '_MVU' (vtable at 004E2350) constructor at 004A28F0 size 130
+
+
+class '__GL' (vtable as 004DF318) generic list?
+  +10(4) start of array
+  +20(4) ?
+  +24(4) size of each array item

@@ -349,6 +349,11 @@ methods:
     argument 2: ?
     argument 3: -1 when hiding menus, 1/21h/22h otherwise
   0045CEF0 ?
+  0045D0B0
+    arg1: pointer to thing:
+      00: offset of button?
+      0C: X offset in button
+      10: Y offset in button
 vtable methods:
   +44 (vtable)
 

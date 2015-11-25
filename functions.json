@@ -46998,6 +46998,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classamqu::method440F60"
+      },
       "method-analysis": "could-be-fastcall",
       "ollydbg": {
         "args": "Arg1",
@@ -71415,6 +71418,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class_GOK::clickButton"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3",
@@ -71792,6 +71798,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classHBAL::method45D890"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "name": "unnamed"
@@ -71816,6 +71825,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classHBAL::method45D910"
       },
       "method-analysis": "definitely",
       "ollydbg": {

@@ -120,16 +120,18 @@ class 'stio': (vtable at 004DE3C8, and 004DF198) constructor at 0040E640 size 0c
 
 class 'SMCC': (vtable at 004DE448)
   0: vtable
-  4: ?
+  4: instance counter
   8: width
   C: height
-
+methods:
+  00411680 stopMovie
 
 static pointer at 4E3E74
 class 'MVIE': (vtable at 004E22C0)
   148: current scene pointer
   14C: scene count
   158: pointer to BWLD
+  194: pointer to SMCC
 
 methods:
   0049E6E0(guessed Arg1)       ;Add scene
@@ -345,7 +347,7 @@ class ' GOK' (vtable at 004E0DF0) size: DCh/220
   +D4: menu pointer (0=no menu, or pointer to menu object?)
 methods:
   0045D150 enable/disable popup menus? 3 arguments.
-    argument 1: some id?
+    argument 1: ptr to  GOK (button?)
     argument 2: ?
     argument 3: -1 when hiding menus, 1/21h/22h otherwise
   0045CEF0 ?

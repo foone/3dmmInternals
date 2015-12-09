@@ -11411,6 +11411,9 @@
         "regs": 3,
         "size": 146
       },
+      "manual-ollydbg": {
+        "name": "classstio::stopMovie"
+      },
       "method-analysis": "could-be-fastcall"
     },
     "004101D0": {
@@ -12629,6 +12632,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classSMCC::stopMovie"
       },
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
@@ -18291,6 +18297,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "is_compressed_header"
       },
       "method-analysis": "no-ecx",
       "ollydbg": {
@@ -24556,6 +24565,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classCLOK::method41DDD0"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1",
@@ -24607,6 +24619,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classCLOK::method41DE60"
       },
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
@@ -25530,6 +25545,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class_CEX::method41EE70"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "name": "unnamed"
@@ -25579,6 +25597,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "class_CEX::method41EF10"
       },
       "method-analysis": "could-be-this-assignment",
       "ollydbg": {
@@ -29552,6 +29573,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "class_KWA::method424AF0"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -40468,6 +40492,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classCODM::method434300"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "name": "unnamed"
@@ -40515,6 +40542,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classCODM::method4343B0"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "name": "unnamed"
@@ -40541,7 +40571,7 @@
         "type-info": false
       },
       "manual-ollydbg": {
-        "name": "classCODM::method004344D0"
+        "name": "classCODM::method4344D0"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -50772,6 +50802,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classmsmx::adjustVolume"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -63412,6 +63445,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classTBXG::method452BA0"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "name": "unnamed"
@@ -71259,7 +71295,7 @@
         "type-info": false
       },
       "manual-ollydbg": {
-        "name": "class_GOK::method45CD30"
+        "name": "class_GOK::changePlayButtonState"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -71853,6 +71889,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "class_GOK::method45DA00"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -106139,7 +106178,7 @@
         "type-info": false
       },
       "manual-ollydbg": {
-        "name": "changeFrame"
+        "name": "classSCEN::changeFrame"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -106192,6 +106231,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classSCEN::method4A9400"
       },
       "method-analysis": "could-be-fastcall",
       "ollydbg": {
@@ -107763,6 +107805,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classSCEN::method4AD950"
       },
       "method-analysis": "could-be-fastcall",
       "ollydbg": {

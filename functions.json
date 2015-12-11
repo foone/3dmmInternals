@@ -5539,6 +5539,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classBRWR::406500"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4",
@@ -8357,6 +8360,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class_APP::method40A720"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "name": "unnamed"
@@ -9202,6 +9208,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "class_APP::paintHandler"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -10185,6 +10194,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classstio::method40D740"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -21166,6 +21178,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class_RND::method41A880"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1",
@@ -22560,6 +22575,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "class_APP::method41BF30"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -26965,6 +26983,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class_GNV::method41FEB0"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2",
@@ -27601,6 +27622,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class_GNV::method420980"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2",
@@ -27678,6 +27702,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "class_GNV::sceneFade"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -32084,6 +32111,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "flush_gdi"
+      },
       "method-analysis": "no-ecx"
     },
     "00429690": {
@@ -32408,6 +32438,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class_GPT::method42A2D0"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1",
@@ -32433,6 +32466,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "class_GPT::method42A320"
       },
       "method-analysis": "could-be-fastcall",
       "ollydbg": {
@@ -32460,6 +32496,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class_GPT::method42A330"
+      },
       "method-analysis": "could-be-fastcall",
       "ollydbg": {
         "args": "void",
@@ -32485,6 +32524,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "class_GPT::method42A380"
       },
       "method-analysis": "could-be-fastcall",
       "ollydbg": {
@@ -44889,6 +44931,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "class_FNE::method43ECB0"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -102474,6 +102519,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "classMVIE::method4A2340"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "args": "Arg1,Arg2,Arg3,Arg4",
@@ -102839,6 +102887,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "class_MVU::method4A2D70"
       },
       "method-analysis": "definitely",
       "ollydbg": {

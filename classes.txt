@@ -92,6 +92,7 @@ KCDC constructor at 00418F30 doesn't match the pattern!
 
 class ' APP' (vtable at 004DE1A8) static at 4D4120
  010: is-active? 
+ 01C: Pointer to GPT (last allocated?)
  04C: pointer to current cursor?
  050: secondary cursor?
  05C: Some kind of render-mode?
@@ -225,13 +226,14 @@ class ' GPT' (vtable at 004DF278) size: 0x8C/140 bitmap image?
  +2C(4): pointer to DIB
  +30(4): Pointer to pixels
  +34(4): bit depth?
- +38(4) Stride?
+ +38(4): Stride?
  +3C(10): rect substructure?
    +0(4)@3C: left
    +4(4)@40: top
    +8(4)@44: right
    +C(4)@48: bottom
  +4C(4) Palette version
+ +50(4): copy of global flush counter (for dirty tracking?)
  +68(4) ? (init to 0)
 
 methods:

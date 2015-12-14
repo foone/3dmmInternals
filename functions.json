@@ -8313,6 +8313,9 @@
         "static": false,
         "type-info": false
       },
+      "manual-ollydbg": {
+        "name": "class_APP::handleActivateEvents"
+      },
       "method-analysis": "definitely",
       "ollydbg": {
         "name": "unnamed"
@@ -24700,6 +24703,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classCLOK::method41DE90"
       },
       "method-analysis": "definitely",
       "ollydbg": {
@@ -46510,6 +46516,9 @@
         "returns": true,
         "static": false,
         "type-info": false
+      },
+      "manual-ollydbg": {
+        "name": "classSNDM::method440730"
       },
       "method-analysis": "could-be-fastcall",
       "ollydbg": {

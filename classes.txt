@@ -131,6 +131,7 @@ static pointer at 4E3E74
 class 'MVIE': (vtable at 004E22C0)
   148: current scene pointer
   14C: scene count
+  150: current scene number (0-based)
   154: flags. 40, 20, 10? 40=end of movie?
   158: pointer to BWLD
   194: pointer to SMCC
